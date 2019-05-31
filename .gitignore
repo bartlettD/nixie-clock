@@ -29,3 +29,5 @@ fp-info-cache
 #LTSpice Temporary Files
 *.log
 *.raw
+
+*autosave*.tsc
