@@ -1,0 +1,4 @@
+.subckt d_ideal a k
+d1 a k dio
+.model dio d is=1e-15 n=1m
+.ends d_ideal
