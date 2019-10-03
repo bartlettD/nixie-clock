@@ -4,10 +4,10 @@ RECTANGLE Normal -80 -72 96 72
 WINDOW 0 8 -72 Bottom 2
 WINDOW 3 8 72 Top 2
 WINDOW 39 8 96 Top 2
-SYMATTR Prefix X
 SYMATTR Value LM3478_TRANS
-SYMATTR ModelFile C:\Users\dylan\Documents\nixie-clock\Simulation\LM3478_TRANS.lib
 SYMATTR SpiceLine SS=0
+SYMATTR Prefix X
+SYMATTR ModelFile LM3478_TRANS.lib
 PIN -80 48 LEFT 8
 PINATTR PinName AGND
 PINATTR SpiceOrder 1
