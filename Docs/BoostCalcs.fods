@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2020-11-16T19:15:46.159000000</meta:creation-date><dc:date>2021-07-11T21:25:36.892572600</dc:date><meta:editing-duration>PT2H36M26S</meta:editing-duration><meta:editing-cycles>18</meta:editing-cycles><meta:generator>LibreOffice/7.1.4.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="4" meta:cell-count="1202" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2020-11-16T19:15:46.159000000</meta:creation-date><dc:date>2021-07-13T21:27:39.923731008</dc:date><meta:editing-duration>PT2H55M8S</meta:editing-duration><meta:editing-cycles>21</meta:editing-cycles><meta:generator>LibreOffice/7.1.4.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="4" meta:cell-count="1479" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">2257</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">62322</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">44855</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">53814</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -25,32 +25,32 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">80</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">75</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Duty Cycle &amp; Currents">
-       <config:config-item config:name="CursorPositionX" config:type="int">25</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">96</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">23</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">116</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">13</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">7</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">71</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">67</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">80</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">75</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Input Params">
        <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">10</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -61,7 +61,7 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">3</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">80</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">75</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
@@ -79,16 +79,16 @@
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">80</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">75</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Duty Cycle &amp; Currents</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1082</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1293</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-     <config:config-item config:name="ZoomValue" config:type="int">80</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">75</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
      <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
@@ -123,7 +123,7 @@
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
    <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">kwH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAtAAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpQYWdlU2l6ZTpBNAAAEgBDT01QQVRfRFVQTEVYX01PREUPAER1cGxleE1vZGU6Ok9mZg==</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">nwH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAwAAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpEdXBsZXg6Tm9uZQBQYWdlU2l6ZTpBNAAAEgBDT01QQVRfRFVQTEVYX01PREUPAER1cGxleE1vZGU6Ok9mZg==</config:config-item>
    <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
    <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
@@ -167,7 +167,7 @@
      <config:config-item config:name="CodeName" config:type="string">Duty Cycle &amp; Currents</config:config-item>
     </config:config-item-map-entry>
     <config:config-item-map-entry config:name="Components">
-     <config:config-item config:name="CodeName" config:type="string">FETS</config:config-item>
+     <config:config-item config:name="CodeName" config:type="string">Components</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-named>
   </config:config-item-set>
@@ -359,6 +359,9 @@
   <style:style style:name="ro3" style:family="table-row">
    <style:table-row-properties style:row-height="0.529cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.46cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
    <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
   </style:style>
@@ -371,6 +374,10 @@
   <number:number-style style:name="N4">
    <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
   </number:number-style>
+  <number:percentage-style style:name="N11">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
   <number:number-style style:name="N61">
    <number:scientific-number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:min-exponent-digits="2" number:exponent-interval="1" number:forced-exponent-sign="true"/>
   </number:number-style>
@@ -385,7 +392,7 @@
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce32" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
@@ -408,7 +415,7 @@
   <style:style style:name="ce22" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2">
    <style:map style:condition="is-true-formula([.D26]&gt;=1)" style:apply-style-name="DoubleStrikethrough" style:base-cell-address="&apos;Duty Cycle &amp; Currents&apos;.D91"/>
   </style:style>
-  <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N1">
@@ -426,11 +433,22 @@
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="ce31" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N110"/>
+  <style:style style:name="ce35" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N110"/>
+  <style:style style:name="ce36" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N110"/>
+  <style:style style:name="ce38" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11"/>
+  <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
   <style:style style:name="ce44" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="ce45" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N61"/>
-  <style:style style:name="ce35" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2">
+  <style:style style:name="ce32" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce46" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2">
    <style:map style:condition="is-true-formula(#REF!&gt;1)" style:apply-style-name="DoubleStrikethrough" style:base-cell-address="Components.K4"/>
   </style:style>
   <style:page-layout style:name="pm1">
@@ -473,7 +491,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-07-11">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="20:23:21.972421522">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-07-13">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="21:08:57.353945779">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -617,6 +635,7 @@
     </table:table-row>
    </table:table>
    <table:table table:name="Min Inductance" table:style-name="ta1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co4" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="ce23"/>
@@ -1079,10 +1098,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
      <table:table-cell table:number-columns-repeated="15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
@@ -1403,10 +1422,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
      <table:table-cell table:number-columns-repeated="15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
@@ -1727,10 +1746,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
      <table:table-cell table:number-columns-repeated="15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
@@ -2060,10 +2079,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
      <table:table-cell table:number-columns-repeated="15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
@@ -2405,10 +2424,10 @@
       <text:p>RMS Current Switch/Inductor Rise</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="14"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
@@ -3041,10 +3060,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="18"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="18"/>
@@ -3359,10 +3378,10 @@
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="18"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="18"/>
@@ -3701,10 +3720,10 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="Heading_20_2"/>
      <table:table-cell table:number-columns-repeated="14"/>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
       <text:p>Inductance</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce39"/>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
@@ -4300,7 +4319,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce39" office:value-type="string" calcext:value-type="string">
-      <text:p>Inductor Resistance</text:p>
+      <text:p>Inductor DC Resistance</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce45" office:value-type="float" office:value="0.1" calcext:value-type="float">
       <text:p>1.00E-01</text:p>
@@ -4312,7 +4331,11 @@
      <table:table-cell table:style-name="Heading_20_2" office:value-type="string" calcext:value-type="string">
       <text:p>RMS Inductor Current</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="26"/>
+     <table:table-cell table:number-columns-repeated="14"/>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+      <text:p>Inductance</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="3"/>
@@ -4352,13 +4375,45 @@
      <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000082" calcext:value-type="float">
       <text:p>82.00E-06</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>TODO: Inductor Losses</text:p>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.00001" calcext:value-type="float">
+      <text:p>10.00E-06</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000012" calcext:value-type="float">
+      <text:p>12.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000015" calcext:value-type="float">
+      <text:p>15.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000018" calcext:value-type="float">
+      <text:p>18.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000022" calcext:value-type="float">
+      <text:p>22.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000027" calcext:value-type="float">
+      <text:p>27.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000033" calcext:value-type="float">
+      <text:p>33.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000039" calcext:value-type="float">
+      <text:p>39.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000047" calcext:value-type="float">
+      <text:p>47.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000056" calcext:value-type="float">
+      <text:p>56.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000068" calcext:value-type="float">
+      <text:p>68.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000082" calcext:value-type="float">
+      <text:p>82.00E-06</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="6">
       <text:p>Frequency</text:p>
@@ -4402,9 +4457,51 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O48]^2+[.O81]^2)" office:value-type="float" office:value="0.656492196994586" calcext:value-type="float">
       <text:p>0.66</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="6">
+      <text:p>Frequency</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="50000" calcext:value-type="float">
+      <text:p>50000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D91]^2*[.$W$88]" office:value-type="float" office:value="0.123414464499966" calcext:value-type="float">
+      <text:p>123.41E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E91]^2*[.$W$88]" office:value-type="float" office:value="0.112661476881754" calcext:value-type="float">
+      <text:p>112.66E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F91]^2*[.$W$88]" office:value-type="float" office:value="0.100767488301249" calcext:value-type="float">
+      <text:p>100.77E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G91]^2*[.$W$88]" office:value-type="float" office:value="0.0919877106762197" calcext:value-type="float">
+      <text:p>91.99E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H91]^2*[.$W$88]" office:value-type="float" office:value="0.083206014991852" calcext:value-type="float">
+      <text:p>83.21E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I91]^2*[.$W$88]" office:value-type="float" office:value="0.0751076512545023" calcext:value-type="float">
+      <text:p>75.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J91]^2*[.$W$88]" office:value-type="float" office:value="0.0679374267534681" calcext:value-type="float">
+      <text:p>67.94E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K91]^2*[.$W$88]" office:value-type="float" office:value="0.0624933433333327" calcext:value-type="float">
+      <text:p>62.49E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L91]^2*[.$W$88]" office:value-type="float" office:value="0.056926847511696" calcext:value-type="float">
+      <text:p>56.93E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M91]^2*[.$W$88]" office:value-type="float" office:value="0.052152129883594" calcext:value-type="float">
+      <text:p>52.15E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N91]^2*[.$W$88]" office:value-type="float" office:value="0.0473272866944104" calcext:value-type="float">
+      <text:p>47.33E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O91]^2*[.$W$88]" office:value-type="float" office:value="0.0430982004714778" calcext:value-type="float">
+      <text:p>43.10E-03</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:covered-table-cell/>
      <table:table-cell office:value-type="float" office:value="100000" calcext:value-type="float">
@@ -4446,9 +4543,49 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O49]^2+[.O82]^2)" office:value-type="float" office:value="0.552041935094782" calcext:value-type="float">
       <text:p>0.55</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="100000" calcext:value-type="float">
+      <text:p>100000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D92]^2*[.$W$88]" office:value-type="float" office:value="0.0872672047444326" calcext:value-type="float">
+      <text:p>87.27E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E92]^2*[.$W$88]" office:value-type="float" office:value="0.0796636942815794" calcext:value-type="float">
+      <text:p>79.66E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F92]^2*[.$W$88]" office:value-type="float" office:value="0.071253374300949" calcext:value-type="float">
+      <text:p>71.25E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G92]^2*[.$W$88]" office:value-type="float" office:value="0.0650451340049811" calcext:value-type="float">
+      <text:p>65.05E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H92]^2*[.$W$88]" office:value-type="float" office:value="0.058835537436248" calcext:value-type="float">
+      <text:p>58.84E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I92]^2*[.$W$88]" office:value-type="float" office:value="0.0531091295210529" calcext:value-type="float">
+      <text:p>53.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J92]^2*[.$W$88]" office:value-type="float" office:value="0.0480390151537417" calcext:value-type="float">
+      <text:p>48.04E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K92]^2*[.$W$88]" office:value-type="float" office:value="0.0441894668500187" calcext:value-type="float">
+      <text:p>44.19E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L92]^2*[.$W$88]" office:value-type="float" office:value="0.0402533599070928" calcext:value-type="float">
+      <text:p>40.25E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M92]^2*[.$W$88]" office:value-type="float" office:value="0.0368771246940109" calcext:value-type="float">
+      <text:p>36.88E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N92]^2*[.$W$88]" office:value-type="float" office:value="0.0334654453567775" calcext:value-type="float">
+      <text:p>33.47E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O92]^2*[.$W$88]" office:value-type="float" office:value="0.0304750298103192" calcext:value-type="float">
+      <text:p>30.48E-03</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:covered-table-cell/>
      <table:table-cell office:value-type="float" office:value="150000" calcext:value-type="float">
@@ -4490,9 +4627,49 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O50]^2+[.O83]^2)" office:value-type="float" office:value="0.498826198628301" calcext:value-type="float">
       <text:p>0.50</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="150000" calcext:value-type="float">
+      <text:p>150000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D93]^2*[.$W$88]" office:value-type="float" office:value="0.071253374300949" calcext:value-type="float">
+      <text:p>71.25E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E93]^2*[.$W$88]" office:value-type="float" office:value="0.0650451340049811" calcext:value-type="float">
+      <text:p>65.05E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F93]^2*[.$W$88]" office:value-type="float" office:value="0.0581781364962883" calcext:value-type="float">
+      <text:p>58.18E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G93]^2*[.$W$88]" office:value-type="float" office:value="0.0531091295210529" calcext:value-type="float">
+      <text:p>53.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H93]^2*[.$W$88]" office:value-type="float" office:value="0.0480390151537417" calcext:value-type="float">
+      <text:p>48.04E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I93]^2*[.$W$88]" office:value-type="float" office:value="0.0433634226699874" calcext:value-type="float">
+      <text:p>43.36E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J93]^2*[.$W$88]" office:value-type="float" office:value="0.0392236916241653" calcext:value-type="float">
+      <text:p>39.22E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K93]^2*[.$W$88]" office:value-type="float" office:value="0.0360805485960594" calcext:value-type="float">
+      <text:p>36.08E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L93]^2*[.$W$88]" office:value-type="float" office:value="0.0328667307349944" calcext:value-type="float">
+      <text:p>32.87E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M93]^2*[.$W$88]" office:value-type="float" office:value="0.0301100462271053" calcext:value-type="float">
+      <text:p>30.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N93]^2*[.$W$88]" office:value-type="float" office:value="0.0273244217130324" calcext:value-type="float">
+      <text:p>27.32E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O93]^2*[.$W$88]" office:value-type="float" office:value="0.0248827576437961" calcext:value-type="float">
+      <text:p>24.88E-03</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:covered-table-cell/>
      <table:table-cell office:value-type="float" office:value="200000" calcext:value-type="float">
@@ -4534,9 +4711,49 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O51]^2+[.O84]^2)" office:value-type="float" office:value="0.464210084290926" calcext:value-type="float">
       <text:p>0.46</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="200000" calcext:value-type="float">
+      <text:p>200000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D94]^2*[.$W$88]" office:value-type="float" office:value="0.0617072322499831" calcext:value-type="float">
+      <text:p>61.71E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E94]^2*[.$W$88]" office:value-type="float" office:value="0.0563307384408767" calcext:value-type="float">
+      <text:p>56.33E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F94]^2*[.$W$88]" office:value-type="float" office:value="0.0503837441506243" calcext:value-type="float">
+      <text:p>50.38E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G94]^2*[.$W$88]" office:value-type="float" office:value="0.0459938553381099" calcext:value-type="float">
+      <text:p>45.99E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H94]^2*[.$W$88]" office:value-type="float" office:value="0.041603007495926" calcext:value-type="float">
+      <text:p>41.60E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I94]^2*[.$W$88]" office:value-type="float" office:value="0.0375538256272511" calcext:value-type="float">
+      <text:p>37.55E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J94]^2*[.$W$88]" office:value-type="float" office:value="0.0339687133767341" calcext:value-type="float">
+      <text:p>33.97E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K94]^2*[.$W$88]" office:value-type="float" office:value="0.0312466716666664" calcext:value-type="float">
+      <text:p>31.25E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L94]^2*[.$W$88]" office:value-type="float" office:value="0.028463423755848" calcext:value-type="float">
+      <text:p>28.46E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M94]^2*[.$W$88]" office:value-type="float" office:value="0.026076064941797" calcext:value-type="float">
+      <text:p>26.08E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N94]^2*[.$W$88]" office:value-type="float" office:value="0.0236636433472052" calcext:value-type="float">
+      <text:p>23.66E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O94]^2*[.$W$88]" office:value-type="float" office:value="0.0215491002357389" calcext:value-type="float">
+      <text:p>21.55E-03</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:covered-table-cell/>
      <table:table-cell office:value-type="float" office:value="250000" calcext:value-type="float">
@@ -4578,9 +4795,49 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O52]^2+[.O85]^2)" office:value-type="float" office:value="0.4390227920328" calcext:value-type="float">
       <text:p>0.44</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="250000" calcext:value-type="float">
+      <text:p>250000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D95]^2*[.$W$88]" office:value-type="float" office:value="0.0551926264057318" calcext:value-type="float">
+      <text:p>55.19E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E95]^2*[.$W$88]" office:value-type="float" office:value="0.0503837441506243" calcext:value-type="float">
+      <text:p>50.38E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F95]^2*[.$W$88]" office:value-type="float" office:value="0.0450645907527013" calcext:value-type="float">
+      <text:p>45.06E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G95]^2*[.$W$88]" office:value-type="float" office:value="0.0411381548333221" calcext:value-type="float">
+      <text:p>41.14E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H95]^2*[.$W$88]" office:value-type="float" office:value="0.0372108611317295" calcext:value-type="float">
+      <text:p>37.21E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I95]^2*[.$W$88]" office:value-type="float" office:value="0.0335891627670828" calcext:value-type="float">
+      <text:p>33.59E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J95]^2*[.$W$88]" office:value-type="float" office:value="0.0303825408874336" calcext:value-type="float">
+      <text:p>30.38E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K95]^2*[.$W$88]" office:value-type="float" office:value="0.027947872766913" calcext:value-type="float">
+      <text:p>27.95E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L95]^2*[.$W$88]" office:value-type="float" office:value="0.0254584601561833" calcext:value-type="float">
+      <text:p>25.46E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M95]^2*[.$W$88]" office:value-type="float" office:value="0.0233231415182229" calcext:value-type="float">
+      <text:p>23.32E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N95]^2*[.$W$88]" office:value-type="float" office:value="0.0211654060478646" calcext:value-type="float">
+      <text:p>21.17E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O95]^2*[.$W$88]" office:value-type="float" office:value="0.0192741011924275" calcext:value-type="float">
+      <text:p>19.27E-03</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell/>
      <table:covered-table-cell/>
      <table:table-cell office:value-type="float" office:value="300000" calcext:value-type="float">
@@ -4622,7 +4879,673 @@
      <table:table-cell table:style-name="ce22" table:formula="of:=SQRT([.O53]^2+[.O86]^2)" office:value-type="float" office:value="0.419461162261176" calcext:value-type="float">
       <text:p>0.42</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="15"/>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="300000" calcext:value-type="float">
+      <text:p>300000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.D96]^2*[.$W$88]" office:value-type="float" office:value="0.0503837441506243" calcext:value-type="float">
+      <text:p>50.38E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.E96]^2*[.$W$88]" office:value-type="float" office:value="0.0459938553381099" calcext:value-type="float">
+      <text:p>45.99E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.F96]^2*[.$W$88]" office:value-type="float" office:value="0.0411381548333221" calcext:value-type="float">
+      <text:p>41.14E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.G96]^2*[.$W$88]" office:value-type="float" office:value="0.0375538256272511" calcext:value-type="float">
+      <text:p>37.55E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.H96]^2*[.$W$88]" office:value-type="float" office:value="0.0339687133767341" calcext:value-type="float">
+      <text:p>33.97E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.I96]^2*[.$W$88]" office:value-type="float" office:value="0.0306625702254065" calcext:value-type="float">
+      <text:p>30.66E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.J96]^2*[.$W$88]" office:value-type="float" office:value="0.0277353383306173" calcext:value-type="float">
+      <text:p>27.74E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.K96]^2*[.$W$88]" office:value-type="float" office:value="0.0255128005812043" calcext:value-type="float">
+      <text:p>25.51E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.L96]^2*[.$W$88]" office:value-type="float" office:value="0.0232402881781469" calcext:value-type="float">
+      <text:p>23.24E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.M96]^2*[.$W$88]" office:value-type="float" office:value="0.0212910178690266" calcext:value-type="float">
+      <text:p>21.29E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.N96]^2*[.$W$88]" office:value-type="float" office:value="0.0193212838852862" calcext:value-type="float">
+      <text:p>19.32E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" table:formula="of:=[.O96]^2*[.$W$88]" office:value-type="float" office:value="0.0175947666645497" calcext:value-type="float">
+      <text:p>17.59E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="30"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:table-cell table:style-name="Heading_20_1" office:value-type="string" calcext:value-type="string">
+      <text:p>Total Losses</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+      <text:p>Inductance</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="18"/>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.00001" calcext:value-type="float">
+      <text:p>10.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000012" calcext:value-type="float">
+      <text:p>12.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000015" calcext:value-type="float">
+      <text:p>15.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000018" calcext:value-type="float">
+      <text:p>18.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000022" calcext:value-type="float">
+      <text:p>22.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000027" calcext:value-type="float">
+      <text:p>27.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000033" calcext:value-type="float">
+      <text:p>33.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000039" calcext:value-type="float">
+      <text:p>39.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000047" calcext:value-type="float">
+      <text:p>47.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000056" calcext:value-type="float">
+      <text:p>56.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000068" calcext:value-type="float">
+      <text:p>68.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000082" calcext:value-type="float">
+      <text:p>82.00E-06</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="6">
+      <text:p>Frequency</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="50000" calcext:value-type="float">
+      <text:p>50000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S69]+[.S81]+[.S91]" office:value-type="float" office:value="0.489258871722287" calcext:value-type="float">
+      <text:p>489.26E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T69]+[.T81]+[.T91]" office:value-type="float" office:value="0.462134272378194" calcext:value-type="float">
+      <text:p>462.13E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U69]+[.U81]+[.U91]" office:value-type="float" office:value="0.4316199301316" calcext:value-type="float">
+      <text:p>431.62E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V69]+[.V81]+[.V91]" office:value-type="float" office:value="0.408698677786744" calcext:value-type="float">
+      <text:p>408.70E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W69]+[.W81]+[.W91]" office:value-type="float" office:value="0.385384776443501" calcext:value-type="float">
+      <text:p>385.38E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X69]+[.X81]+[.X91]" office:value-type="float" office:value="0.363494550851093" calcext:value-type="float">
+      <text:p>363.49E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y69]+[.Y81]+[.Y91]" office:value-type="float" office:value="0.343762145677888" calcext:value-type="float">
+      <text:p>343.76E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z69]+[.Z81]+[.Z91]" office:value-type="float" office:value="0.32854298819744" calcext:value-type="float">
+      <text:p>328.54E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA69]+[.AA81]+[.AA91]" office:value-type="float" office:value="0.312775382011314" calcext:value-type="float">
+      <text:p>312.78E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB69]+[.AB81]+[.AB91]" office:value-type="float" office:value="0.299143167163309" calcext:value-type="float">
+      <text:p>299.14E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC69]+[.AC81]+[.AC91]" office:value-type="float" office:value="0.285586222879111" calcext:value-type="float">
+      <text:p>285.59E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD69]+[.AD81]+[.AD91]" office:value-type="float" office:value="0.27676460705717" calcext:value-type="float">
+      <text:p>276.76E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="100000" calcext:value-type="float">
+      <text:p>100000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S70]+[.S82]+[.S92]" office:value-type="float" office:value="0.474514279068571" calcext:value-type="float">
+      <text:p>474.51E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T70]+[.T82]+[.T92]" office:value-type="float" office:value="0.454204859688884" calcext:value-type="float">
+      <text:p>454.20E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U70]+[.U82]+[.U92]" office:value-type="float" office:value="0.431361389692029" calcext:value-type="float">
+      <text:p>431.36E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V70]+[.V82]+[.V92]" office:value-type="float" office:value="0.414233694958618" calcext:value-type="float">
+      <text:p>414.23E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W70]+[.W82]+[.W92]" office:value-type="float" office:value="0.396905498062271" calcext:value-type="float">
+      <text:p>396.91E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X70]+[.X82]+[.X92]" office:value-type="float" office:value="0.38089336566372" calcext:value-type="float">
+      <text:p>380.89E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y70]+[.Y82]+[.Y92]" office:value-type="float" office:value="0.367265277559003" calcext:value-type="float">
+      <text:p>367.27E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z70]+[.Z82]+[.Z92]" office:value-type="float" office:value="0.359852706371722" calcext:value-type="float">
+      <text:p>359.85E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA70]+[.AA82]+[.AA92]" office:value-type="float" office:value="0.313551596478969" calcext:value-type="float">
+      <text:p>313.55E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB70]+[.AB82]+[.AB92]" office:value-type="float" office:value="0.323913516500806" calcext:value-type="float">
+      <text:p>323.91E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC70]+[.AC82]+[.AC92]" office:value-type="float" office:value="0.315343082957008" calcext:value-type="float">
+      <text:p>315.34E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD70]+[.AD82]+[.AD92]" office:value-type="float" office:value="0.306321477561462" calcext:value-type="float">
+      <text:p>306.32E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="150000" calcext:value-type="float">
+      <text:p>150000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S71]+[.S83]+[.S93]" office:value-type="float" office:value="0.509792053185919" calcext:value-type="float">
+      <text:p>509.79E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T71]+[.T83]+[.T93]" office:value-type="float" office:value="0.492764878529267" calcext:value-type="float">
+      <text:p>492.76E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U71]+[.U83]+[.U93]" office:value-type="float" office:value="0.473791333309173" calcext:value-type="float">
+      <text:p>473.79E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V71]+[.V83]+[.V93]" office:value-type="float" office:value="0.459910617249442" calcext:value-type="float">
+      <text:p>459.91E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W71]+[.W83]+[.W93]" office:value-type="float" office:value="0.446997464705194" calcext:value-type="float">
+      <text:p>447.00E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X71]+[.X83]+[.X93]" office:value-type="float" office:value="0.44341991508391" calcext:value-type="float">
+      <text:p>443.42E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y71]+[.Y83]+[.Y93]" office:value-type="float" office:value="0.396549077849707" calcext:value-type="float">
+      <text:p>396.55E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z71]+[.Z83]+[.Z93]" office:value-type="float" office:value="0.397965314890108" calcext:value-type="float">
+      <text:p>397.97E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA71]+[.AA83]+[.AA93]" office:value-type="float" office:value="0.390237067087504" calcext:value-type="float">
+      <text:p>390.24E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB71]+[.AB83]+[.AB93]" office:value-type="float" office:value="0.382158301394649" calcext:value-type="float">
+      <text:p>382.16E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC71]+[.AC83]+[.AC93]" office:value-type="float" office:value="0.373350700290146" calcext:value-type="float">
+      <text:p>373.35E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD71]+[.AD83]+[.AD93]" office:value-type="float" office:value="0.365246056820954" calcext:value-type="float">
+      <text:p>365.25E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="200000" calcext:value-type="float">
+      <text:p>200000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S72]+[.S84]+[.S94]" office:value-type="float" office:value="0.562159231427321" calcext:value-type="float">
+      <text:p>562.16E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T72]+[.T84]+[.T94]" office:value-type="float" office:value="0.547508900617879" calcext:value-type="float">
+      <text:p>547.51E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U72]+[.U84]+[.U94]" office:value-type="float" office:value="0.532022025313225" calcext:value-type="float">
+      <text:p>532.02E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V72]+[.V84]+[.V94]" office:value-type="float" office:value="0.523400651704927" calcext:value-type="float">
+      <text:p>523.40E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W72]+[.W84]+[.W94]" office:value-type="float" office:value="0.599680456911239" calcext:value-type="float">
+      <text:p>599.68E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X72]+[.X84]+[.X94]" office:value-type="float" office:value="0.474603333920944" calcext:value-type="float">
+      <text:p>474.60E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y72]+[.Y84]+[.Y94]" office:value-type="float" office:value="0.469601496597933" calcext:value-type="float">
+      <text:p>469.60E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z72]+[.Z84]+[.Z94]" office:value-type="float" office:value="0.462448809196484" calcext:value-type="float">
+      <text:p>462.45E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA72]+[.AA84]+[.AA94]" office:value-type="float" office:value="0.454137208790644" calcext:value-type="float">
+      <text:p>454.14E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB72]+[.AB84]+[.AB94]" office:value-type="float" office:value="0.446517107559969" calcext:value-type="float">
+      <text:p>446.52E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC72]+[.AC84]+[.AC94]" office:value-type="float" office:value="0.438455046732143" calcext:value-type="float">
+      <text:p>438.46E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD72]+[.AD84]+[.AD94]" office:value-type="float" office:value="0.431111876744941" calcext:value-type="float">
+      <text:p>431.11E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="250000" calcext:value-type="float">
+      <text:p>250000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S73]+[.S85]+[.S95]" office:value-type="float" office:value="0.623320531515199" calcext:value-type="float">
+      <text:p>623.32E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T73]+[.T85]+[.T95]" office:value-type="float" office:value="0.611326170392407" calcext:value-type="float">
+      <text:p>611.33E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U73]+[.U85]+[.U95]" office:value-type="float" office:value="0.603855026843977" calcext:value-type="float">
+      <text:p>603.86E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V73]+[.V85]+[.V95]" office:value-type="float" office:value="0.561331961341225" calcext:value-type="float">
+      <text:p>561.33E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W73]+[.W85]+[.W95]" office:value-type="float" office:value="0.549722724727291" calcext:value-type="float">
+      <text:p>549.72E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X73]+[.X85]+[.X95]" office:value-type="float" office:value="0.545190328378747" calcext:value-type="float">
+      <text:p>545.19E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y73]+[.Y85]+[.Y95]" office:value-type="float" office:value="0.536907625193089" calcext:value-type="float">
+      <text:p>536.91E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z73]+[.Z85]+[.Z95]" office:value-type="float" office:value="0.529683987686859" calcext:value-type="float">
+      <text:p>529.68E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA73]+[.AA85]+[.AA95]" office:value-type="float" office:value="0.521785489703025" calcext:value-type="float">
+      <text:p>521.79E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB73]+[.AB85]+[.AB95]" office:value-type="float" office:value="0.514678646468598" calcext:value-type="float">
+      <text:p>514.68E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC73]+[.AC85]+[.AC95]" office:value-type="float" office:value="0.507211247666582" calcext:value-type="float">
+      <text:p>507.21E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD73]+[.AD85]+[.AD95]" office:value-type="float" office:value="0.500428853876888" calcext:value-type="float">
+      <text:p>500.43E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="300000" calcext:value-type="float">
+      <text:p>300000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.S74]+[.S86]+[.S96]" office:value-type="float" office:value="0.69063031547159" calcext:value-type="float">
+      <text:p>690.63E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.T74]+[.T86]+[.T96]" office:value-type="float" office:value="0.684286157375256" calcext:value-type="float">
+      <text:p>684.29E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.U74]+[.U86]+[.U96]" office:value-type="float" office:value="0.636253717448543" calcext:value-type="float">
+      <text:p>636.25E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.V74]+[.V86]+[.V96]" office:value-type="float" office:value="0.624174944172736" calcext:value-type="float">
+      <text:p>624.17E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.W74]+[.W86]+[.W96]" office:value-type="float" office:value="0.622433295583973" calcext:value-type="float">
+      <text:p>622.43E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.X74]+[.X86]+[.X96]" office:value-type="float" office:value="0.614627625001851" calcext:value-type="float">
+      <text:p>614.63E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Y74]+[.Y86]+[.Y96]" office:value-type="float" office:value="0.606200858971166" calcext:value-type="float">
+      <text:p>606.20E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.Z74]+[.Z86]+[.Z96]" office:value-type="float" office:value="0.599259509092888" calcext:value-type="float">
+      <text:p>599.26E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AA74]+[.AA86]+[.AA96]" office:value-type="float" office:value="0.591788942349777" calcext:value-type="float">
+      <text:p>591.79E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AB74]+[.AB86]+[.AB96]" office:value-type="float" office:value="0.585109574850703" calcext:value-type="float">
+      <text:p>585.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AC74]+[.AC86]+[.AC96]" office:value-type="float" office:value="0.578109707878169" calcext:value-type="float">
+      <text:p>578.11E-03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.AD74]+[.AD86]+[.AD96]" office:value-type="float" office:value="0.57175872745603" calcext:value-type="float">
+      <text:p>571.76E-03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="30"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Efficiency</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="12" table:number-rows-spanned="1">
+      <text:p>Inductance</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="11" table:style-name="ce15"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="18"/>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.00001" calcext:value-type="float">
+      <text:p>10.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000012" calcext:value-type="float">
+      <text:p>12.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000015" calcext:value-type="float">
+      <text:p>15.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000018" calcext:value-type="float">
+      <text:p>18.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000022" calcext:value-type="float">
+      <text:p>22.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000027" calcext:value-type="float">
+      <text:p>27.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000033" calcext:value-type="float">
+      <text:p>33.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000039" calcext:value-type="float">
+      <text:p>39.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000047" calcext:value-type="float">
+      <text:p>47.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000056" calcext:value-type="float">
+      <text:p>56.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000068" calcext:value-type="float">
+      <text:p>68.00E-06</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23" office:value-type="float" office:value="0.000082" calcext:value-type="float">
+      <text:p>82.00E-06</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="6">
+      <text:p>Frequency</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="50000" calcext:value-type="float">
+      <text:p>50000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S101])" office:value-type="percentage" office:value="0.8465916717955" calcext:value-type="percentage">
+      <text:p>84.66%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T101])" office:value-type="percentage" office:value="0.853853684704341" calcext:value-type="percentage">
+      <text:p>85.39%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U101])" office:value-type="percentage" office:value="0.862173590741753" calcext:value-type="percentage">
+      <text:p>86.22%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V101])" office:value-type="percentage" office:value="0.868530623213145" calcext:value-type="percentage">
+      <text:p>86.85%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W101])" office:value-type="percentage" office:value="0.875093447214149" calcext:value-type="percentage">
+      <text:p>87.51%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X101])" office:value-type="percentage" office:value="0.881346434662301" calcext:value-type="percentage">
+      <text:p>88.13%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y101])" office:value-type="percentage" office:value="0.887060115335876" calcext:value-type="percentage">
+      <text:p>88.71%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z101])" office:value-type="percentage" office:value="0.891517805929185" calcext:value-type="percentage">
+      <text:p>89.15%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA101])" office:value-type="percentage" office:value="0.896183637227377" calcext:value-type="percentage">
+      <text:p>89.62%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB101])" office:value-type="percentage" office:value="0.900257123288233" calcext:value-type="percentage">
+      <text:p>90.03%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC101])" office:value-type="percentage" office:value="0.904345009134015" calcext:value-type="percentage">
+      <text:p>90.43%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD101])" office:value-type="percentage" office:value="0.907025027642082" calcext:value-type="percentage">
+      <text:p>90.70%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="100000" calcext:value-type="float">
+      <text:p>100000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S102])" office:value-type="percentage" office:value="0.850523816447347" calcext:value-type="percentage">
+      <text:p>85.05%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T102])" office:value-type="percentage" office:value="0.856000202937457" calcext:value-type="percentage">
+      <text:p>85.60%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U102])" office:value-type="percentage" office:value="0.862244775990403" calcext:value-type="percentage">
+      <text:p>86.22%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V102])" office:value-type="percentage" office:value="0.866986958740705" calcext:value-type="percentage">
+      <text:p>86.70%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W102])" office:value-type="percentage" office:value="0.871838033704737" calcext:value-type="percentage">
+      <text:p>87.18%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X102])" office:value-type="percentage" office:value="0.876369182423273" calcext:value-type="percentage">
+      <text:p>87.64%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y102])" office:value-type="percentage" office:value="0.880262955980358" calcext:value-type="percentage">
+      <text:p>88.03%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z102])" office:value-type="percentage" office:value="0.882395415432129" calcext:value-type="percentage">
+      <text:p>88.24%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA102])" office:value-type="percentage" office:value="0.895952803049623" calcext:value-type="percentage">
+      <text:p>89.60%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB102])" office:value-type="percentage" office:value="0.892882678445239" calcext:value-type="percentage">
+      <text:p>89.29%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC102])" office:value-type="percentage" office:value="0.895420496347711" calcext:value-type="percentage">
+      <text:p>89.54%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD102])" office:value-type="percentage" office:value="0.898107544436688" calcext:value-type="percentage">
+      <text:p>89.81%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="150000" calcext:value-type="float">
+      <text:p>150000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S103])" office:value-type="percentage" office:value="0.841175987497408" calcext:value-type="percentage">
+      <text:p>84.12%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T103])" office:value-type="percentage" office:value="0.845662021076774" calcext:value-type="percentage">
+      <text:p>84.57%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U103])" office:value-type="percentage" office:value="0.85071755400656" calcext:value-type="percentage">
+      <text:p>85.07%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V103])" office:value-type="percentage" office:value="0.854454548575246" calcext:value-type="percentage">
+      <text:p>85.45%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W103])" office:value-type="percentage" office:value="0.85796065306107" calcext:value-type="percentage">
+      <text:p>85.80%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X103])" office:value-type="percentage" office:value="0.858937104471429" calcext:value-type="percentage">
+      <text:p>85.89%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y103])" office:value-type="percentage" office:value="0.871938384349756" calcext:value-type="percentage">
+      <text:p>87.19%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z103])" office:value-type="percentage" office:value="0.871539777099078" calcext:value-type="percentage">
+      <text:p>87.15%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA103])" office:value-type="percentage" office:value="0.873719375369704" calcext:value-type="percentage">
+      <text:p>87.37%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB103])" office:value-type="percentage" office:value="0.87600951540298" calcext:value-type="percentage">
+      <text:p>87.60%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC103])" office:value-type="percentage" office:value="0.878519981382242" calcext:value-type="percentage">
+      <text:p>87.85%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD103])" office:value-type="percentage" office:value="0.880842826301599" calcext:value-type="percentage">
+      <text:p>88.08%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="200000" calcext:value-type="float">
+      <text:p>200000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S104])" office:value-type="percentage" office:value="0.827672657419192" calcext:value-type="percentage">
+      <text:p>82.77%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T104])" office:value-type="percentage" office:value="0.831406497295909" calcext:value-type="percentage">
+      <text:p>83.14%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U104])" office:value-type="percentage" office:value="0.83539034661694" calcext:value-type="percentage">
+      <text:p>83.54%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V104])" office:value-type="percentage" office:value="0.837624698801221" calcext:value-type="percentage">
+      <text:p>83.76%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W104])" office:value-type="percentage" office:value="0.818261051413267" calcext:value-type="percentage">
+      <text:p>81.83%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X104])" office:value-type="percentage" office:value="0.850499957317577" calcext:value-type="percentage">
+      <text:p>85.05%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y104])" office:value-type="percentage" office:value="0.851842101569558" calcext:value-type="percentage">
+      <text:p>85.18%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z104])" office:value-type="percentage" office:value="0.853768760508733" calcext:value-type="percentage">
+      <text:p>85.38%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA104])" office:value-type="percentage" office:value="0.856018562691263" calcext:value-type="percentage">
+      <text:p>85.60%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB104])" office:value-type="percentage" office:value="0.858091632018416" calcext:value-type="percentage">
+      <text:p>85.81%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC104])" office:value-type="percentage" office:value="0.860295897120249" calcext:value-type="percentage">
+      <text:p>86.03%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD104])" office:value-type="percentage" office:value="0.862313486801015" calcext:value-type="percentage">
+      <text:p>86.23%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="250000" calcext:value-type="float">
+      <text:p>250000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S105])" office:value-type="percentage" office:value="0.81244044153905" calcext:value-type="percentage">
+      <text:p>81.24%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T105])" office:value-type="percentage" office:value="0.815383281822714" calcext:value-type="percentage">
+      <text:p>81.54%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U105])" office:value-type="percentage" office:value="0.817227141645857" calcext:value-type="percentage">
+      <text:p>81.72%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V105])" office:value-type="percentage" office:value="0.827882605023017" calcext:value-type="percentage">
+      <text:p>82.79%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W105])" office:value-type="percentage" office:value="0.830840114282851" calcext:value-type="percentage">
+      <text:p>83.08%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X105])" office:value-type="percentage" office:value="0.832000507455254" calcext:value-type="percentage">
+      <text:p>83.20%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y105])" office:value-type="percentage" office:value="0.83412945707369" calcext:value-type="percentage">
+      <text:p>83.41%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z105])" office:value-type="percentage" office:value="0.83599510363668" calcext:value-type="percentage">
+      <text:p>83.60%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA105])" office:value-type="percentage" office:value="0.838044621105075" calcext:value-type="percentage">
+      <text:p>83.80%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB105])" office:value-type="percentage" office:value="0.839897326274281" calcext:value-type="percentage">
+      <text:p>83.99%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC105])" office:value-type="percentage" office:value="0.841852872012841" calcext:value-type="percentage">
+      <text:p>84.19%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD105])" office:value-type="percentage" office:value="0.843636938446332" calcext:value-type="percentage">
+      <text:p>84.36%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="16"/>
+     <table:covered-table-cell/>
+     <table:table-cell office:value-type="float" office:value="300000" calcext:value-type="float">
+      <text:p>300000</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.S106])" office:value-type="percentage" office:value="0.796312115679431" calcext:value-type="percentage">
+      <text:p>79.63%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.T106])" office:value-type="percentage" office:value="0.797804876551584" calcext:value-type="percentage">
+      <text:p>79.78%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.U106])" office:value-type="percentage" office:value="0.809290967853869" calcext:value-type="percentage">
+      <text:p>80.93%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.V106])" office:value-type="percentage" office:value="0.812231619979294" calcext:value-type="percentage">
+      <text:p>81.22%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.W106])" office:value-type="percentage" office:value="0.812657398897584" calcext:value-type="percentage">
+      <text:p>81.27%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.X106])" office:value-type="percentage" office:value="0.814571139042652" calcext:value-type="percentage">
+      <text:p>81.46%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Y106])" office:value-type="percentage" office:value="0.816647298567394" calcext:value-type="percentage">
+      <text:p>81.66%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.Z106])" office:value-type="percentage" office:value="0.818365452174555" calcext:value-type="percentage">
+      <text:p>81.84%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AA106])" office:value-type="percentage" office:value="0.820222695709239" calcext:value-type="percentage">
+      <text:p>82.02%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AB106])" office:value-type="percentage" office:value="0.821890393145472" calcext:value-type="percentage">
+      <text:p>82.19%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AC106])" office:value-type="percentage" office:value="0.823645405616286" calcext:value-type="percentage">
+      <text:p>82.36%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" table:formula="of:=(VOUT*IOUT)/(VOUT*IOUT+[.AD106])" office:value-type="percentage" office:value="0.825244226397891" calcext:value-type="percentage">
+      <text:p>82.52%</text:p>
+     </table:table-cell>
     </table:table-row>
     <calcext:conditional-formats>
      <calcext:conditional-format calcext:target-range-address="&apos;Duty Cycle &amp; Currents&apos;.D4:&apos;Duty Cycle &amp; Currents&apos;.O9 &apos;Duty Cycle &amp; Currents&apos;.D15:&apos;Duty Cycle &amp; Currents&apos;.O20 &apos;Duty Cycle &amp; Currents&apos;.D26:&apos;Duty Cycle &amp; Currents&apos;.O31">
@@ -4690,12 +5613,32 @@
        <calcext:color-scale-entry calcext:value="0" calcext:type="maximum" calcext:color="#ff0000"/>
       </calcext:color-scale>
      </calcext:conditional-format>
+     <calcext:conditional-format calcext:target-range-address="&apos;Duty Cycle &amp; Currents&apos;.S91:&apos;Duty Cycle &amp; Currents&apos;.AD96">
+      <calcext:color-scale>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="minimum" calcext:color="#00a933"/>
+       <calcext:color-scale-entry calcext:value="50" calcext:type="percentile" calcext:color="#ffff00"/>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="maximum" calcext:color="#ff0000"/>
+      </calcext:color-scale>
+     </calcext:conditional-format>
+     <calcext:conditional-format calcext:target-range-address="&apos;Duty Cycle &amp; Currents&apos;.S101:&apos;Duty Cycle &amp; Currents&apos;.AD106">
+      <calcext:color-scale>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="minimum" calcext:color="#00a933"/>
+       <calcext:color-scale-entry calcext:value="50" calcext:type="percentile" calcext:color="#ffff00"/>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="maximum" calcext:color="#ff0000"/>
+      </calcext:color-scale>
+     </calcext:conditional-format>
+     <calcext:conditional-format calcext:target-range-address="&apos;Duty Cycle &amp; Currents&apos;.S110:&apos;Duty Cycle &amp; Currents&apos;.AD115">
+      <calcext:color-scale>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="minimum" calcext:color="#ff0000"/>
+       <calcext:color-scale-entry calcext:value="50" calcext:type="percentile" calcext:color="#ffff00"/>
+       <calcext:color-scale-entry calcext:value="0" calcext:type="maximum" calcext:color="#00a933"/>
+      </calcext:color-scale>
+     </calcext:conditional-format>
     </calcext:conditional-formats>
    </table:table>
    <table:table table:name="Components" table:style-name="ta1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <table:table-column table:style-name="co3" table:number-columns-repeated="10" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co3" table:number-columns-repeated="12" table:default-cell-style-name="ce35"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="12" table:default-cell-style-name="ce46"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell/>
      <table:table-cell table:style-name="Heading_20_1" office:value-type="string" calcext:value-type="string">
@@ -4740,13 +5683,13 @@
       <text:p>R_G</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce39" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>Diodes</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Vfwd</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce39" table:number-columns-repeated="11"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="11"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell/>
