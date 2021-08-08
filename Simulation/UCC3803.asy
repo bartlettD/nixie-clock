@@ -3,9 +3,9 @@ SymbolType BLOCK
 RECTANGLE Normal -80 -72 80 72
 WINDOW 0 0 -72 Bottom 2
 WINDOW 3 0 72 Top 2
-SYMATTR Prefix X
 SYMATTR Value UCC3803
-SYMATTR ModelFile C:\Users\dylan.bartlett\Downloads\nixie-clock-master\Simulation\models\UCCx803\uccx813-3.lib
+SYMATTR Prefix X
+SYMATTR ModelFile models\UCCx803\uccx813-3.lib
 PIN -80 48 LEFT 8
 PINATTR PinName COMP
 PINATTR SpiceOrder 1
