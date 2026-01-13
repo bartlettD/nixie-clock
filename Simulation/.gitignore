@@ -7,3 +7,11 @@
 #PSpice Files
 ## Simulation Datafile
 *.dat
+## Design Lockfile
+*.DSNlck
+## Schematic Preview Image
+*.png
+## Design Backup File
+*.DBK
+##Metadata DB file
+*.db
