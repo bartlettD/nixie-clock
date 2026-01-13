@@ -1,0 +1,9 @@
+#LTSpice Temporary Files
+*.log
+*.raw
+
+*autosave*.tsc
+
+#PSpice Files
+## Simulation Datafile
+*.dat
