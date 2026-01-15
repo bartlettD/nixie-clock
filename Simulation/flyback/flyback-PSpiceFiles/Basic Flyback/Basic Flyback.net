@@ -1,0 +1,19 @@
+* source FLYBACK
+L_L1         N15373 VSW  4.25u  
+L_L2         0 N15537  300u  
+Kn_K1         L_L1 L_L2     1
+V_V1         N15366 0 5Vdc
+C_C1         0 N14510  1u  TC=0,0 
+D_D1         N15460 N14510 Dbreak 
+X_S2    N14849 0 VSW 0 Basic_Flyback_S2 
+V_V2         N14849 0  
++PULSE 0 1 0 10n 10n 2.21u 4u
+R_R1         0 N14510  9k TC=0,0 
+R_R2         N15373 N15366  0.013 TC=0,0 
+R_R3         N15537 N15460  0.8 TC=0,0 
+
+.subckt Basic_Flyback_S2 1 2 3 4  
+S_S2         3 4 1 2 _S2
+RS_S2         1 2 1G
+.MODEL         _S2 VSWITCH Roff=1e6 Ron=100m Voff=0.0V Von=1.0V
+.ends Basic_Flyback_S2

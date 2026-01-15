@@ -1,0 +1,16 @@
+* source FLYBACK
+V_V1         N15958 0 5Vdc
+R_R3         N16112 N15968  25 TC=0,0 
+R_R1         0 N15978  8.5k TC=0,0 
+L_L1         N16096 N16545  15uH  
+R_R2         N16096 N15958  1 TC=0,0 
+Kn_K1         L_L1 L_L2     1
+L_L2         0 N16112  3375u  
+D_D1         N15968 N15978 Dbreak 
+C_C1         0 N15978  1u  TC=0,0 
+X_U1         N16545 N16545 0 N16545 N15958 N15958 N17815 0 0 0 0 0 0 0 N17348
++  N17680 N18548 TPS55330_TRANS PARAMS: SS={SS}
+R_R4         N17348 0  200k TC=0,0 
+R_R5         N17680 N15978  1.3Meg TC=0,0 
+R_R6         0 N17680  10k TC=0,0 
+C_C2         0 N17815  47p  TC=0,0 

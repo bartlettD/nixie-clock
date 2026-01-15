@@ -1,0 +1,125 @@
+
+**** 01/14/26 19:01:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Basic Flyback.net" 
+
+
+
+**** INCLUDING "Basic Flyback.net" ****
+* source FLYBACK
+L_L1         N15373 VSW  4.25u  
+L_L2         0 N15537  300u  
+Kn_K1         L_L1 L_L2     1
+V_V1         N15366 0 5Vdc
+C_C1         0 N14510  1u  TC=0,0 
+D_D1         N15460 N14510 Dbreak 
+X_S2    N14849 0 VSW 0 Basic_Flyback_S2 
+V_V2         N14849 0  
++PULSE 0 1 0 10n 10n 2.21u 4u
+R_R1         0 N14510  9k TC=0,0 
+R_R2         N15373 N15366  0.013 TC=0,0 
+R_R3         N15537 N15460  0.8 TC=0,0 
+
+.subckt Basic_Flyback_S2 1 2 3 4  
+S_S2         3 4 1 2 _S2
+RS_S2         1 2 1G
+.MODEL         _S2 VSWITCH Roff=1e6 Ron=100m Voff=0.0V Von=1.0V
+.ends Basic_Flyback_S2
+
+**** RESUMING transient.cir ****
+.END
+
+**** 01/14/26 19:01:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_S2._S2        
+         RON     .1          
+        ROFF    1.000000E+06 
+         VON    1            
+        VOFF    0            
+
+
+**** 01/14/26 19:01:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VSW)    5.0000  (N14510)-13.43E-27 (N14849)    0.0000 (N15366)    5.0000     
+
+(N15373)    5.0000 (N15460) 1.194E-30 (N15537)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-06
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.50E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/14/26 19:01:19 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       44.03
+

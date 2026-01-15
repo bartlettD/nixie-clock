@@ -1,0 +1,1 @@
+{"TimeStamp":"Wed Jan 14 19:01:19 2026\n","Circuits":{"ExitCode":"0","TraceCount":"31","Mode":"SPICE","Type":"TIFullMode","Models":[{"ModelName":"Dbreak","FileName":"c:\\cds_spb_home\\cdssetup\\psptilibdir\\drv834x.lib","ModelType":".model","DeviceType":"d","Source":"FROM_INC","isLibSigned":"true","isAllowed":"true"}]}}

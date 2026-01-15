@@ -1,0 +1,247 @@
+
+**** 01/13/26 21:38:14 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS55330-TPS55330-tran"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\tps55330\tps55330-tran.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TPS55330-tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.OPTIONS ABSTOL= 10n
+.OPTIONS ITL1= 1500
+.OPTIONS ITL2= 400
+.OPTIONS ITL4= 400
+.OPTIONS VNTOL= 10u
+.OPTIONS THREADS= 1
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TPS55330.net" 
+
+
+
+**** INCLUDING TPS55330.net ****
+* source FLYBACK
+V_V1         N15958 0 5Vdc
+R_R3         N16112 N15968  25 TC=0,0 
+R_R1         0 N15978  8.5k TC=0,0 
+L_L1         N16096 N16545  15uH  
+R_R2         N16096 N15958  1 TC=0,0 
+Kn_K1         L_L1 L_L2     1
+L_L2         0 N16112  3375u  
+D_D1         N15968 N15978 Dbreak 
+C_C1         0 N15978  1u  TC=0,0 
+X_U1         N16545 N16545 0 N16545 N15958 N15958 N17815 0 0 0 0 0 0 0 N17348
++  N17680 N18548 TPS55330_TRANS PARAMS: SS={SS}
+R_R4         N17348 0  200k TC=0,0 
+R_R5         N17680 N15978  1.3Meg TC=0,0 
+R_R6         0 N17680  10k TC=0,0 
+C_C2         0 N17815  47p  TC=0,0 
+
+**** RESUMING TPS55330-tran.cir ****
+.END
+
+WARNING(ORPSIM-16534): Using high values of ITL4 for Speed Level > 0 may increase total simulation job time.
+
+**** 01/13/26 21:38:14 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS55330-TPS55330-tran"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\tps55330\tps55330-tran.sim
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N15958)    5.0000 (N15968) 10.45E-30 (N15978)-3.530E-27 (N16096)    5.0000     
+
+(N16112)    0.0000 (N16545)    5.0000 (N17348)    1.2290 (N17680)-26.91E-30     
+
+(N17815) 221.3E-09 (N18548)     .7264 (X_U1.ISW) 3.329E-09                      
+
+(X_U1.I_RT) 3.073E-06                 (X_U1.SDWN)    0.0000                     
+
+(X_U1.SET1)    5.0000                 (X_U1.SYSCLK)    0.0000                   
+
+(X_U1.U1_OUT)    1.0000               (X_U1.U6_PWM)    0.0000                   
+
+(X_U1.93PDUTY)    1.0000              (X_U1.PWM_CLK)    0.0000                  
+
+(X_U1.U6_ISWF)    1.0400              (X_U1.VRAMPIN) 5.500E-09                  
+
+(X_U1.EN_LOGIC)    1.0000             (X_U1.FREQFOLD)    0.0000                 
+
+(X_U1.U6_ICTRL)     .7266             (X_U1.N16528816)    1.0000                
+
+(X_U1.PWM_FINAL)    0.0000            (X_U1.COMP_CLAMP)     .7266               
+
+(X_U1.SS_COMPLETE)    0.0000          (X_U1.U1_N7335550)    1.0000              
+
+(X_U1.U8_N7375083)    1.0000          (X_U1.U8_N7375243)    0.0000              
+
+(X_U1.U1_EN_NOFILT)    1.0000         (X_U1.U1_N16498934)    2.5000             
+
+(X_U1.U1_N16499002)    -.1300         (X_U1.U1_N16499008)    -.1300             
+
+(X_U1.U1_N16501198)    0.0000         (X_U1.U1_N16543038)    0.0000             
+
+(X_U1.U4_N16500284)    2.5000         (X_U1.U4_N16641529)    0.0000             
+
+(X_U1.U4_N16641535)    0.0000         (X_U1.U4_N16643634)     .7158             
+
+(X_U1.U6_N16543632)    1.0000         (X_U1.U6_N16571205)    1.0000             
+
+(X_U1.U6_N16573109) 49.98E-09         (X_U1.U6_N16573389)    1.0000             
+
+(X_U1.U6_N16621496)    0.0000         (X_U1.U6_N16621608) 133.2E-24             
+
+(X_U1.U6_N16625550)    0.0000         (X_U1.U7_N16489522)    0.0000             
+
+(X_U1.U7_N16497188)    1.0000         (X_U1.U8_N16776274)    0.0000             
+
+(X_U1.U8_N16776535)    5.0000         (X_U1.X_U1_U5.Yint)    1.0000             
+
+(X_U1.U1_N165403951)    2.5000        (X_U1.U7_INDELAYED1) 146.3E-30            
+
+(X_U1.X_U6_U603.MY5)    5.0000        (X_U1.X_U6_U603.Qbr)    1.0000            
+
+(X_U1.X_U6_U603.Qqq)    -.0100        (X_U1.X_U1_U601.YINT)    0.0000           
+
+(X_U1.X_U1_U604.YINT)    0.0000       (X_U1.X_U1_U605.YINT)    0.0000           
+
+(X_U1.X_U1_U606.YINT)    1.0000       (X_U1.X_U6_U600.Yint)    0.0000           
+
+(X_U1.X_U6_U603.Qint)    -.0100       (X_U1.X_U6_U604.YINT)    0.0000           
+
+(X_U1.X_U6_U605.YINT)    1.0000       (X_U1.X_U6_U606.YINT)    1.0000           
+
+(X_U1.X_U7_U823.YINT)    0.0000       (X_U1.X_U7_U824.YINT)    0.0000           
+
+(X_U1.X_U8_U604.YINT)    0.0000       (X_U1.X_U8_U613.YINT)    1.0000           
+
+(X_U1.erroramp_CLIMIT)    1.2000      (X_U1.Oscillator_RAMP) 6.139E-09          
+
+(X_U1.X_U6_U603.Qqqd1)    0.0000      (X_U1.X_U7_U822.YINT1)    0.0000          
+
+(X_U1.X_U7_U822.YINT2)    0.0000      (X_U1.X_U7_U822.YINT3)    1.0000          
+
+(X_U1.X_U6_U603.CLKdel)    1.0000     (X_U1.X_U6_U603.CLKint)    0.0000         
+
+(X_U1.erroramp_EA_CLAMP)    1.2000    (X_U1.erroramp_ENVELOPE) 3.383E-09        
+
+(X_U1.erroramp_N7417324) 3.383E-09    (X_U1.X_U6_U603.X2.YINT)    0.0000        
+
+(X_U1.erroramp_N16596104) 473.4E+03   (X_U1.erroramp_N16598605) 473.4E+03       
+
+(X_U1.erroramp_N16599495)     .0021   (X_U1.erroramp_N16599751)     .0021       
+
+(X_U1.erroramp_N16600984) 5.500E-09   (X_U1.erroramp_N16608201)    5.3000       
+
+(X_U1.erroramp_N16769397)    0.0000   (X_U1.erroramp_N16769403)    0.0000       
+
+(X_U1.erroramp_N16774706)     .8150   (X_U1.erroramp_N16806362)     .8045       
+
+(X_U1.erroramp_N16916769)     .9000   (X_U1.erroramp_N16916795)    1.0000       
+
+(X_U1.erroramp_N16916816)     .8000   (X_U1.erroramp_N16916848)    0.0000       
+
+(X_U1.erroramp_N16939349)    1.2290   (X_U1.X_U6_U603.X1.YINT1)    0.0000       
+
+(X_U1.X_U6_U603.X1.YINT2)    0.0000   (X_U1.X_U6_U603.X1.YINT3)    1.0000       
+
+(X_U1.X_U6_U603.X3.YINT1)    0.0000   (X_U1.X_U6_U603.X3.YINT2)    0.0000       
+
+(X_U1.X_U6_U603.X3.YINT3)    0.0000   (X_U1.erroramp_N166144691)    1.2000      
+
+(X_U1.X_erroramp_U15.Yint)    1.0000  (X_U1.X_erroramp_U16.Yint)    0.0000      
+
+(X_U1.X_erroramp_U17.YINT)    0.0000  (X_U1.Oscillator_N16675967)    0.0000     
+
+(X_U1.Oscillator_N16676047)    0.0000 (X_U1.Oscillator_N16676051)    2.0000     
+
+(X_U1.Oscillator_N16676171)    1.2290 (X_U1.Oscillator_N16676357)    5.0000     
+
+(X_U1.Oscillator_N16676387)    0.0000 (X_U1.Oscillator_N16681582)    1.8600     
+
+(X_U1.Oscillator_N16685472)    1.0000 (X_U1.Oscillator_N16698011)    0.0000     
+
+(X_U1.Oscillator_N16699552) 3.069E-09 (X_U1.X_Oscillator_U119.Yint)    1.0000   
+
+(X_U1.X_Oscillator_U131.Yint)    0.0000                                         
+
+(X_U1.X_Oscillator_U134.YINT)    0.0000                                         
+
+(X_U1.X_Oscillator_U697.YINT)    1.0000                                         
+
+(X_U1.X_Oscillator_U135.YINT1)    0.0000                                        
+
+(X_U1.X_Oscillator_U135.YINT2)    0.0000                                        
+
+(X_U1.X_Oscillator_U135.YINT3)    0.0000                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.406E-06
+    X_U1.V_erroramp_V6   0.000E+00
+    X_U1.V_erroramp_V7   0.000E+00
+    X_U1.V_erroramp_V2   0.000E+00
+    X_U1.V_erroramp_V5   0.000E+00
+    X_U1.V_erroramp_V1  -4.575E-12
+    X_U1.V_Oscillator_V48   0.000E+00
+    X_U1.V_Oscillator_V46   0.000E+00
+    X_U1.V_Oscillator_V44  -6.145E-06
+    X_U1.V_Oscillator_V45  -6.145E-06
+    X_U1.V_U6_V1   0.000E+00
+    X_U1.V_U4_V64  -6.000E-06
+    X_U1.X_Oscillator_F1.VF_Oscillator_F1  -6.145E-06
+    X_U1.X_Oscillator_F2.VF_Oscillator_F2   3.069E-06
+    X_U1.X_Oscillator_H1.VH_Oscillator_H1   6.145E-06
+    X_U1.X_U8_H1.VH_U8_H1   1.429E-07
+    X_U1.X_U6_U603.V1  -5.011E-12
+
+    TOTAL POWER DISSIPATION   8.03E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/13/26 21:38:14 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS55330-TPS55330-tran"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\tps55330\tps55330-tran.sim
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       78.44
+
