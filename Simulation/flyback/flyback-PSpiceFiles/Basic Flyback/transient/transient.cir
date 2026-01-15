@@ -6,15 +6,19 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 100m 0 
+.TRAN  0 30m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.OPTIONS THREADS= 1
+.PROBE64 N([N14510])
+.PROBE64 W(X_U1)
+.PROBE64 N([N14585])
 .INC "..\Basic Flyback.net" 
 
 

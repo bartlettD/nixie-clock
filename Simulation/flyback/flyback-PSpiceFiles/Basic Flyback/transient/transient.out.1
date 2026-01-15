@@ -1,5 +1,5 @@
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/15/26 22:59:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
@@ -28,9 +28,7 @@
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .OPTIONS THREADS= 1
-.PROBE64 N([N14510])
-.PROBE64 W(X_U1)
-.PROBE64 N([N14585])
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\Basic Flyback.net" 
 
 
@@ -56,7 +54,7 @@ X_U1         N14585 N18352 0 DMT6030LFCL
 **** RESUMING transient.cir ****
 .END
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/15/26 22:59:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
@@ -80,7 +78,7 @@ X_U1         N14585 N18352 0 DMT6030LFCL
          XTI                    0                            
 
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/15/26 22:59:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
@@ -127,49 +125,14 @@ X_U1         N14585 N18352 0 DMT6030LFCL
          VDD    5            
        XPART    0            
 
-
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+INFO(ORPSIM-16627): The following imported models were detected in the design: X_U1.DCGD(dmt6030lfcl.lib), X_U1.DLIM(dmt6030lfcl.lib), X_U1.DSUB(dmt6030lfcl.lib), X_U1.NMOS(dmt6030lfcl.lib)
 
-
- ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+ERROR(ORPSIM-16583): More than one imported model containing transistors or diodes is detected. To simulate this circuit, a minimum of 1 and a maximum of 4 traces are required. Reduce the number of traces and simulate again.
 
 
-******************************************************************************
-
-
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(N14510) 958.4E-30 (N14585)    5.0000 (N14849)    0.0000 (N15366)    5.0000     
-
-(N15373)    5.0000 (N15460)    0.0000 (N15537)    0.0000 (N18048)    5.0000     
-
-(N18352) 10.01E-12 (X_U1.1)    5.0000 (X_U1.2) 23.92E-12 (X_U1.3) 166.0E-15     
-
-(X_U1.12)   -5.0000                   (X_U1.13)-100.0E-06                       
-
-(X_U1.14)    0.0000                   (X_U1.15)   -4.9999                   
-
-
-
-
-    VOLTAGE SOURCE CURRENTS
-    NAME         CURRENT
-
-    V_V1        -1.670E-09
-    V_V2         1.001E-11
-    X_U1.VFB    -5.010E-12
-
-    TOTAL POWER DISSIPATION   8.35E-09  WATTS
-
-
-
-          JOB CONCLUDED
-
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+ABORTING SIMULATION
+**** 01/15/26 22:59:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
@@ -181,5 +144,52 @@ X_U1         N14585 N18352 0 DMT6030LFCL
 
 
 
-  Total job time (using Solver 1)   =       29.11
+Node counts:
+  Top level (NUNODS)                =          10
+  External (NCNODS)                 =          17
+  Total (NUMNOD)                    =          19
+
+Total device count (NUMEL)          =          31
+  Capacitors (C)                    =           4
+  Diodes (D)                        =           5
+  VCVS (E)                          =           1
+  CCCS (F)                          =           1
+  Couplings (K)                     =           2
+  Inductors (L)                     =           2
+  MosFETs (M)                       =           1
+  Resistors (R)                     =          10
+  Voltage Sources (V)               =           3
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          25
+  Initial no. elements (NTTAR)      =          74
+  No. elements w/ fillin (NTTBR)    =          74
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      88.160
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =         .16
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .03
+  Total job time (using Solver 1)   =         .17
 

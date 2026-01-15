@@ -1,6 +1,6 @@
 (ExpressProject "flyback"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/14/26]")
+  (SoftwareVersion "23.1-2024 S001-[01/15/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -19,6 +19,8 @@
       (File "C:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb"
         (DisplayName
            "C:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library"))
+      (File ".\dmt6030lfcl.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File "flyback.dsn"
@@ -45,7 +47,10 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Model Libraries"
-      (Sort User))
+      (Sort User)
+      (File ".\dmt6030lfcl.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\dmt6030lfcl.lib")))
     (Folder "Stimulus Files"
       (Sort User))
     (Folder "Include Files"
@@ -62,6 +67,16 @@
       (ActiveProfile ".\flyback-pspicefiles\basic flyback\transient.sim")))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (DMT6030LFCL
+      (FullPartName "DMT6030LFCL.Normal")
+      (LibraryName
+         "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\DMT6030LFCL.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName
@@ -99,11 +114,6 @@
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
       (DeviceIndex "0"))
-    (VDC
-      (FullPartName "VDC.Normal")
-      (LibraryName
-         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
     (K_Linear
       (FullPartName "K_Linear.Normal")
       (LibraryName
@@ -118,7 +128,8 @@
       (FullPartName "VSTIM.Normal")
       (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
       (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\dylan\nixie-clock\Simulation\flyback")
   (MPSSessionName "dylan")
   (Folder "Logs")
   (GlobalState
@@ -129,24 +140,28 @@
       (Path "Design Resources"
          "C:\Users\dylan\nixie-clock\Simulation\flyback\flyback.dsn"
          "Basic Flyback")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "C:\Users\dylan\nixie-clock\Simulation\flyback\flyback.dsn"
-         "Basic Flyback" "PAGE1"))
+      (Select "Design Resources" "Library"
+         "C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.olb"
+         "DMT6030LFCL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 772"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 431 0 772"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 790")
-        (Scroll "-130 -7")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1443 24 790")
+        (Scroll "-4 93")
+        (Zoom "144")
         (Occurrence "/"))
       (Path "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\FLYBACK.DSN")
       (Schematic "Basic Flyback")
