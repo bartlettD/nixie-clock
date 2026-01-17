@@ -1,6 +1,6 @@
-** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.sim ] 
+** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
-** Creating circuit file "transient.cir" 
+** Creating circuit file "TPS40210.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -14,14 +14,13 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 10m 0 
+.TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.OPTIONS THREADS= 1
-.PROBE64 N([N14585])
-.PROBE64 N([N21270])
-.PROBE64 N([N14512])
-.INC "..\Basic Flyback.net" 
+.PROBE64 N([N22393])
+.PROBE64 N([N22705])
+.PROBE64 I1(X_U2)
+.INC "..\TPS40210.net" 
 
 
 .END

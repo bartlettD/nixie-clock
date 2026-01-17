@@ -1,7 +1,7 @@
-
-**** 01/17/26 17:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+**** 01/17/26 18:56:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Basic Flyback-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-PSpiceFiles\Basic Flyback\TPS40210.sim
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "transient.cir" 
+** Creating circuit file "TPS40210.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -58,12 +58,12 @@ D_D2         N14585 N21671 BAS70
 X_D3         N17933 N21671 Zener_parameterized PARAMS: VZT=25 RSF=100m
 L_L3         N21940 N21270  6u  
 
-**** RESUMING transient.cir ****
+**** RESUMING TPS40210.cir ****
 .END
 
-**** 01/17/26 17:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 18:56:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-PSpiceFiles\Basic Flyback\TPS40210.sim
 
 
  ****     Diode MODEL PARAMETERS
@@ -91,9 +91,9 @@ L_L3         N21940 N21270  6u
         TIKF     .1                                                          
 
 
-**** 01/17/26 17:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 18:56:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-PSpiceFiles\Basic Flyback\TPS40210.sim
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -145,9 +145,9 @@ ERROR(ORPSIM-16583): More than one imported model containing transistors or diod
 
 
 ABORTING SIMULATION
-**** 01/17/26 17:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 18:56:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-PSpiceFiles\Basic Flyback\TPS40210.sim
 
 
  ****     JOB STATISTICS SUMMARY
@@ -195,8 +195,8 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =         .17
-  General setup                     =         .03
+  Readin                            =         .16
+  General setup                     =        2.88
   CMI setup                     =        0.00
   Setup                             =        0.00
   DC sweep                          =        0.00               0
@@ -204,6 +204,6 @@ Runtime statistics:                       Seconds      Iterations
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .03
-  Total job time (using Solver 1)   =         .20
+  Overhead                          =         .05
+  Total job time (using Solver 1)   =        3.25
 

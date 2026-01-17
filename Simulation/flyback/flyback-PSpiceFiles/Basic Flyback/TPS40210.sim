@@ -2,12 +2,12 @@
 
 @Settings: 0 1
 @General:
-ProfileName= "transient" 
-ProfileFile= "transient.sim" 
+ProfileName= "TPS40210" 
+ProfileFile= "TPS40210.sim" 
 Connectivity= "Basic Flyback.net" 
-NetlistFile= "transient.cir" 
-DataFile= "transient.dat" 
-OutFile= "transient.out" 
+NetlistFile= "TPS40210.cir" 
+DataFile= "TPS40210.dat" 
+OutFile= "TPS40210.out" 
 Notes=
 @#$BEGINNOTES
 @#$ENDNOTES

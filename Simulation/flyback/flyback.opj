@@ -1,6 +1,6 @@
 (ExpressProject "flyback"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/15/26]")
+  (SoftwareVersion "23.1-2024 S001-[01/17/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -21,6 +21,10 @@
            "C:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb")
         (Type "Schematic Library"))
       (File ".\dmt6030lfcl.olb"
+        (Type "Schematic Library"))
+      (File ".\p_se50paj.olb"
+        (Type "Schematic Library"))
+      (File ".\sbr1u400p1.spice.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File "flyback.dsn"
@@ -44,10 +48,18 @@
     (File ".\flyback-pspicefiles\basic flyback\basic flyback.net"
       (Type "Report"))
     (File ".\flyback-pspicefiles\tps55330\tps55330.net"
+      (Type "Report"))
+    (File ".\flyback-pspicefiles\tps40210\tps40210.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Model Libraries"
       (Sort User)
+      (File ".\SBR1U400P1.spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\SBR1U400P1.spice.lib"))
+      (File ".\p_se50paj.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\p_se50paj.lib"))
       (File ".\dmt6030lfcl.lib"
         (Type "PSpiceLibrary")
         (DisplayName ".\dmt6030lfcl.lib")))
@@ -64,9 +76,67 @@
          ".\flyback-pspicefiles\tps55330\tps55330-tran.sim"
         (DisplayName "TPS55330-TPS55330-tran")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\flyback-pspicefiles\basic flyback\transient.sim")))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flyback-pspicefiles\basic flyback\tps40210.sim"
+        (DisplayName "Basic Flyback-TPS40210")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\flyback-pspicefiles\tps40210\tps40210.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flyback-pspicefiles\tps40210\tps40210.sim"
+        (DisplayName "TPS40210-TPS40210")
+        (Type "PSpice Profile"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (TPS40210
+      (FullPartName "TPS40210.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS40210AVG.OLB")
+      (DeviceIndex "0"))
+    (TPS40210DRC_TRANS
+      (FullPartName "TPS40210DRCR.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS40210DRC_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS40210-Q1_TRANS
+      (FullPartName "TPS40210-Q1_TRANS.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS40210-Q1_TRANS.OLB")
+      (DeviceIndex "0"))
+    (Zener_P
+      (FullPartName "Zener_P.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (BAS70
+      (FullPartName "BAS70.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\CDN_PSP_TIPSPICE.OLB")
+      (DeviceIndex "0"))
+    (DbreakZ
+      (FullPartName "DbreakZ.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (SBR1U400P1
+      (FullPartName "SBR1U400P1.Normal")
+      (LibraryName
+         "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\SBR1U400P1.SPICE.OLB")
+      (DeviceIndex "0"))
+    (SE50PAJ
+      (FullPartName "SE50PAJ.Normal")
+      (LibraryName
+         "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\P_SE50PAJ.OLB")
+      (DeviceIndex "0"))
     (DMT6030LFCL
       (FullPartName "DMT6030LFCL.Normal")
       (LibraryName
@@ -87,17 +157,9 @@
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (TPS55330_TRANS
       (FullPartName "TPS55330_TRANS.Normal")
       (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\TPS55330_TRANS.OLB")
-      (DeviceIndex "0"))
-    (VPULSE
-      (FullPartName "VPULSE.Normal")
-      (LibraryName
-         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (S
       (FullPartName "S.Normal")
@@ -136,33 +198,37 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\dylan\nixie-clock\Simulation\flyback\flyback.dsn")
+         "c:\users\dylan\nixie-clock\simulation\flyback\flyback.dsn")
       (Path "Design Resources"
-         "C:\Users\dylan\nixie-clock\Simulation\flyback\flyback.dsn"
+         "c:\users\dylan\nixie-clock\simulation\flyback\flyback.dsn" "TPS40210")
+      (Path "Design Resources"
+         "c:\users\dylan\nixie-clock\simulation\flyback\flyback.dsn"
          "Basic Flyback")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.olb")
+         "c:\users\dylan\nixie-clock\simulation\flyback\p_se50paj.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\dylan\nixie-clock\simulation\flyback\sbr1u400p1.spice.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources" "Library"
-         "C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.olb"
-         "DMT6030LFCL"))
+      (Select "Design Resources"
+         "c:\users\dylan\nixie-clock\simulation\flyback\flyback.dsn" "TPS40210"
+         "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 431 0 772"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 772"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1443 24 790")
-        (Scroll "-4 93")
-        (Zoom "144")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1268 24 790")
+        (Scroll "-111 0")
+        (Zoom "104")
         (Occurrence "/"))
       (Path "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\FLYBACK.DSN")
-      (Schematic "Basic Flyback")
+      (Schematic "TPS40210")
       (Page "PAGE1"))))

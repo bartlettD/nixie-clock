@@ -1,0 +1,330 @@
+
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TPS40210.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../SBR1U400P1.spice.lib" 
+.LIB "../../../p_se50paj.lib" 
+.LIB "../../../dmt6030lfcl.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\TPS40210.net" 
+
+
+
+**** INCLUDING TPS40210.net ****
+* source FLYBACK
+X_D3         N22461 N22631 Zener_parameterized PARAMS: VZT=25 RSF=100m
+R_R5         N22801 N22795  1 TC=0,0 
+R_R8         N23545 N22461  150k TC=0,0 
+D_D1         N22377 N22393 SBR1U400P1 
+R_R9         N23944 N22393  1Meg TC=0,0 
+C_C4         0 N23087  1u  TC=0,0 
+R_R1         0 N22393  9k TC=0,0 
+C_C5         N23433 0  20n  TC=0,0 
+L_L1         N22615 N22705  2.34u  
+R_R10         0 N23944  3.9k TC=0,0 
+R_R6         N22387 N22377  800 TC=0,0 
+L_L2         0 N22637  150u  
+R_R2         N22615 N22461  0.013 TC=0,0 
+X_U2         N22705 N22801 N22959 DMT6030LFCL
+R_R7         N22959 0  3m TC=0,0 
+R_R3         N22637 N22473  0.818 TC=0,0 
+C_C1         0 N22393  100n  TC=0,0 
+X_U1         0 N22461 N23545 N23944 N23433 N22795 N23087 N24507 0 N22985 0
++  TPS40210-Q1_TRANS
+Kn_K1         L_L1 L_L2     1
+C_C3         N22393 N22387  30p  TC=0,0 
+C_C6         0 N23545  470p  TC=0,0 
+D_D2         N22705 N22631 BAS70 
+L_L3         N22473 N22377  6u  
+R_R11         N23944 N24514  150k TC=0,0 
+C_C7         N24507 N24514  3n  TC=0,0 
+V_V2         N22461 0  
++PWL 0 0 200u 5 
+R_R12         N22959 N22985  1k TC=0,0 
+C_C8         N22985 0  150p  TC=0,0 
+
+**** RESUMING TPS40210.cir ****
+.END
+
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SBR1U400P1      X_U2.DCGD       X_U2.DSUB       X_U2.DLIM       
+          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
+           N    1.25                            1.33                         
+         ISR   20.000000E-09                                                 
+         IKF  510.000000E-06                                                 
+          BV  401                              64.03                         
+         IBV   50.000000E-06                                                 
+          RS     .05                            7.661000E-03                 
+          TT   85.000000E-09                                                 
+         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
+          VJ     .41             .8              .9                          
+           M     .41             .7595           .3                          
+          EG     .75                                                         
+         XTI                                    0                            
+        TIKF     .1                                                          
+
+
+               X_U1.XU3.XD2.DD X_U1.XU9.XU8.DCLAMP 
+          IS    1.000000E-15   10.000000E-15 
+           N     .5                          
+          BV                   10            
+         IBV                     .01         
+          RS                   10            
+          TT   10.000000E-12                 
+         CJO    1.000000E-12                 
+
+
+               X_U1.XU9.XU8.DMOD 
+          IS   10.000000E-15 
+          TT    1.000000E-09 
+         CJO   10.000000E-12 
+
+
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.XU9.XU8.QPMOD 
+               PNP             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  100            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.NMOS       
+               NMOS            
+       LEVEL    3            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1.812        
+          KP   29            
+       GAMMA     .527625     
+         PHI     .576325     
+      LAMBDA    0            
+          IS    0            
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ  101.851000E-06 
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+        NSUB    1.000000E+15 
+         TOX  100.000000E-09 
+          XJ    0            
+       UCRIT   10.000000E+03 
+        VMAX  100.000000E+03 
+         ETA    0            
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0  400            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.S_VSWITCH_1 
+         RON    1.000000E+09 
+        ROFF    5            
+         VON    3            
+        VOFF    1            
+
+
+               X_U1.S_VSWITCH_2 
+         RON    5            
+        ROFF    1.000000E+09 
+         VON    3            
+        VOFF    1            
+
+
+               X_U1.S_VSWITCH_3 
+         RON    1.000000E+09 
+        ROFF   10            
+         VON    2.5          
+        VOFF    0            
+
+
+               X_U1.XU3.S_VSWITCH_1 
+         RON  500.000000E+03 
+        ROFF    1.000000E+09 
+         VON    3            
+        VOFF    1            
+
+
+               X_U1.XU3.S_VSWITCH_2 
+         RON    1.500000E+06 
+        ROFF    1.000000E+09 
+         VON    3            
+        VOFF    1            
+
+
+               X_U1.XU10.S_VSWITCH_1 
+         RON    1            
+        ROFF    1.000000E+09 
+         VON    3            
+        VOFF    1            
+
+
+INFO(ORPSIM-16627): The following imported models were detected in the design: SBR1U400P1(SBR1U400P1.spice.lib), X_U2.DCGD(dmt6030lfcl.lib), X_U2.DLIM(dmt6030lfcl.lib), X_U2.DSUB(dmt6030lfcl.lib), X_U2.NMOS(dmt6030lfcl.lib)
+
+ERROR(ORPSIM-16583): More than one imported model containing transistors or diodes is detected. To simulate this circuit, a minimum of 1 and a maximum of 4 traces are required. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          20
+  External (NCNODS)                 =         117
+  Total (NUMNOD)                    =         122
+
+Total device count (NUMEL)          =         226
+  Capacitors (C)                    =          52
+  Diodes (D)                        =          10
+  VCVS (E)                          =          41
+  CCCS (F)                          =           1
+  VCCS (G)                          =           4
+  Current Sources (I)               =           2
+  Couplings (K)                     =           2
+  Inductors (L)                     =           3
+  MosFETs (M)                       =           1
+  BJTs (Q)                          =           1
+  Resistors (R)                     =          93
+  VSwitches (S)                     =           6
+  Voltage Sources (V)               =           7
+
+Number of subcircuits (X)           =          36
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         174
+  Initial no. elements (NTTAR)      =         492
+  No. elements w/ fillin (NTTBR)    =         492
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      98.375
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =         .20
+  General setup                     =         .03
+  CMI setup                     =        0.00
+  Setup                             =         .02
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .03
+  Total job time (using Solver 1)   =         .24
+

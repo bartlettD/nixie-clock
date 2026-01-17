@@ -1,7 +1,7 @@
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 17:28:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,19 +18,21 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../SBR1U400P1.spice.lib" 
+.LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 30m 0 
+.TRAN  0 10m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .OPTIONS THREADS= 1
-.PROBE64 N([N14510])
-.PROBE64 W(X_U1)
 .PROBE64 N([N14585])
+.PROBE64 N([N21270])
+.PROBE64 N([N14512])
 .INC "..\Basic Flyback.net" 
 
 
@@ -41,24 +43,29 @@ L_L1         N15373 N14585  2.34u
 L_L2         0 N15537  150u  
 Kn_K1         L_L1 L_L2     1
 V_V1         N18048 0 5Vdc
-C_C1         0 N14510  1u  TC=0,0 
-D_D1         N15460 N14510 Dbreak 
+C_C1         0 N14512  100n  TC=0,0 
 V_V2         N14849 0  
 +PULSE 0 5 0 10n 10n 1.64u 4u
-R_R1         0 N14510  9k TC=0,0 
-R_R2         N15373 N15366  0.013 TC=0,0 
-R_R3         N15537 N15460  0.818 TC=0,0 
-C_C2         0 N15366  10u  TC=0,0 
-R_R4         N15366 N18048  10m TC=0,0 
+R_R1         0 N14512  9k TC=0,0 
+R_R2         N15373 N17933  0.013 TC=0,0 
+R_R3         N15537 N21940  0.818 TC=0,0 
+C_C2         0 N17933  10u  TC=0,0 
+R_R4         N17933 N18048  10m TC=0,0 
 R_R5         N18352 N14849  1 TC=0,0 
 X_U1         N14585 N18352 0 DMT6030LFCL
+D_D1         N21270 N14512 SBR1U400P1 
+C_C3         N14512 N21266  30p  TC=0,0 
+R_R6         N21266 N21270  800 TC=0,0 
+D_D2         N14585 N21671 BAS70 
+X_D3         N17933 N21671 Zener_parameterized PARAMS: VZT=25 RSF=100m
+L_L3         N21940 N21270  6u  
 
 **** RESUMING transient.cir ****
 .END
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 17:28:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
 
  ****     Diode MODEL PARAMETERS
@@ -69,20 +76,26 @@ X_U1         N14585 N18352 0 DMT6030LFCL
 
 
 
-               X_U1.DCGD       X_U1.DSUB       X_U1.DLIM       
-          IS   10.000000E-15    1.650000E-09  100.000000E-06 
-           N                    1.33                         
-          BV                   64.03                         
-          RS                    7.661000E-03                 
-         CJO  150.200000E-12  300.000000E-12                 
-          VJ     .8              .9                          
-           M     .7595           .3                          
-         XTI                    0                            
+               SBR1U400P1      X_U1.DCGD       X_U1.DSUB       X_U1.DLIM       
+          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
+           N    1.25                            1.33                         
+         ISR   20.000000E-09                                                 
+         IKF  510.000000E-06                                                 
+          BV  401                              64.03                         
+         IBV   50.000000E-06                                                 
+          RS     .05                            7.661000E-03                 
+          TT   85.000000E-09                                                 
+         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
+          VJ     .41             .8              .9                          
+           M     .41             .7595           .3                          
+          EG     .75                                                         
+         XTI                                    0                            
+        TIKF     .1                                                          
 
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 17:28:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -128,9 +141,9 @@ X_U1         N14585 N18352 0 DMT6030LFCL
        XPART    0            
 
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 17:28:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -143,15 +156,19 @@ X_U1         N14585 N18352 0 DMT6030LFCL
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N14510) 958.4E-30 (N14585)    5.0000 (N14849)    0.0000 (N15366)    5.0000     
+(N14512) 28.80E-21 (N14585)    5.0000 (N14849)    0.0000 (N15373)    5.0000     
 
-(N15373)    5.0000 (N15460)    0.0000 (N15537)    0.0000 (N18048)    5.0000     
+(N15537)    0.0000 (N17933)    5.0000 (N18048)    5.0000 (N18352) 10.01E-12     
 
-(N18352) 10.01E-12 (X_U1.1)    5.0000 (X_U1.2) 23.92E-12 (X_U1.3) 166.0E-15     
+(N21266)-2.617E-24 (N21270)-2.617E-24 (N21671)    5.0000 (N21940)-2.617E-24     
 
-(X_U1.12)   -5.0000                   (X_U1.13)-100.0E-06                       
+(X_D3.1)  -19.5050 (X_D3.3)   24.5050 (X_D3.9)    5.0000 (X_U1.1)    5.0000     
 
-(X_U1.14)    0.0000                   (X_U1.15)   -4.9999                   
+(X_U1.2) 23.92E-12 (X_U1.3) 166.0E-15 (X_U1.12)   -5.0000                       
+
+(X_U1.13)-100.0E-06                   (X_U1.14)    0.0000                       
+
+(X_U1.15)   -4.9999                   
 
 
 
@@ -166,12 +183,11 @@ X_U1         N14585 N18352 0 DMT6030LFCL
     TOTAL POWER DISSIPATION   8.35E-09  WATTS
 
 
-
-          JOB CONCLUDED
+          JOB ABORTED
 
-**** 01/15/26 23:04:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/17/26 17:28:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "Basic Flyback-transient"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
+ ** Profile: "Basic Flyback-transient"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\basic flyback\transient.s
 
 
  ****     JOB STATISTICS SUMMARY
@@ -181,5 +197,5 @@ X_U1         N14585 N18352 0 DMT6030LFCL
 
 
 
-  Total job time (using Solver 1)   =       29.11
+  Total job time (using Solver 1)   =        9.72
 

@@ -1,0 +1,33 @@
+*************************************************
+* Copyright 2020 © Vishay Intertechnology, Inc. *
+* All rights reserved.                          *
+*************************************************
+*Sep 3, 2021
+*DD Vishay semiconduttori italiana SPA
+*davide.dapra@vishay.com
+*File Name: SE50PAJ.txt
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+
+
+*Model fit device from 25°C to 150°C
+*DEVICE=SE50PAJ,D
+
+**************************************************** 
+
+.MODEL SE50PAJ D
++ IS=10.450E-9
++ N=1.7700
++ RS=16.835E-3
++ IKF=4.1047
++ CJO=75.708E-12
++ M=.39532
++ VJ=.48779
++ ISR=599.64E-9
++ NR=4.9950
++ XTI=2.012
++ BV=670
++ IBV=0.35
++ TT=4.9326E-6

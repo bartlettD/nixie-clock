@@ -1,0 +1,7 @@
+STATUS: PSpice Schematics to Capture translator (23.1.0.d001)
+STATUS:  
+STATUS: Translator started at Saturday, January 17, 2026 16:08:31
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\PSpiceTI\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\dylan\nixie-clock\Simulation\flyback\SBR1U400P1.spice.olb'.
+STATUS: Translator stopped at Saturday, January 17, 2026 16:08:38
+STATUS: 0 Error messages, 0 Warning messages

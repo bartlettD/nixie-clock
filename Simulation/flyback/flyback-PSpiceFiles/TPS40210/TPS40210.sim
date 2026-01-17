@@ -2,19 +2,19 @@
 
 @Settings: 0 1
 @General:
-ProfileName= "transient" 
-ProfileFile= "transient.sim" 
-Connectivity= "Basic Flyback.net" 
-NetlistFile= "transient.cir" 
-DataFile= "transient.dat" 
-OutFile= "transient.out" 
+ProfileName= "TPS40210" 
+ProfileFile= "tps40210.sim" 
+Connectivity= "TPS40210.net" 
+NetlistFile= "TPS40210.cir" 
+DataFile= "TPS40210.dat" 
+OutFile= "TPS40210.out" 
 Notes=
 @#$BEGINNOTES
 @#$ENDNOTES
 @End General
 @Analysis: 0 1
 +0 0 0 0 
-+0 "10m" 
++0 "5m" 
 +1 "" 
 +2 "0" 
 +3 "" 
@@ -110,7 +110,6 @@ SaveFile 0 ""
 @End Analysis
 @Analysis: 11 1
 + 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
-+ THREADS "1"
 + 0 0 0 0 0 0 0 0 0
 @End Analysis
 @Analysis: 12 0
