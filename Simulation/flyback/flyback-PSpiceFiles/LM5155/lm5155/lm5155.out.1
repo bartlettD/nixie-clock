@@ -1,0 +1,322 @@
+
+**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lm5155.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../SBR1U400P1.spice.lib" 
+.LIB "../../../p_se50paj.lib" 
+.LIB "../../../dmt6030lfcl.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\LM5155.net" 
+
+
+
+**** INCLUDING LM5155.net ****
+* source FLYBACK
+R_R15         N29813 N27600  100k TC=0,0 
+D_D1         N27756 N27760 SBR1U400P1 
+R_R2         N27898 N27600  0.013 TC=0,0 
+C_C1         0 N27884  1u  TC=0,0 
+X_U2         N28164 N28286 N28334 DMT6030LFCL
+X_U3         0 N27600 N30377 N28334 0 N28376 N28280 0 N29813 N29363 N30195
++  N30014 N27600 LM5155-Q1_TRANS PARAMS: SS=0 FAST_HICCUP=1 LM51551=0
+R_R3         N27904 N27750  0.818 TC=0,0 
+Kn_K1         L_L1 L_L2     1
+L_L3         N27750 N27756  6u  
+R_R14         N29363 0  87k TC=0,0 
+V_V2         N27600 0  
++PWL 0 0 200u 5 
+C_C9         0 N27600  1u  TC=0,0 
+R_R13         N27884 N27760  10m TC=0,0 
+L_L1         N27898 N28164  2.34u  
+C_C11         N30373 0  1.6n  TC=0,0 
+R_R7         N28334 0  2m TC=0,0 
+R_R16         N27600 N30014  100k TC=0,0 
+R_R18         N30377 N30373  10k TC=0,0 
+R_R5         N28286 N28280  1 TC=0,0 
+L_L2         0 N27904  150u  
+C_C10         N30195 0  30n  TC=0,0 
+R_R17         N30014 0  100k TC=0,0 
+R_R10         0 N28376  5.7k TC=0,0 
+R_R9         N28376 N27760  1Meg TC=0,0 
+R_R19         0 N27760  9k TC=0,0 
+
+**** RESUMING lm5155.cir ****
+.END
+
+**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SBR1U400P1      X_U2.DCGD       X_U2.DSUB       X_U2.DLIM       
+          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
+           N    1.25                            1.33                         
+         ISR   20.000000E-09                                                 
+         IKF  510.000000E-06                                                 
+          BV  401                              64.03                         
+         IBV   50.000000E-06                                                 
+          RS     .05                            7.661000E-03                 
+          TT   85.000000E-09                                                 
+         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
+          VJ     .41             .8              .9                          
+           M     .41             .7595           .3                          
+          EG     .75                                                         
+         XTI                                    0                            
+        TIKF     .1                                                          
+
+
+               D_D1            X_U3.X_U7_U11.D_D1 
+          IS    1.000000E-15    1.000000E-15 
+           N     .1              .01         
+          RS     .05             .05         
+          TT   10.000000E-12   10.000000E-12 
+
+
+               X_U3.X_U4_U2.D_Dosc 
+          IS    1.000000E-15 
+           N     .1          
+          RS     .01         
+          TT   10.000000E-12 
+
+
+               X_U3.X_U11_U6.D_D1              D_Dsoftstart    
+          IS    1.000000E-15                    1.000000E-15 
+           N     .1                              .1          
+          RS    5.000000E-03                     .5          
+          TT   10.000000E-12                   10.000000E-12 
+
+
+               X_U3.X_U7_U5.X_U20.dd1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U3.X_U7_U5.X_U19.dd1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.NMOS       
+               NMOS            
+       LEVEL    3            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1.812        
+          KP   29            
+       GAMMA     .527625     
+         PHI     .576325     
+      LAMBDA    0            
+          IS    0            
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ  101.851000E-06 
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+        NSUB    1.000000E+15 
+         TOX  100.000000E-09 
+          XJ    0            
+       UCRIT   10.000000E+03 
+        VMAX  100.000000E+03 
+         ETA    0            
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0  400            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.X_U7_U8.S1 X_U3.X_U3_S1._U3_S1 
+         RON    1               1.000000E-03 
+        ROFF    1.000000E+09  100.000000E+06 
+         VON     .75             .8          
+        VOFF     .25             .2          
+
+
+               X_U3.X_U3_S2._U3_S2 
+         RON    1.000000E-03 
+        ROFF  100.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U4_S1._U4_S1             X_U3.X_U5_U7.S1 
+         RON     .1                             1            
+        ROFF  100.000000E+09                    1.000000E+09 
+         VON     .75                             .75         
+        VOFF     .25                             .25         
+
+
+               X_U3.X_U11_S1._U11_S1 
+         RON  100            
+        ROFF  100.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U6_S34._U6_S34 
+         RON    1.900000E-03 
+        ROFF    1.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U6_S35._U6_S35 
+         RON    4.100000E-03 
+        ROFF    1.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U2_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U4_U2.X_Sdisch._Sdisch 
+         RON     .1          
+        ROFF  100.000000E+09 
+         VON     .8          
+        VOFF     .2          
+
+
+INFO(ORPSIM-16627): The following imported models were detected in the design: SBR1U400P1(SBR1U400P1.spice.lib), X_U2.DCGD(dmt6030lfcl.lib), X_U2.DLIM(dmt6030lfcl.lib), X_U2.DSUB(dmt6030lfcl.lib), X_U2.NMOS(dmt6030lfcl.lib)
+
+ERROR(ORPSIM-16583): More than one imported model containing transistors or diodes is detected. To simulate this circuit, a minimum of 1 and a maximum of 4 traces are required. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          19
+  External (NCNODS)                 =         368
+  Total (NUMNOD)                    =         387
+
+Total device count (NUMEL)          =         568
+  Capacitors (C)                    =         142
+  Diodes (D)                        =          22
+  VCVS (E)                          =         167
+  CCCS (F)                          =           2
+  VCCS (G)                          =          10
+  CCVS (H)                          =           1
+  Current Sources (I)               =           4
+  Couplings (K)                     =           2
+  Inductors (L)                     =           3
+  MosFETs (M)                       =           1
+  Resistors (R)                     =         167
+  VSwitches (S)                     =          10
+  Voltage Sources (V)               =          34
+
+Number of subcircuits (X)           =         104
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         592
+  Initial no. elements (NTTAR)      =        1488
+  No. elements w/ fillin (NTTBR)    =        1488
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      99.575
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =         .83
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =         .02
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .08
+  Total job time (using Solver 1)   =         .84
+

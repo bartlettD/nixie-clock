@@ -1,5 +1,5 @@
-
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -36,41 +36,38 @@
 
 **** INCLUDING TPS40210.net ****
 * source FLYBACK
-X_D3         N22461 N22631 Zener_parameterized PARAMS: VZT=25 RSF=100m
 R_R5         N22801 N22795  1 TC=0,0 
-R_R8         N23545 N22461  150k TC=0,0 
-D_D1         N22377 N22393 SBR1U400P1 
-R_R9         N23944 N22393  1Meg TC=0,0 
+R_R8         N23545 N22465  150k TC=0,0 
+D_D1         N22479 N22487 SBR1U400P1 
+R_R9         N23944 N22487  1Meg TC=0,0 
 C_C4         0 N23087  1u  TC=0,0 
-R_R1         0 N22393  9k TC=0,0 
 C_C5         N23433 0  20n  TC=0,0 
-L_L1         N22615 N22705  2.34u  
+L_L1         N22615 N22709  2.34u  
 R_R10         0 N23944  3.9k TC=0,0 
-R_R6         N22387 N22377  800 TC=0,0 
 L_L2         0 N22637  150u  
-R_R2         N22615 N22461  0.013 TC=0,0 
-X_U2         N22705 N22801 N22959 DMT6030LFCL
+R_R2         N22615 N22465  0.013 TC=0,0 
+X_U2         N22709 N22801 N22959 DMT6030LFCL
 R_R7         N22959 0  3m TC=0,0 
 R_R3         N22637 N22473  0.818 TC=0,0 
-C_C1         0 N22393  100n  TC=0,0 
-X_U1         0 N22461 N23545 N23944 N23433 N22795 N23087 N24507 0 N22985 0
+C_C1         0 N26734  1u  TC=0,0 
+X_U1         0 N22465 N23545 N23944 N23433 N22795 N23087 N24507 0 N22985 0
 +  TPS40210-Q1_TRANS
 Kn_K1         L_L1 L_L2     1
-C_C3         N22393 N22387  30p  TC=0,0 
 C_C6         0 N23545  470p  TC=0,0 
-D_D2         N22705 N22631 BAS70 
-L_L3         N22473 N22377  6u  
+L_L3         N22473 N22479  6u  
 R_R11         N23944 N24514  150k TC=0,0 
 C_C7         N24507 N24514  3n  TC=0,0 
-V_V2         N22461 0  
+V_V2         N22465 0  
 +PWL 0 0 200u 5 
 R_R12         N22959 N22985  1k TC=0,0 
 C_C8         N22985 0  150p  TC=0,0 
+C_C9         0 N22465  1u  TC=0,0 
+R_R13         N26734 N22487  10m TC=0,0 
 
 **** RESUMING TPS40210.cir ****
 .END
 
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -116,7 +113,7 @@ C_C8         N22985 0  150p  TC=0,0
          CJO   10.000000E-12 
 
 
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -154,7 +151,7 @@ C_C8         N22985 0  150p  TC=0,0
            D     .52         
 
 
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -202,7 +199,7 @@ C_C8         N22985 0  150p  TC=0,0
        XPART    0            
 
 
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -263,7 +260,7 @@ ERROR(ORPSIM-16583): More than one imported model containing transistors or diod
 
 
 ABORTING SIMULATION
-**** 01/17/26 19:14:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:32 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -276,13 +273,13 @@ ABORTING SIMULATION
 
 
 Node counts:
-  Top level (NUNODS)                =          20
-  External (NCNODS)                 =         117
-  Total (NUMNOD)                    =         122
+  Top level (NUNODS)                =          19
+  External (NCNODS)                 =         113
+  Total (NUMNOD)                    =         116
 
-Total device count (NUMEL)          =         226
+Total device count (NUMEL)          =         224
   Capacitors (C)                    =          52
-  Diodes (D)                        =          10
+  Diodes (D)                        =           9
   VCVS (E)                          =          41
   CCCS (F)                          =           1
   VCCS (G)                          =           4
@@ -291,20 +288,20 @@ Total device count (NUMEL)          =         226
   Inductors (L)                     =           3
   MosFETs (M)                       =           1
   BJTs (Q)                          =           1
-  Resistors (R)                     =          93
+  Resistors (R)                     =          92
   VSwitches (S)                     =           6
   Voltage Sources (V)               =           7
 
-Number of subcircuits (X)           =          36
+Number of subcircuits (X)           =          35
 
 Matrix statistics:
-  Matrix size (NSTOP)               =         174
-  Initial no. elements (NTTAR)      =         492
-  No. elements w/ fillin (NTTBR)    =         492
+  Matrix size (NSTOP)               =         167
+  Initial no. elements (NTTAR)      =         465
+  No. elements w/ fillin (NTTBR)    =         465
   No. fillins (IFILL)               =           0
   No. overflows (NTTOV)             =           0
   No. LU operations (IOPS)          =           0
-  Percent sparsity (PERSPA)         =      98.375
+  Percent sparsity (PERSPA)         =      98.333
 
 Analysis statistics:
   No. total time points (NUMTTP)    =           0
@@ -316,15 +313,15 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =         .20
-  General setup                     =         .03
+  Readin                            =        1.13
+  General setup                     =        1.88
   CMI setup                     =        0.00
-  Setup                             =         .02
+  Setup                             =        0.00
   DC sweep                          =        0.00               0
   Bias point                        =        0.00               0
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .03
-  Total job time (using Solver 1)   =         .24
+  Overhead                          =         .08
+  Total job time (using Solver 1)   =        3.34
 

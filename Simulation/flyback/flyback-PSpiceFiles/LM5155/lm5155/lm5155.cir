@@ -1,6 +1,6 @@
-** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
+** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
-** Creating circuit file "TPS40210.cir" 
+** Creating circuit file "lm5155.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -17,10 +17,10 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.PROBE64 N([N22487])
-.PROBE64 N([N22709])
-.PROBE64 I1(X_U2)
-.INC "..\TPS40210.net" 
+.PROBE64 N([N27760])
+.PROBE64 I(L_L1)
+.PROBE64 N([N28164])
+.INC "..\LM5155.net" 
 
 
 .END

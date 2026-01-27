@@ -1,8 +1,6 @@
  lib=c:\users\dylan\nixie-clock\simulation\flyback\SBR1U400P1.spice.lib, offset=1346, size=865
  lib=c:\users\dylan\nixie-clock\simulation\flyback\dmt6030lfcl.lib, offset=1299, size=730
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\TPS40210-Q1_TRANS.LIB, offset=1496, size=848
- lib=C:\Cadence\PSpiceTI\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=389279, size=629
- lib=C:\Cadence\PSpiceTI\tools\PSpice\Library\breakout.lib, offset=33850, size=7379
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\TPS40210-Q1_TRANS.LIB, offset=2345, size=484
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\TPS40210-Q1_TRANS.LIB, offset=3266, size=636
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\TPS40210-Q1_TRANS.LIB, offset=5262, size=415

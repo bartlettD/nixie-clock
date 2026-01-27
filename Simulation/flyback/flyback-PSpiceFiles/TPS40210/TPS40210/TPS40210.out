@@ -1,5 +1,5 @@
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -29,8 +29,8 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.PROBE64 N([N22393])
-.PROBE64 N([N22705])
+.PROBE64 N([N22487])
+.PROBE64 N([N22709])
 .PROBE64 I1(X_U2)
 .INC "..\TPS40210.net" 
 
@@ -38,41 +38,38 @@
 
 **** INCLUDING TPS40210.net ****
 * source FLYBACK
-X_D3         N22461 N22631 Zener_parameterized PARAMS: VZT=25 RSF=100m
 R_R5         N22801 N22795  1 TC=0,0 
-R_R8         N23545 N22461  150k TC=0,0 
-D_D1         N22377 N22393 SBR1U400P1 
-R_R9         N23944 N22393  1Meg TC=0,0 
+R_R8         N23545 N22465  150k TC=0,0 
+D_D1         N22479 N22487 SBR1U400P1 
+R_R9         N23944 N22487  1Meg TC=0,0 
 C_C4         0 N23087  1u  TC=0,0 
-R_R1         0 N22393  9k TC=0,0 
 C_C5         N23433 0  20n  TC=0,0 
-L_L1         N22615 N22705  2.34u  
+L_L1         N22615 N22709  2.34u  
 R_R10         0 N23944  3.9k TC=0,0 
-R_R6         N22387 N22377  800 TC=0,0 
 L_L2         0 N22637  150u  
-R_R2         N22615 N22461  0.013 TC=0,0 
-X_U2         N22705 N22801 N22959 DMT6030LFCL
+R_R2         N22615 N22465  0.013 TC=0,0 
+X_U2         N22709 N22801 N22959 DMT6030LFCL
 R_R7         N22959 0  3m TC=0,0 
 R_R3         N22637 N22473  0.818 TC=0,0 
-C_C1         0 N22393  100n  TC=0,0 
-X_U1         0 N22461 N23545 N23944 N23433 N22795 N23087 N24507 0 N22985 0
+C_C1         0 N26734  1u  TC=0,0 
+X_U1         0 N22465 N23545 N23944 N23433 N22795 N23087 N24507 0 N22985 0
 +  TPS40210-Q1_TRANS
 Kn_K1         L_L1 L_L2     1
-C_C3         N22393 N22387  30p  TC=0,0 
 C_C6         0 N23545  470p  TC=0,0 
-D_D2         N22705 N22631 BAS70 
-L_L3         N22473 N22377  6u  
+L_L3         N22473 N22479  6u  
 R_R11         N23944 N24514  150k TC=0,0 
 C_C7         N24507 N24514  3n  TC=0,0 
-V_V2         N22461 0  
+V_V2         N22465 0  
 +PWL 0 0 200u 5 
 R_R12         N22959 N22985  1k TC=0,0 
 C_C8         N22985 0  150p  TC=0,0 
+C_C9         0 N22465  1u  TC=0,0 
+R_R13         N26734 N22487  10m TC=0,0 
 
 **** RESUMING TPS40210.cir ****
 .END
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -118,7 +115,7 @@ C_C8         N22985 0  150p  TC=0,0
          CJO   10.000000E-12 
 
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -156,7 +153,7 @@ C_C8         N22985 0  150p  TC=0,0
            D     .52         
 
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -204,7 +201,7 @@ C_C8         N22985 0  150p  TC=0,0
        XPART    0            
 
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -259,7 +256,7 @@ C_C8         N22985 0  150p  TC=0,0
         VOFF    1            
 
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -274,19 +271,17 @@ C_C8         N22985 0  150p  TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N22377)-10.30E-12 (N22387)-10.30E-12 (N22393)-4.934E-06 (N22461)    0.0000     
+(N22465)    0.0000 (N22473)-333.1E-12 (N22479)-333.1E-12 (N22487)-159.2E-06     
 
-(N22473)-10.30E-12 (N22615) 289.1E-15 (N22631) 428.6E-09 (N22637)    0.0000     
+(N22615) 453.6E-30 (N22637)    0.0000 (N22709) 453.6E-30 (N22795) 3.847E-30     
 
-(N22705) 289.1E-15 (N22795) 3.442E-24 (N22801) 4.131E-24 (N22959) 41.69E-24     
+(N22801) 4.616E-30 (N22959)-104.7E-30 (N22985)-104.7E-30 (N23087)    0.0000     
 
-(N22985) 41.69E-24 (N23087)    0.0000 (N23433)    0.0000 (N23545)    0.0000     
+(N23433)    0.0000 (N23545)    0.0000 (N23944)-566.4E-06 (N24507)     .0016     
 
-(N23944)-565.8E-06 (N24507)     .0016 (N24514)-565.8E-06 (X_D3.1)  -24.5050     
+(N24514)-566.4E-06 (N26734)-159.2E-06 (X_U2.1) 453.5E-30 (X_U2.2) 5.685E-30     
 
-(X_D3.3)   24.5050 (X_D3.9)-67.52E-15 (X_U2.1) 289.1E-15 (X_U2.2) 5.088E-24     
-
-(X_U2.3) 43.08E-24 (X_U1.11)    0.0000                   (X_U1.12)    0.0000    
+(X_U2.3)-108.2E-30 (X_U1.11)    0.0000                   (X_U1.12)    0.0000    
 
 (X_U1.13)   -1.1657                   (X_U1.14)    0.0000                       
 
@@ -298,9 +293,9 @@ C_C8         N22985 0  150p  TC=0,0
 
 (X_U1.21)   -1.1657                   (X_U1.22)    4.9999                       
 
-(X_U2.12)-289.1E-15                   (X_U2.13)-1.114E-15                       
+(X_U2.12)-447.9E-30                   (X_U2.13)-3.531E-21                       
 
-(X_U2.14)    0.0000                   (X_U2.15)-288.0E-15                       
+(X_U2.14)    0.0000                   (X_U2.15) 7.771E-21                       
 
 (X_U1.XU1.24)   -1.3000               (X_U1.XU1.25)    0.0000                   
 
@@ -324,7 +319,7 @@ C_C8         N22985 0  150p  TC=0,0
 
 (X_U1.XU6.49)    0.0000               (X_U1.XU6.50)    4.9999                   
 
-(X_U1.XU1.N27)    0.0000              (X_U1.XU10.34) 41.69E-24                  
+(X_U1.XU1.N27)    0.0000              (X_U1.XU10.34)    0.0000                  
 
 (X_U1.XU10.35)    0.0000              (X_U1.XU10.36) 500.0E-09                  
 
@@ -385,7 +380,7 @@ C_C8         N22985 0  150p  TC=0,0
     NAME         CURRENT
 
     V_V2         2.366E-06
-    X_U2.VFB    -3.994E-25
+    X_U2.VFB     0.000E+00
     X_U1.VS1     0.000E+00
     X_U1.XU1.VS2   0.000E+00
     X_U1.XU10.V3  -5.000E-09
@@ -395,9 +390,10 @@ C_C8         N22985 0  150p  TC=0,0
     TOTAL POWER DISSIPATION   1.11E-03  WATTS
 
 
-          JOB ABORTED
+
+          JOB CONCLUDED
 
-**** 01/17/26 19:14:47 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/18/26 14:28:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "TPS40210-TPS40210"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\tps40210\tps40210.sim ] 
 
@@ -409,5 +405,5 @@ C_C8         N22985 0  150p  TC=0,0
 
 
 
-  Total job time (using Solver 1)   =      104.13
+  Total job time (using Solver 1)   =      107.47
 

@@ -1,0 +1,684 @@
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lm5155.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../SBR1U400P1.spice.lib" 
+.LIB "../../../p_se50paj.lib" 
+.LIB "../../../dmt6030lfcl.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N27760])
+.PROBE64 I(L_L1)
+.PROBE64 N([N28164])
+.INC "..\LM5155.net" 
+
+
+
+**** INCLUDING LM5155.net ****
+* source FLYBACK
+R_R15         N29813 N27600  100k TC=0,0 
+D_D1         N27756 N27760 SBR1U400P1 
+R_R2         N27898 N27600  0.013 TC=0,0 
+C_C1         0 N27884  1u  TC=0,0 
+X_U2         N28164 N28286 N28334 DMT6030LFCL
+X_U3         0 N27600 N30377 N28334 0 N28376 N28280 0 N29813 N29363 N30195
++  N30014 N27600 LM5155-Q1_TRANS PARAMS: SS=0 FAST_HICCUP=1 LM51551=0
+R_R3         N27904 N27750  0.818 TC=0,0 
+Kn_K1         L_L1 L_L2     1
+L_L3         N27750 N27756  6u  
+R_R14         N29363 0  87k TC=0,0 
+V_V2         N27600 0  
++PWL 0 0 200u 5 
+C_C9         0 N27600  1u  TC=0,0 
+R_R13         N27884 N27760  10m TC=0,0 
+L_L1         N27898 N28164  2.34u  
+C_C11         N30373 0  1.6n  TC=0,0 
+R_R7         N28334 0  2m TC=0,0 
+R_R16         N27600 N30014  100k TC=0,0 
+R_R18         N30377 N30373  10k TC=0,0 
+R_R5         N28286 N28280  1 TC=0,0 
+L_L2         0 N27904  150u  
+C_C10         N30195 0  30n  TC=0,0 
+R_R17         N30014 0  100k TC=0,0 
+R_R10         0 N28376  5.7k TC=0,0 
+R_R9         N28376 N27760  1Meg TC=0,0 
+R_R19         0 N27760  9k TC=0,0 
+
+**** RESUMING lm5155.cir ****
+.END
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               SBR1U400P1      X_U2.DCGD       X_U2.DSUB       X_U2.DLIM       
+          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
+           N    1.25                            1.33                         
+         ISR   20.000000E-09                                                 
+         IKF  510.000000E-06                                                 
+          BV  401                              64.03                         
+         IBV   50.000000E-06                                                 
+          RS     .05                            7.661000E-03                 
+          TT   85.000000E-09                                                 
+         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
+          VJ     .41             .8              .9                          
+           M     .41             .7595           .3                          
+          EG     .75                                                         
+         XTI                                    0                            
+        TIKF     .1                                                          
+
+
+               D_D1            X_U3.X_U7_U11.D_D1 
+          IS    1.000000E-15    1.000000E-15 
+           N     .1              .01         
+          RS     .05             .05         
+          TT   10.000000E-12   10.000000E-12 
+
+
+               X_U3.X_U4_U2.D_Dosc 
+          IS    1.000000E-15 
+           N     .1          
+          RS     .01         
+          TT   10.000000E-12 
+
+
+               X_U3.X_U11_U6.D_D1              D_Dsoftstart    
+          IS    1.000000E-15                    1.000000E-15 
+           N     .1                              .1          
+          RS    5.000000E-03                     .5          
+          TT   10.000000E-12                   10.000000E-12 
+
+
+               X_U3.X_U7_U5.X_U20.dd1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+               X_U3.X_U7_U5.X_U19.dd1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
+
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.NMOS       
+               NMOS            
+       LEVEL    3            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1.812        
+          KP   29            
+       GAMMA     .527625     
+         PHI     .576325     
+      LAMBDA    0            
+          IS    0            
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ  101.851000E-06 
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+        NSUB    1.000000E+15 
+         TOX  100.000000E-09 
+          XJ    0            
+       UCRIT   10.000000E+03 
+        VMAX  100.000000E+03 
+         ETA    0            
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0  400            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.X_U7_U8.S1 X_U3.X_U3_S1._U3_S1 
+         RON    1               1.000000E-03 
+        ROFF    1.000000E+09  100.000000E+06 
+         VON     .75             .8          
+        VOFF     .25             .2          
+
+
+               X_U3.X_U3_S2._U3_S2 
+         RON    1.000000E-03 
+        ROFF  100.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U4_S1._U4_S1             X_U3.X_U5_U7.S1 
+         RON     .1                             1            
+        ROFF  100.000000E+09                    1.000000E+09 
+         VON     .75                             .75         
+        VOFF     .25                             .25         
+
+
+               X_U3.X_U11_S1._U11_S1 
+         RON  100            
+        ROFF  100.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U6_S34._U6_S34 
+         RON    1.900000E-03 
+        ROFF    1.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U6_S35._U6_S35 
+         RON    4.100000E-03 
+        ROFF    1.000000E+06 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U2_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF    1.000000E+09 
+         VON     .8          
+        VOFF     .2          
+
+
+               X_U3.X_U4_U2.X_Sdisch._Sdisch 
+         RON     .1          
+        ROFF  100.000000E+09 
+         VON     .8          
+        VOFF     .2          
+
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N27600)    0.0000 (N27750) 4.120E-15 (N27756) 4.120E-15 (N27760) 1.974E-09     
+
+(N27884) 1.974E-09 (N27898)-269.0E-30 (N27904)    0.0000 (N28164)-269.0E-30     
+
+(N28280)-2.044E-15 (N28286)-2.056E-15 (N28334)-61.17E-30 (N28376) 226.3E-09     
+
+(N29363)    0.0000 (N29813)    0.0000 (N30014) 250.0E-09 (N30195)     .0040     
+
+(N30373)     .0386 (N30377)     .0386 (X_U2.1)-986.8E-30 (X_U2.2)-2.056E-15     
+
+(X_U2.3)-64.23E-30 (X_U2.12)-2.056E-15                   (X_U2.13)-7.918E-18    
+
+(X_U2.14)    0.0000                   (X_U2.15)-2.048E-15                       
+
+(X_U3.CL)-61.16E-30                   (X_U3.CLK)    0.0000                      
+
+(X_U3.IRT)    0.0000                  (X_U3.OVP)    0.0000                      
+
+(X_U3.PWM)    0.0000                  (X_U3.RAMP) 4.455E-12                     
+
+(X_U3.VCC1)    0.0000                 (X_U3.U3_5V)    5.0000                    
+
+(X_U3.U7_0V)    0.0000                (X_U3.U7_1V)    1.0000                    
+
+(X_U3.FBCOMP)    1.0000               (X_U3.N00186)    0.0000                   
+
+(X_U3.N00303)    1.0000               (X_U3.N00371)    1.0000                   
+
+(X_U3.N00537)     .1700               (X_U3.N00762)    1.0000                   
+
+(X_U3.N00893)    0.0000               (X_U3.N00921)    1.0000                   
+
+(X_U3.N01300)    0.0000               (X_U3.N01327)    0.0000                   
+
+(X_U3.N02027)    1.0000               (X_U3.N02060)    0.0000                   
+
+(X_U3.N02668)    0.0000               (X_U3.N02700)    0.0000                   
+
+(X_U3.N02977)    1.0000               (X_U3.N03763)    1.0000                   
+
+(X_U3.N12429)    1.0000               (X_U3.8PWM_OK)    0.0000                  
+
+(X_U3.BIAS_OK)    0.0000              (X_U3.CLK_INT)    0.0000                  
+
+(X_U3.SYNCEXT)    0.0000              (X_U3.U11_UVP)    1.0000                  
+
+(X_U3.U4_FREQ)    1.0000              (X_U3.DMAX_PWM)    0.0000                 
+
+(X_U3.OTP_DONE)    0.0000             (X_U3.U5_PWMEN)    0.0000                 
+
+(X_U3.VREF_INT)     .0040             (X_U3.CUR_LIMIT)    0.0000                
+
+(X_U3.N16716524)    1.0000            (X_U3.N16802185)    1.0000                
+
+(X_U3.U11_UVP_N)    0.0000            (X_U3.U3_CS_BUF)-61.16E-30                
+
+(X_U3.U4_TONMAX)     .0100            (X_U3.U5_N00138)     .0386                
+
+(X_U3.U6_N00439)-73.73E-18            (X_U3.U6_N12016)    0.0000                
+
+(X_U3.U6_N12050)     .5000            (X_U3.U6_N12086)    0.0000                
+
+(X_U3.U6_N12761)    1.0000            (X_U3.U6_N12807)    1.0000                
+
+(X_U3.U6_N25217)    -.1654            (X_U3.U6_PWMBAR)    1.0000                
+
+(X_U3.U7_N00370)     .0630            (X_U3.U7_N00374)    2.8500                
+
+(X_U3.U7_N00412)    0.0000            (X_U3.U7_N01197)     .5500                
+
+(X_U3.U7_N01325)    0.0000            (X_U3.U7_N09742)    0.0000                
+
+(X_U3.U7_N10154)    0.0000            (X_U3.U7_N10443)    0.0000                
+
+(X_U3.U7_N11175)    1.0000            (X_U3.U7_VCC_OK)    0.0000                
+
+(X_U3.U8_N00086)     .0500            (X_U3.U8_N00098)    1.5000                
+
+(X_U3.U8_N00423)    0.0000            (X_U3.U8_N00819)    0.0000                
+
+(X_U3.U9_N00132)    1.0000            (X_U3.U9_N00148)    1.0000                
+
+(X_U3.U9_N00179)    0.0000            (X_U3.U9_N00377)    1.0000                
+
+(X_U3.U9_N00916)    0.0000            (X_U3.U9_N01120)    0.0000                
+
+(X_U3.U9_N01355)    0.0000            (X_U3.U9_N01644)    0.0000                
+
+(X_U3.U9_N03226)    0.0000            (X_U3.X_U7_U1.1)    0.0000                
+
+(X_U3.X_U8_U1.1)    0.0000            (X_U3.ENABLE_OSC)    0.0000               
+
+(X_U3.ENABLE_PWM)    0.0000           (X_U3.HICCUP_END)    0.0000               
+
+(X_U3.SYNC_PULSE)    0.0000           (X_U3.U10_N00253)    0.0000               
+
+(X_U3.U10_N00393)    1.0000           (X_U3.U10_UVLO_B)    0.0000               
+
+(X_U3.U11_FB_INT) 226.3E-09           (X_U3.U11_N00050)     .0500               
+
+(X_U3.U11_N00117)    1.1000           (X_U3.U11_N00194)    0.0000               
+
+(X_U3.U11_N00469)     .0500           (X_U3.U11_N00507)     .9500               
+
+(X_U3.U11_N00545)    0.0000           (X_U3.U11_N01195)    1.0000               
+
+(X_U3.U4_CURRENT)    0.0000           (X_U3.U5_PWM_INT)    0.0000               
+
+(X_U3.U6_PWM_DEL)    0.0000           (X_U3.U8_UVLO_OK)    0.0000               
+
+(X_U3.X_U11_U1.1)    0.0000           (X_U3.X_U11_U3.1)    0.0000               
+
+(X_U3.X_U5_U7.CH)    0.0000           (X_U3.X_U7_U8.CH)    0.0000               
+
+(X_U3.DISABLE_OSC)    1.0000          (X_U3.U10_CLK_DEL)    0.0000              
+
+(X_U3.U4_DMAX_VAL)     .9350          (X_U3.U4_DMAX_VTH)     .0100              
+
+(X_U3.U7_VCC_UVLO)    0.0000          (X_U3.ENABLE_PWM_N)    1.0000             
+
+(X_U3.HICCUP_START)    0.0000         (X_U3.U1_N16756762)    1.1000             
+
+(X_U3.U1_N16756926)    2.5000         (X_U3.U2_N16731322)    2.0000             
+
+(X_U3.U2_N16760475)    0.0000         (X_U3.U2_N16760639)    1.0000             
+
+(X_U3.U2_N16761124)    0.0000         (X_U3.U3_N16753444)-61.17E-30             
+
+(X_U3.U3_N16754008)-61.15E-30         (X_U3.U3_N16756766)    0.0000             
+
+(X_U3.U3_N16762943)    1.0000         (X_U3.U3_N16763020)    1.0000             
+
+(X_U3.U4_N16708731)    0.0000         (X_U3.U4_N16709079)    0.0000             
+
+(X_U3.U4_N16792836) 8.002E-15         (X_U3.U4_N16795554)    0.0000             
+
+(X_U3.U4_N16795644)    0.0000         (X_U3.U4_N16795829)    0.0000             
+
+(X_U3.U4_N16797664)    4.0000         (X_U3.U4_N16809972)     .9350             
+
+(X_U3.U5_N16711915)     .1000         (X_U3.U5_N16713533)    0.0000             
+
+(X_U3.U5_N16713639)    1.0000         (X_U3.U5_N16714264)    0.0000             
+
+(X_U3.U5_N16714560)    1.0000         (X_U3.U5_N16716985)    0.0000             
+
+(X_U3.U5_N16720791)    1.0000         (X_U3.U5_N16721037)    0.0000             
+
+(X_U3.U6_PWM_B_DEL)    1.0000         (X_U3.U7_N16774788)    0.0000             
+
+(X_U3.U7_N16778942)    0.0000         (X_U3.U7_N16780463)    1.0000             
+
+(X_U3.U7_N16812073)    -.0797         (X_U3.U7_N16812081)    0.0000             
+
+(X_U3.U7_N16818074)    0.0000         (X_U3.U7_N16821141)    0.0000             
+
+(X_U3.U7_N16821281)    0.0000         (X_U3.U7_N16829822)    0.0000             
+
+(X_U3.U8_N16764954)    5.0000         (X_U3.U8_N16769114)    2.8500             
+
+(X_U3.U8_N16769752)    0.0000         (X_U3.U8_N16770694)    4.5000             
+
+(X_U3.U8_N16771826)    0.0000         (X_U3.U8_UVLO_OK_N)    1.0000             
+
+(X_U3.U9_N16727020)    0.0000         (X_U3.X_U2_U5.YINT)    1.0000             
+
+(X_U3.X_U2_U6.YINT)    0.0000         (X_U3.X_U3_U5.YINT)    1.0000             
+
+(X_U3.X_U3_U7.YINT)    1.0000         (X_U3.X_U4_U3.YINT)    1.0000             
+
+(X_U3.X_U4_U5.Yint)    0.0000         (X_U3.X_U5_U1.Yint)    1.0000             
+
+(X_U3.X_U5_U2.Yint)    0.0000         (X_U3.X_U5_U4.YINT)    1.0000             
+
+(X_U3.X_U5_U6.YINT)    1.0000         (X_U3.X_U5_U7.MEAS)    0.0000             
+
+(X_U3.X_U5_U8.YINT)    1.0000         (X_U3.X_U7_U1.INM1)    2.8500             
+
+(X_U3.X_U7_U1.INP1)    0.0000         (X_U3.X_U7_U1.INP2)    0.0000             
+
+(X_U3.X_U7_U11.MY5)    1.0000         (X_U3.X_U7_U11.Qbr)    1.0000             
+
+(X_U3.X_U7_U11.Qqq)    -.0099         (X_U3.X_U7_U3.YINT)    0.0000             
+
+(X_U3.X_U7_U8.MEAS)    0.0000         (X_U3.X_U8_U1.INM1)    1.5000             
+
+(X_U3.X_U8_U1.INP1)    0.0000         (X_U3.X_U8_U1.INP2)    0.0000             
+
+(X_U3.X_U8_U5.YINT)    1.0000         (X_U3.X_U8_U7.YINT)    1.0000             
+
+(X_U3.X_U8_U8.YINT)    0.0000         (X_U3.X_U8_U9.Yint)    0.0000             
+
+(X_U3.X_U9_U1.CLKI)    0.0000         (X_U3.X_U9_U2.YINT)    1.0000             
+
+(X_U3.X_U9_U3.YINT)    1.0000         (X_U3.X_U9_U4.YINT)    0.0000             
+
+(X_U3.X_U9_U5.YINT)    1.0000         (X_U3.X_U9_U6.CLKI)    1.0000             
+
+(X_U3.X_U9_U7.YINT)    0.0000         (X_U3.X_U9_U8.CLKI)    1.0000             
+
+(X_U3.U10_N16731610)    1.0000        (X_U3.U10_N16736825)    1.0000            
+
+(X_U3.U11_N16764044)    1.0000        (X_U3.U11_N16764586)    1.0000            
+
+(X_U3.U3_SLOPE_RAMP)    0.0000        (X_U3.U6_PWMBAR_DEL)    1.0000            
+
+(X_U3.U9_DIS_HICCUP)    1.0000        (X_U3.X_U10_U4.YINT)    1.0000            
+
+(X_U3.X_U11_U1.INM1)    1.1000        (X_U3.X_U11_U1.INP1)    0.0000            
+
+(X_U3.X_U11_U1.INP2)    0.0000        (X_U3.X_U11_U3.INM1)     .9500            
+
+(X_U3.X_U11_U3.INP1)    0.0000        (X_U3.X_U11_U3.INP2)    0.0000            
+
+(X_U3.X_U11_U6.INP1)    1.0000        (X_U3.X_U11_U6.YIN1)    1.0000            
+
+(X_U3.X_U11_U6.YIN2)    1.0000        (X_U3.X_U11_U6.YIN3)    1.0000            
+
+(X_U3.X_U11_U6.YIN4)    1.0000        (X_U3.X_U11_U7.YINT)    1.0000            
+
+(X_U3.X_U11_U8.YINT)    1.0000        (X_U3.X_U4_U2.DISCH)    1.0000            
+
+(X_U3.X_U4_U6.YINT1)    0.0000        (X_U3.X_U4_U6.YINT2)    0.0000            
+
+(X_U3.X_U4_U6.YINT3)    0.0000        (X_U3.X_U4_U7.YINT1)    0.0000            
+
+(X_U3.X_U4_U7.YINT2)    0.0000        (X_U3.X_U4_U7.YINT3)    0.0000            
+
+(X_U3.X_U5_U10.YINT)    0.0000        (X_U3.X_U5_U11.YINT)    0.0000            
+
+(X_U3.X_U5_U15.YINT)    0.0000        (X_U3.X_U5_U7.RESET)    1.0000            
+
+(X_U3.X_U6_U11.YINT)    1.0000        (X_U3.X_U6_U12.YINT)    1.0000            
+
+(X_U3.X_U7_U10.YINT)    1.0000        (X_U3.X_U7_U11.Qint)    -.0099            
+
+(X_U3.X_U7_U12.YINT)    0.0000        (X_U3.X_U7_U13.YINT)    1.0000            
+
+(X_U3.X_U7_U16.YINT)    1.0000        (X_U3.X_U7_U17.YINT)    0.0000            
+
+(X_U3.X_U7_U18.YINT)    0.0000        (X_U3.X_U7_U19.Yint)    0.0000            
+
+(X_U3.X_U7_U8.RESET)    1.0000        (X_U3.X_U8_U10.Yint)    0.0000            
+
+(X_U3.X_U8_U11.YINT)    0.0000        (X_U3.X_U8_U12.YINT)    0.0000            
+
+(X_U3.X_U9_U1.CLKRE)    1.0000        (X_U3.X_U9_U13.YINT)    1.0000            
+
+(X_U3.X_U9_U14.YINT)    1.0000        (X_U3.X_U9_U6.CLKRE)    0.0000            
+
+(X_U3.X_U9_U8.CLKRE)    0.0000        (X_U3.U4_TIME_PERIOD)    1.0000           
+
+(X_U3.X_U10_U14.YINT)    1.0000       (X_U3.X_U10_U16.YINT)    0.0000           
+
+(X_U3.X_U10_U18.YINT)    1.0000       (X_U3.X_U11_U2.YINT1)    0.0000           
+
+(X_U3.X_U11_U2.YINT2)    0.0000       (X_U3.X_U11_U2.YINT3)    0.0000           
+
+(X_U3.X_U11_U4.YINT1)    0.0000       (X_U3.X_U11_U4.YINT2)    0.0000           
+
+(X_U3.X_U11_U4.YINT3)    0.0000       (X_U3.X_U5_U14.YINT1)    0.0000           
+
+(X_U3.X_U5_U14.YINT2)    0.0000       (X_U3.X_U5_U14.YINT3)    0.0000           
+
+(X_U3.X_U5_U7.RESET2)    1.0000       (X_U3.X_U5_U9.N00055)    0.0000           
+
+(X_U3.X_U6_U234.Yint)    0.0000       (X_U3.X_U6_U238.YINT)    1.0000           
+
+(X_U3.X_U7_U11.MYVSS)    0.0000       (X_U3.X_U7_U11.Qqqd1)    0.0000           
+
+(X_U3.X_U7_U5.N00150) 442.9E-27       (X_U3.X_U7_U5.N00998)-442.9E-27           
+
+(X_U3.X_U7_U8.RESET2)    1.0000       (X_U3.X_U8_U6.N00055)    0.0000           
+
+(X_U3.X_U9_U1.N33733)    0.0000       (X_U3.X_U9_U12.YINT1)    0.0000           
+
+(X_U3.X_U9_U12.YINT2)    0.0000       (X_U3.X_U9_U12.YINT3)    0.0000           
+
+(X_U3.X_U9_U6.N33733)    0.0000       (X_U3.X_U9_U8.N33733)    0.0000           
+
+(X_U3.X_U9_U9.N00055)    0.0000       (X_U3.U4_ENABLE_OSC_B)    1.0000          
+
+(X_U3.U8_VCC_GRT_4P5V)    0.0000      (X_U3.U9_HICCUP_RESET)    1.0000          
+
+(X_U3.X_U10_U13.YINT1)    0.0000      (X_U3.X_U10_U13.YINT2)    0.0000          
+
+(X_U3.X_U10_U13.YINT3)    0.0000      (X_U3.X_U10_U17.YINT1)    0.0000          
+
+(X_U3.X_U10_U17.YINT2)    0.0000      (X_U3.X_U10_U17.YINT3)    0.0000          
+
+(X_U3.X_U10_U3.N00055)    0.0000      (X_U3.X_U4_U13.N00055)    0.0000          
+
+(X_U3.X_U5_U13.N00055)    0.0000      (X_U3.X_U7_U11.CLKdel)    1.0000          
+
+(X_U3.X_U7_U11.CLKint)    0.0000      (X_U3.X_U9_U10.N00055)    0.0000          
+
+(X_U3.X_U9_U11.N00055)    0.0000      (X_U3.U5_PWMEN_DELAYED)    0.0000         
+
+(X_U3.U8_VCC_50U_DELAY)    0.0000     (X_U3.X_U10_U10.N00055)    0.0000         
+
+(X_U3.X_U4_U2.VREF_OSC)    1.0000     (X_U3.X_U7_U11.X2.YINT)    0.0000         
+
+(X_U3.X_U4_U2.N16698680)    0.0000    (X_U3.X_U4_U2.N16699162)    5.0000        
+
+(X_U3.X_U5_U9.N14322195)    1.0000    (X_U3.X_U7_U11.X1.YINT1)    0.0000        
+
+(X_U3.X_U7_U11.X1.YINT2)    0.0000    (X_U3.X_U7_U11.X1.YINT3)    1.0000        
+
+(X_U3.X_U7_U11.X3.YINT1)    0.0000    (X_U3.X_U7_U11.X3.YINT2)    0.0000        
+
+(X_U3.X_U7_U11.X3.YINT3)    0.0000    (X_U3.X_U8_U6.N14322195)    1.0000        
+
+(X_U3.X_U9_U1.N16813271)    0.0000    (X_U3.X_U9_U1.N16832011)    0.0000        
+
+(X_U3.X_U9_U1.N16838390)    0.0000    (X_U3.X_U9_U1.N16838391)    0.0000        
+
+(X_U3.X_U9_U1.N16840706)    1.0000    (X_U3.X_U9_U1.N16842332)    1.0000        
+
+(X_U3.X_U9_U6.N16813271)    0.0000    (X_U3.X_U9_U6.N16832011)    0.0000        
+
+(X_U3.X_U9_U6.N16838390)    1.0000    (X_U3.X_U9_U6.N16838391)    1.0000        
+
+(X_U3.X_U9_U6.N16840706)    1.0000    (X_U3.X_U9_U6.N16842332)    0.0000        
+
+(X_U3.X_U9_U8.N16813271)    0.0000    (X_U3.X_U9_U8.N16832011)    0.0000        
+
+(X_U3.X_U9_U8.N16838390)    1.0000    (X_U3.X_U9_U8.N16838391)    1.0000        
+
+(X_U3.X_U9_U8.N16840706)    1.0000    (X_U3.X_U9_U8.N16842332)    0.0000        
+
+(X_U3.X_U9_U9.N14322195)    1.0000    (X_U3.X_U10_U3.N14322195)    1.0000       
+
+(X_U3.X_U4_U13.N14322195)    1.0000   (X_U3.X_U4_U2.X_U2.YINT1)    0.0000       
+
+(X_U3.X_U4_U2.X_U2.YINT2)    0.0000   (X_U3.X_U4_U2.X_U2.YINT3)    0.0000       
+
+(X_U3.X_U5_U13.N14322195)    1.0000   (X_U3.X_U7_U5.X_U16.YINT)    0.0000       
+
+(X_U3.X_U7_U5.X_U17.YINT)    0.0000   (X_U3.X_U9_U1.N168433471)    0.0000       
+
+(X_U3.X_U9_U10.N14322195)    1.0000   (X_U3.X_U9_U11.N14322195)    1.0000       
+
+(X_U3.X_U9_U6.N168433471)    1.0000   (X_U3.X_U9_U8.N168433471)    1.0000       
+
+(X_U3.U5_COMP_BUF_DIVIDED)     .0055  (X_U3.X_U10_U10.N14322195)    1.0000      
+
+(X_U3.X_U4_U2.TIME_PERIOD)    1.0000  (X_U3.X_U4_U2.X_U131.Yint)    0.0000      
+
+(X_U3.X_U4_U2.X_U134.YINT)    1.0000  (X_U3.X_U9_U1.COUNT_FE_INT)    0.0000     
+
+(X_U3.X_U9_U1.COUNT_RE_INT)    0.0000 (X_U3.X_U9_U6.COUNT_FE_INT)    0.0000     
+
+(X_U3.X_U9_U6.COUNT_RE_INT)    0.0000 (X_U3.X_U9_U8.COUNT_FE_INT)    0.0000     
+
+(X_U3.X_U9_U8.COUNT_RE_INT)    0.0000 (X_U3.X_U7_U5.INPUT_SIGNAL1)    0.0000    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         2.500E-12
+    X_U2.VFB    -4.922E-26
+    X_U3.V_U1_V1  -1.929E+01
+    X_U3.V_U1_V2  -2.462E-12
+    X_U3.V_U2_V_mask_steady   0.000E+00
+    X_U3.V_U2_V3  -3.993E-12
+    X_U3.V_U7_V9   0.000E+00
+    X_U3.V_U7_V1   0.000E+00
+    X_U3.V_U7_V2   0.000E+00
+    X_U3.V_U7_V6   0.000E+00
+    X_U3.V_U7_V8   0.000E+00
+    X_U3.V_U7_V3   0.000E+00
+    X_U3.V_U7_V7   0.000E+00
+    X_U3.V_U3_V1   0.000E+00
+    X_U3.V_U4_V2  -4.001E-12
+    X_U3.V_U5_V1   0.000E+00
+    X_U3.V_U8_V3  -5.000E-12
+    X_U3.V_U8_V1   0.000E+00
+    X_U3.V_U8_V4   0.000E+00
+    X_U3.V_U8_V2   0.000E+00
+    X_U3.V_U8_V5   0.000E+00
+    X_U3.V_U11_V3   0.000E+00
+    X_U3.V_U11_V4   0.000E+00
+    X_U3.V_U11_V1   0.000E+00
+    X_U3.V_U11_V2   0.000E+00
+    X_U3.V_U6_V4   0.000E+00
+    X_U3.V_V1   -1.750E-02
+    X_U3.V_U9_V1   0.000E+00
+    X_U3.X_U7_F1.VF_U7_F1   1.750E-02
+    X_U3.X_U7_U11.V1  -1.011E-12
+    X_U3.X_U7_U11.V2  -3.692E-02
+    X_U3.X_U4_H1.VH_U4_H1   0.000E+00
+    X_U3.X_U4_U2.V_Vref   0.000E+00
+    X_U3.X_U4_U2.V_V45  -2.272E-09
+
+    TOTAL POWER DISSIPATION   2.12E+01  WATTS
+
+
+          JOB ABORTED
+
+**** 01/27/26 21:19:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =      443.11
+
