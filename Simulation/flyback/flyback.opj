@@ -1,6 +1,6 @@
 (ExpressProject "flyback"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/27/26]")
+  (SoftwareVersion "23.1-2024 S001-[01/28/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -25,6 +25,8 @@
       (File ".\p_se50paj.olb"
         (Type "Schematic Library"))
       (File ".\sbr1u400p1.spice.olb"
+        (Type "Schematic Library"))
+      (File ".\we-flylt.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File "flyback.dsn"
@@ -56,6 +58,9 @@
   (Folder "PSpice Resources"
     (Folder "Model Libraries"
       (Sort User)
+      (File ".\WE-FLYLT.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\WE-FLYLT.lib"))
       (File ".\SBR1U400P1.spice.lib"
         (Type "PSpiceLibrary")
         (DisplayName ".\SBR1U400P1.spice.lib"))
@@ -93,6 +98,10 @@
         (Type "PSpice Profile"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (FLYLT_EP7_750315825
+      (FullPartName "FLYLT_EP7_750315825.Normal")
+      (LibraryName "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\WE-FLYLT.OLB")
+      (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -230,21 +239,19 @@
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "c:\users\dylan\nixie-clock\simulation\flyback\flyback.dsn" "LM5155"
-         "PAGE1"))
+      (Select "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 749"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 428 0 749"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1268 24 790")
-        (Scroll "-111 0")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 0 0 5 759 24 790")
+        (Scroll "41 777")
+        (Zoom "292")
         (Occurrence "/"))
       (Path "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\FLYBACK.DSN")
       (Schematic "LM5155")

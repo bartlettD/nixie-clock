@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Transformer_Wurth_WE-FLYLT")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KiCad_WE-FLYLT (rev25b)/symbols/Transformer_Wurth_WE-FLYLT.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5155-flyback")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5155-flyback.kicad_sym")(options "")(descr ""))
+)

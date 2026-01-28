@@ -6,6 +6,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../WE-FLYLT.lib" 
 .LIB "../../../SBR1U400P1.spice.lib" 
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
@@ -18,8 +19,8 @@
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 N([N27760])
-.PROBE64 I(L_L1)
 .PROBE64 N([N28164])
+.PROBE64 I(L_L1)
 .INC "..\LM5155.net" 
 
 

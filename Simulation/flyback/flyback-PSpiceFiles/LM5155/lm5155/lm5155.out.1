@@ -1,5 +1,5 @@
 
-**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/28/26 22:00:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -18,6 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../WE-FLYLT.lib" 
 .LIB "../../../SBR1U400P1.spice.lib" 
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
@@ -37,7 +38,7 @@
 **** INCLUDING LM5155.net ****
 * source FLYBACK
 R_R15         N29813 N27600  100k TC=0,0 
-D_D1         N27756 N27760 SBR1U400P1 
+D_D1         N27750 N27760 SBR1U400P1 
 R_R2         N27898 N27600  0.013 TC=0,0 
 C_C1         0 N27884  1u  TC=0,0 
 X_U2         N28164 N28286 N28334 DMT6030LFCL
@@ -45,7 +46,6 @@ X_U3         0 N27600 N30377 N28334 0 N28376 N28280 0 N29813 N29363 N30195
 +  N30014 N27600 LM5155-Q1_TRANS PARAMS: SS=0 FAST_HICCUP=1 LM51551=0
 R_R3         N27904 N27750  0.818 TC=0,0 
 Kn_K1         L_L1 L_L2     1
-L_L3         N27750 N27756  6u  
 R_R14         N29363 0  87k TC=0,0 
 V_V2         N27600 0  
 +PWL 0 0 200u 5 
@@ -56,18 +56,19 @@ C_C11         N30373 0  1.6n  TC=0,0
 R_R7         N28334 0  2m TC=0,0 
 R_R16         N27600 N30014  100k TC=0,0 
 R_R18         N30377 N30373  10k TC=0,0 
-R_R5         N28286 N28280  1 TC=0,0 
+R_R5         N28286 N28280  2 TC=0,0 
 L_L2         0 N27904  150u  
 C_C10         N30195 0  30n  TC=0,0 
 R_R17         N30014 0  100k TC=0,0 
-R_R10         0 N28376  5.7k TC=0,0 
+R_R10         0 N28376  5.6k TC=0,0 
 R_R9         N28376 N27760  1Meg TC=0,0 
-R_R19         0 N27760  9k TC=0,0 
+X_D3         N27600 N33073 Zener_parameterized PARAMS: VZT=25 RSF=100m
+D_D2         N28164 N33073 BAS70 
 
 **** RESUMING lm5155.cir ****
 .END
 
-**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/28/26 22:00:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -132,7 +133,7 @@ R_R19         0 N27760  9k TC=0,0
           TT   10.000000E-12 
 
 
-**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/28/26 22:00:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -180,7 +181,7 @@ R_R19         0 N27760  9k TC=0,0
        XPART    0            
 
 
-**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/28/26 22:00:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -255,7 +256,7 @@ ERROR(ORPSIM-16583): More than one imported model containing transistors or diod
 
 
 ABORTING SIMULATION
-**** 01/27/26 21:19:50 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/28/26 22:00:58 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -269,34 +270,34 @@ ABORTING SIMULATION
 
 Node counts:
   Top level (NUNODS)                =          19
-  External (NCNODS)                 =         368
-  Total (NUMNOD)                    =         387
+  External (NCNODS)                 =         371
+  Total (NUMNOD)                    =         392
 
-Total device count (NUMEL)          =         568
+Total device count (NUMEL)          =         566
   Capacitors (C)                    =         142
-  Diodes (D)                        =          22
+  Diodes (D)                        =          23
   VCVS (E)                          =         167
   CCCS (F)                          =           2
   VCCS (G)                          =          10
   CCVS (H)                          =           1
   Current Sources (I)               =           4
   Couplings (K)                     =           2
-  Inductors (L)                     =           3
+  Inductors (L)                     =           2
   MosFETs (M)                       =           1
-  Resistors (R)                     =         167
+  Resistors (R)                     =         166
   VSwitches (S)                     =          10
   Voltage Sources (V)               =          34
 
-Number of subcircuits (X)           =         104
+Number of subcircuits (X)           =         105
 
 Matrix statistics:
-  Matrix size (NSTOP)               =         592
-  Initial no. elements (NTTAR)      =        1488
-  No. elements w/ fillin (NTTBR)    =        1488
+  Matrix size (NSTOP)               =         597
+  Initial no. elements (NTTAR)      =        1507
+  No. elements w/ fillin (NTTBR)    =        1507
   No. fillins (IFILL)               =           0
   No. overflows (NTTOV)             =           0
   No. LU operations (IOPS)          =           0
-  Percent sparsity (PERSPA)         =      99.575
+  Percent sparsity (PERSPA)         =      99.577
 
 Analysis statistics:
   No. total time points (NUMTTP)    =           0
@@ -308,8 +309,8 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =         .83
-  General setup                     =         .02
+  Readin                            =         .81
+  General setup                     =         .05
   CMI setup                     =        0.00
   Setup                             =         .02
   DC sweep                          =        0.00               0
@@ -317,6 +318,6 @@ Runtime statistics:                       Seconds      Iterations
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .08
-  Total job time (using Solver 1)   =         .84
+  Overhead                          =         .06
+  Total job time (using Solver 1)   =         .86
 

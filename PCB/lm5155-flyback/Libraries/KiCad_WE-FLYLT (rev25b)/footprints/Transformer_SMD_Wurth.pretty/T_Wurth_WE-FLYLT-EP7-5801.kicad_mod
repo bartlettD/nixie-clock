@@ -1,0 +1,181 @@
+(footprint "T_Wurth_WE-FLYLT-EP7-5801"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Flyback Transformers for Linear Technology, body 10.16x8.08x9.14mm, https://www.we-online.com/en/components/products/WE-FLYLT#/articles/WE-FLYLT-EP7")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -8.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88c31351-ebed-4abe-b4d0-620956b61d2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "T_Wurth_WE-FLYLT-EP7-5801"
+		(at 0 8.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d419527-dedb-430a-a917-a4cb4f4c1291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4de4f759-0556-4903-9b9c-5f3bda5787c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "380ac17b-885c-4ee2-b7f9-7380b0523c9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.085 -7.205)
+		(end -1.915 -7.205)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "448a23eb-26a4-4112-8cbd-c845d702f39a")
+	)
+	(fp_rect
+		(start -5.19 -4.15)
+		(end 5.19 4.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "91a7052e-e179-426e-9f1d-e53dc2ce0b23")
+	)
+	(fp_rect
+		(start -5.33 -7.12)
+		(end 5.33 7.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c9d41980-ac50-4f95-8d14-592c9d31d969")
+	)
+	(fp_line
+		(start -3.085 -4.04)
+		(end -2.5 -4.742)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa0a9a45-7a36-49bb-8a7e-c9fd8a0566a9")
+	)
+	(fp_line
+		(start -1.915 -4.04)
+		(end -2.5 -4.742)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a66b1c8-fdf7-4a01-a97d-8267cf6ecfcd")
+	)
+	(fp_rect
+		(start -5.08 -4.04)
+		(end 5.08 4.04)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c9a1f711-7299-4fe3-839f-9ed707e601a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05306783-75ef-451e-8885-e711c537e632")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e87e22fb-52e1-4d35-8eb7-7d721aa33769")
+	)
+	(pad "2" smd rect
+		(at 0 -5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8cfd0247-e4ed-4713-b59f-ffbc2fc14c5a")
+	)
+	(pad "3" smd rect
+		(at 2.5 -5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb70f09b-9509-4624-9c66-031e6203ea81")
+	)
+	(pad "4" smd rect
+		(at 2.5 5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01b75953-be5b-49cb-ac3f-f8e3530c8dba")
+	)
+	(pad "5" smd rect
+		(at 0 5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ee9269e-2d51-4b00-89db-f8aa50ced820")
+	)
+	(pad "6" smd rect
+		(at -2.5 5.83)
+		(size 1.17 2.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "123b6adc-359c-4574-9828-9d2d1a4cf7a8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/KiCad_WE-FLYLT (rev25b)/3dmodels/Transformer_SMD_Wurth.3dshapes/T_Wurth_WE-FLYLT-EP7-5801.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
