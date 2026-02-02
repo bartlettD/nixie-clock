@@ -2,7 +2,6 @@
  lib=c:\users\dylan\nixie-clock\simulation\flyback\dmt6030lfcl.lib, offset=1299, size=730
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM5155-Q1_TRANS.LIB, offset=2806, size=13711
  lib=C:\Cadence\PSpiceTI\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=389279, size=629
- lib=C:\Cadence\PSpiceTI\tools\PSpice\Library\breakout.lib, offset=33850, size=7379
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM5155-Q1_TRANS.LIB, offset=17898, size=51
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM5155-Q1_TRANS.LIB, offset=26758, size=185
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\LM5155-Q1_TRANS.LIB, offset=21511, size=205

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2026-01-15T17:04:28</meta:creation-date><dc:date>2026-01-18T15:54:08.664374400</dc:date><meta:editing-duration>PT3H54M18S</meta:editing-duration><meta:generator>LibreOffice/25.8.4.2$Windows_X86_64 LibreOffice_project/290daaa01b999472f0c7a3890eb6a550fd74c6df</meta:generator><meta:editing-cycles>12</meta:editing-cycles><meta:document-statistic meta:table-count="3" meta:cell-count="780" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">16.0300</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_ActionId">7e2956c9-0fa5-4e56-bfd4-fe39e4ce41d9</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_ContentBits">3</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Enabled">true</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Method" meta:value-type="string">Privileged</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Name" meta:value-type="string">Marked - Company General Use</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_SetDate" meta:value-type="string">2026-01-15T17:04:20Z</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_SiteId" meta:value-type="string">25db6ea1-2b37-482f-a0a9-4c1ddc1408ec</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Tag" meta:value-type="string">10, 0, 1, 1</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2026-01-15T17:04:28</meta:creation-date><dc:date>2026-02-01T20:07:21.457030100</dc:date><meta:editing-duration>PT7H29M5S</meta:editing-duration><meta:generator>LibreOffice/25.8.4.2$Windows_X86_64 LibreOffice_project/290daaa01b999472f0c7a3890eb6a550fd74c6df</meta:generator><meta:editing-cycles>13</meta:editing-cycles><meta:document-statistic meta:table-count="3" meta:cell-count="811" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">16.0300</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_ActionId">7e2956c9-0fa5-4e56-bfd4-fe39e4ce41d9</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_ContentBits">3</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Enabled">true</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Method" meta:value-type="string">Privileged</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Name" meta:value-type="string">Marked - Company General Use</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_SetDate" meta:value-type="string">2026-01-15T17:04:20Z</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_SiteId" meta:value-type="string">25db6ea1-2b37-482f-a0a9-4c1ddc1408ec</meta:user-defined><meta:user-defined meta:name="MSIP_Label_02b27600-aaab-4230-a2ce-994e92aebd52_Tag" meta:value-type="string">10, 0, 1, 1</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">903</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">2258</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">4515</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">903</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">18062</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">6773</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Flyback Calculations">
-       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">15</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">35</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">15</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">10</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">90</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -31,8 +31,8 @@
        <config:config-item config:name="UseTrailingEmptyLinesInLayout" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="LM5155">
-       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">3</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">2</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
@@ -67,7 +67,7 @@
        <config:config-item config:name="UseTrailingEmptyLinesInLayout" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">LM5155</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">Flyback Calculations</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">893</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">90</config:config-item>
@@ -163,7 +163,7 @@
      <config:config-item config:name="CodeName" config:type="string">TPS40210</config:config-item>
     </config:config-item-map-entry>
     <config:config-item-map-entry config:name="LM5155">
-     <config:config-item config:name="CodeName" config:type="string">Sheet3</config:config-item>
+     <config:config-item config:name="CodeName" config:type="string">LM5155</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-named>
   </config:config-item-set>
@@ -177,8 +177,8 @@
  </office:scripts>
  <office:font-face-decls>
   <style:font-face style:name="Aptos" svg:font-family="Aptos" style:font-pitch="variable"/>
-  <style:font-face style:name="Arial" svg:font-family="Arial"/>
-  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Arial1" svg:font-family="Arial"/>
   <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Lucida Sans" svg:font-family="&apos;Lucida Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
@@ -596,9 +596,119 @@
   <number:number-style style:name="N194">
    <number:number number:decimal-places="3" number:min-decimal-places="3" number:min-integer-digits="1" number:grouping="true"/>
   </number:number-style>
+  <number:number-style style:name="N195P0" style:volatile="true">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N195P1" style:volatile="true">
+   <number:text>-</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N195P2" style:volatile="true">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text loext:blank-width-char="-1">- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N195">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:text-content/>
+   <number:text loext:blank-width-char="-"> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N195P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N195P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N195P2"/>
+  </number:text-style>
+  <number:number-style style:name="N196P0" style:volatile="true">
+   <number:text loext:blank-width-char="-"> £</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N196P1" style:volatile="true">
+   <number:text>-£</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N196P2" style:volatile="true">
+   <number:text loext:blank-width-char="-"> £</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text loext:blank-width-char="-1">- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N196">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:text-content/>
+   <number:text loext:blank-width-char="-"> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N196P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N196P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N196P2"/>
+  </number:text-style>
+  <number:number-style style:name="N197P0" style:volatile="true">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N197P1" style:volatile="true">
+   <number:text>-</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N197P2" style:volatile="true">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="2" loext:max-blank-integer-digits="2"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N197">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:text-content/>
+   <number:text loext:blank-width-char="-"> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N197P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N197P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N197P2"/>
+  </number:text-style>
+  <number:number-style style:name="N198P0" style:volatile="true">
+   <number:text loext:blank-width-char="-"> £</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N198P1" style:volatile="true">
+   <number:text>-£</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N198P2" style:volatile="true">
+   <number:text loext:blank-width-char="-"> £</number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="2" loext:max-blank-integer-digits="2"/>
+   <number:text loext:blank-width-char="-"> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N198">
+   <number:text loext:blank-width-char="-"> </number:text>
+   <number:text-content/>
+   <number:text loext:blank-width-char="-"> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N198P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N198P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N198P2"/>
+  </number:text-style>
+  <number:number-style style:name="N199">
+   <number:scientific-number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1" number:min-exponent-digits="2" number:exponent-interval="3" number:forced-exponent-sign="true"/>
+  </number:number-style>
+  <number:number-style style:name="N200">
+   <number:scientific-number number:decimal-places="4" number:min-decimal-places="4" number:min-integer-digits="1" number:min-exponent-digits="2" number:exponent-interval="3" number:forced-exponent-sign="true"/>
+  </number:number-style>
   <style:style style:name="Default" style:family="table-cell">
    <style:table-cell-properties style:rotation-align="none" style:vertical-align="bottom"/>
-   <style:text-properties fo:color="#000000" style:font-name="Arial" fo:font-family="Arial" style:font-name-complex="Arial" style:font-family-complex="Arial"/>
+   <style:text-properties fo:color="#000000" style:font-name="Arial1" fo:font-family="Arial" style:font-name-complex="Arial1" style:font-family-complex="Arial"/>
   </style:style>
   <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="no-wrap" style:shrink-to-fit="false"/>
@@ -670,7 +780,7 @@
    <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="Excel_20_Built-in_20_Hyperlink" style:display-name="Excel Built-in Hyperlink" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties fo:color="#1155cc" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial1" fo:font-family="Arial" style:font-family-generic="swiss" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="swiss" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal">
+   <style:text-properties fo:color="#1155cc" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="swiss" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial" style:font-family-complex="Arial" style:font-family-generic-complex="swiss" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal">
     <loext:char-complex-color loext:theme-type="hyperlink" loext:color-type="theme"/>
    </style:text-properties>
   </style:style>
@@ -949,6 +1059,9 @@
    <style:graphic-properties fo:min-height="2.371cm" loext:decorative="false"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
+  <style:style style:name="ta_extref" style:family="table">
+   <style:table-properties table:display="false"/>
+  </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:first-page-number="continue" style:writing-mode="lr-tb"/>
    <style:header-style>
@@ -1012,7 +1125,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2026-01-18">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="12:57:59.843871300">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2026-02-01">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="15:08:00.930979800">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -2194,7 +2307,7 @@
      <table:table-cell table:style-name="ce35" table:formula="of:=(1/VLOOKUP([.L$40];[.$B$32:.$E$36];4;FALSE()))*[.$C$5]*[.E44]" office:value-type="float" office:value="0.670820393249937" calcext:value-type="float">
       <text:p>0.67</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce35" table:formula="of:=(1/VLOOKUP([.M$40];[.$B$32:.$E$36];4;FALSE()))*[.$C$5]*[.F44]" office:value-type="float" office:value="3.46410161513776" calcext:value-type="float">
+     <table:table-cell table:style-name="ce35" table:formula="of:=(1/VLOOKUP([.M$40];[.$B$32:.$E$36];4;FALSE()))*[.$C$5]*[.F44]" office:value-type="float" office:value="3.46410161513775" calcext:value-type="float">
       <text:p>3.46</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce35" table:formula="of:=(1/VLOOKUP([.N$40];[.$B$32:.$E$36];4;FALSE()))*[.$C$5]*[.G44]" office:value-type="float" office:value="2.7712812921102" calcext:value-type="float">
@@ -2498,7 +2611,7 @@
      <table:table-cell table:style-name="ce36" table:formula="of:=[.J42]*SQRT([.C50]/3)" office:value-type="float" office:value="0.609759297785538" calcext:value-type="float">
       <text:p>0.61</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce36" table:formula="of:=[.K42]*SQRT([.D50]/3)" office:value-type="float" office:value="0.835681090854503" calcext:value-type="float">
+     <table:table-cell table:style-name="ce36" table:formula="of:=[.K42]*SQRT([.D50]/3)" office:value-type="float" office:value="0.835681090854502" calcext:value-type="float">
       <text:p>0.84</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce36" table:formula="of:=[.L42]*SQRT([.E50]/3)" office:value-type="float" office:value="0.47716243726023" calcext:value-type="float">
@@ -2806,7 +2919,7 @@
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.C49])^2))/(2*PI()*[.C49]*IOUT*VLOOKUP([.C$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="2619442.01490314" calcext:value-type="float">
       <text:p>2.6E+6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.D49])^2))/(2*PI()*[.D49]*IOUT*VLOOKUP([.D$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="37150961.7751164" calcext:value-type="float">
+     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.D49])^2))/(2*PI()*[.D49]*IOUT*VLOOKUP([.D$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="37150961.7751163" calcext:value-type="float">
       <text:p>37.2E+6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.E49])^2))/(2*PI()*[.E49]*IOUT*VLOOKUP([.E$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="286512.054525425" calcext:value-type="float">
@@ -2835,7 +2948,7 @@
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.E50])^2))/(2*PI()*[.E50]*IOUT*VLOOKUP([.E$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="54833.7298605339" calcext:value-type="float">
       <text:p>54.8E+3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.F50])^2))/(2*PI()*[.F50]*IOUT*VLOOKUP([.F$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="94559189.0146658" calcext:value-type="float">
+     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.F50])^2))/(2*PI()*[.F50]*IOUT*VLOOKUP([.F$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="94559189.0146657" calcext:value-type="float">
       <text:p>94.6E+6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.G50])^2))/(2*PI()*[.G50]*IOUT*VLOOKUP([.G$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="69271022.7613202" calcext:value-type="float">
@@ -2858,7 +2971,7 @@
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.E51])^2))/(2*PI()*[.E51]*IOUT*VLOOKUP([.E$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="3827.86683623652" calcext:value-type="float">
       <text:p>3.8E+3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.F51])^2))/(2*PI()*[.F51]*IOUT*VLOOKUP([.F$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="71343855.823327" calcext:value-type="float">
+     <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.F51])^2))/(2*PI()*[.F51]*IOUT*VLOOKUP([.F$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="71343855.8233269" calcext:value-type="float">
       <text:p>71.3E+6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce24" table:formula="of:=(VOUT*((1-[.G51])^2))/(2*PI()*[.G51]*IOUT*VLOOKUP([.G$56];[.$B$32:.$F$36];5;0))" office:value-type="float" office:value="50982633.4371038" calcext:value-type="float">
@@ -3023,7 +3136,7 @@
      <table:table-cell table:style-name="ce25" table:formula="of:=[.C42]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.C$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.C42]" office:value-type="float" office:value="0.00000012909944487358" calcext:value-type="float">
       <text:p>129.10E-9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce25" table:formula="of:=[.D42]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.D$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.D42]" office:value-type="float" office:value="0.000000553130359937906" calcext:value-type="float">
+     <table:table-cell table:style-name="ce25" table:formula="of:=[.D42]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.D$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.D42]" office:value-type="float" office:value="0.000000553130359937907" calcext:value-type="float">
       <text:p>553.13E-9</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce25" table:formula="of:=[.E42]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.E$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.E42]" office:value-type="float" office:value="0.000000210818510677892" calcext:value-type="float">
@@ -3132,7 +3245,7 @@
      <table:table-cell table:style-name="ce37" table:formula="of:=[.L44]*(1/VLOOKUP([.L$64];[.$B$32:.$D$36];3;FALSE()))" office:value-type="float" office:value="0.0670820393249937" calcext:value-type="float">
       <text:p>0.07</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce37" table:formula="of:=[.M44]*(1/VLOOKUP([.M$64];[.$B$32:.$D$36];3;FALSE()))" office:value-type="float" office:value="0.346410161513776" calcext:value-type="float">
+     <table:table-cell table:style-name="ce37" table:formula="of:=[.M44]*(1/VLOOKUP([.M$64];[.$B$32:.$D$36];3;FALSE()))" office:value-type="float" office:value="0.346410161513775" calcext:value-type="float">
       <text:p>0.35</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce37" table:formula="of:=[.N44]*(1/VLOOKUP([.N$64];[.$B$32:.$D$36];3;FALSE()))" office:value-type="float" office:value="0.346410161513775" calcext:value-type="float">
@@ -3155,7 +3268,7 @@
      <table:table-cell table:style-name="ce25" table:formula="of:=[.E45]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.E$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.E45]" office:value-type="float" office:value="0.000000133333333333333" calcext:value-type="float">
       <text:p>133.33E-9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce25" table:formula="of:=[.F45]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.F$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.F45]" office:value-type="float" office:value="0.000000025819888974716" calcext:value-type="float">
+     <table:table-cell table:style-name="ce25" table:formula="of:=[.F45]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.F$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.F45]" office:value-type="float" office:value="0.0000000258198889747159" calcext:value-type="float">
       <text:p>25.82E-9</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce25" table:formula="of:=[.G45]*(((VIN_NOM+VOUT)*(1/VLOOKUP([.G$64];[.$B$32:.$D$36];3;FALSE())))/(VOUT*0.1))-[.G45]" office:value-type="float" office:value="0.00000033081732748855" calcext:value-type="float">
@@ -3316,7 +3429,7 @@
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.S$72];[.$B$32:.$H$36];7;FALSE())*[.L73]^2" office:value-type="float" office:value="0.00000760263112349927" calcext:value-type="float">
       <text:p>7.6E-6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M73]^2" office:value-type="float" office:value="0.00000831384387633057" calcext:value-type="float">
+     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M73]^2" office:value-type="float" office:value="0.00000831384387633056" calcext:value-type="float">
       <text:p>8.3E-6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.U$72];[.$B$32:.$H$36];7;FALSE())*[.N73]^2" office:value-type="float" office:value="0.0000769319233695177" calcext:value-type="float">
@@ -3333,7 +3446,7 @@
      <table:table-cell table:style-name="ce26" table:formula="of:=[.$B74]/(1/[.C66])" office:value-type="float" office:value="0.012909944487358" calcext:value-type="float">
       <text:p>0.01</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce26" table:formula="of:=[.$B74]/(1/[.D66])" office:value-type="float" office:value="0.0553130359937906" calcext:value-type="float">
+     <table:table-cell table:style-name="ce26" table:formula="of:=[.$B74]/(1/[.D66])" office:value-type="float" office:value="0.0553130359937907" calcext:value-type="float">
       <text:p>0.06</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" table:formula="of:=[.$B74]/(1/[.E66])" office:value-type="float" office:value="0.0210818510677892" calcext:value-type="float">
@@ -3438,7 +3551,7 @@
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.S$72];[.$B$32:.$H$36];7;FALSE())*[.L75]^2" office:value-type="float" office:value="0.00000438938112570173" calcext:value-type="float">
       <text:p>4.4E-6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M75]^2" office:value-type="float" office:value="0.00000479999999999998" calcext:value-type="float">
+     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M75]^2" office:value-type="float" office:value="0.00000479999999999997" calcext:value-type="float">
       <text:p>4.8E-6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.U$72];[.$B$32:.$H$36];7;FALSE())*[.N75]^2" office:value-type="float" office:value="0.0000444166666666667" calcext:value-type="float">
@@ -3522,7 +3635,7 @@
      <table:table-cell table:style-name="ce26" table:formula="of:=[.$B77]/(1/[.E69])" office:value-type="float" office:value="0.0333333333333332" calcext:value-type="float">
       <text:p>0.03</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce26" table:formula="of:=[.$B77]/(1/[.F69])" office:value-type="float" office:value="0.00645497224367901" calcext:value-type="float">
+     <table:table-cell table:style-name="ce26" table:formula="of:=[.$B77]/(1/[.F69])" office:value-type="float" office:value="0.00645497224367898" calcext:value-type="float">
       <text:p>0.01</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" table:formula="of:=[.$B77]/(1/[.G69])" office:value-type="float" office:value="0.0827043318721376" calcext:value-type="float">
@@ -3541,7 +3654,7 @@
      <table:table-cell table:style-name="ce25" table:formula="of:=[.L69]*SQRT([.E77]/3)" office:value-type="float" office:value="0.00632455532033674" calcext:value-type="float">
       <text:p>6.32E-3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce25" table:formula="of:=[.M69]*SQRT([.F77]/3)" office:value-type="float" office:value="0.0143721644785234" calcext:value-type="float">
+     <table:table-cell table:style-name="ce25" table:formula="of:=[.M69]*SQRT([.F77]/3)" office:value-type="float" office:value="0.0143721644785233" calcext:value-type="float">
       <text:p>14.37E-3</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce25" table:formula="of:=[.N69]*SQRT([.G77]/3)" office:value-type="float" office:value="0.0514445198238685" calcext:value-type="float">
@@ -3560,7 +3673,7 @@
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.S$72];[.$B$32:.$H$36];7;FALSE())*[.L77]^2" office:value-type="float" office:value="0.00000339999999999998" calcext:value-type="float">
       <text:p>3.4E-6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M77]^2" office:value-type="float" office:value="0.00000371806401235911" calcext:value-type="float">
+     <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.T$72];[.$B$32:.$H$36];7;FALSE())*[.M77]^2" office:value-type="float" office:value="0.00000371806401235909" calcext:value-type="float">
       <text:p>3.7E-6</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce38" table:formula="of:=VLOOKUP([.U$72];[.$B$32:.$H$36];7;FALSE())*[.N77]^2" office:value-type="float" office:value="0.0000344050020588092" calcext:value-type="float">
@@ -3810,7 +3923,6 @@
     </calcext:conditional-formats>
    </table:table>
    <table:table table:name="TPS40210" table:style-name="ta2">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <table:table-column table:style-name="co7" table:number-columns-repeated="7" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro2" table:number-rows-repeated="5">
      <table:table-cell table:number-columns-repeated="7"/>
@@ -4069,9 +4181,9 @@
    </table:table>
    <table:table table:name="LM5155" table:style-name="ta2">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <table:table-column table:style-name="co7" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co7" table:number-columns-repeated="9" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell/>
@@ -4081,6 +4193,18 @@
      <table:table-cell table:style-name="ce40" office:value-type="float" office:value="250000" calcext:value-type="float">
       <text:p>2.50E+05</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Vmax</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="40" calcext:value-type="float">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>RC Snubber</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell/>
@@ -4090,6 +4214,138 @@
      <table:table-cell table:formula="of:=(22100000000/[.C3])-955" office:value-type="float" office:value="87445" calcext:value-type="float">
       <text:p>87445</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Vin</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5" calcext:value-type="float">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Leakage</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="float" office:value="0.000000375" calcext:value-type="float">
+      <text:p>3.75E-07</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Vclamp</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.F3]-[.F4]" office:value-type="float" office:value="35" calcext:value-type="float">
+      <text:p>35</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Coss</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="float" office:value="0.000000000166" calcext:value-type="float">
+      <text:p>1.66E-10</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Rsnub</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SQRT([.I4]/[.I5])" office:value-type="float" office:value="47.5293187893358" calcext:value-type="float">
+      <text:p>47.5293187893358</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Vout</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="180" calcext:value-type="float">
+      <text:p>180</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ipeak</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5" calcext:value-type="float">
+      <text:p>4.5</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Csnub</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="float" office:value="0.00000000033" calcext:value-type="float">
+      <text:p>3.30E-10</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Leakage</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="float" office:value="0.000000046" calcext:value-type="float">
+      <text:p>4.60E-08</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ploss Snub</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.I8]*[.F7]^2*[.C3]" office:value-type="float" office:value="2.673" calcext:value-type="float">
+      <text:p>2.673</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>n</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8" calcext:value-type="float">
+      <text:p>8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce46"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell table:style-name="ce46"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>rclamp</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=(2*[.F5]*([.F5]-((1/[.F10])*[.F7])))/([.C3]*[.F9]*[.F8]^2)" office:value-type="float" office:value="3757.38056897477" calcext:value-type="float">
+      <text:p>3757.38056897477</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Cclamp</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce41" table:formula="of:=5/([.F12]*[.C3])" office:value-type="float" office:value="0.00000000532285714285714" calcext:value-type="float">
+      <text:p>5.32E-09</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Clamp Loss</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=0.5*[.F9]*[.F8]^2*[.C3]*([.F5]/([.F5]-((1/[.F10])*[.F7])))" office:value-type="float" office:value="0.326025" calcext:value-type="float">
+      <text:p>0.326025</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
    </table:table>
    <table:named-expressions>

@@ -1,6 +1,6 @@
 (ExpressProject "flyback"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/28/26]")
+  (SoftwareVersion "23.1-2024 S001-[02/01/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -98,6 +98,16 @@
         (Type "PSpice Profile"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (IPULSE
+      (FullPartName "IPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (FLYLT_EP7_750315825
       (FullPartName "FLYLT_EP7_750315825.Normal")
       (LibraryName "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\WE-FLYLT.OLB")
@@ -204,15 +214,6 @@
       (FullPartName "K_Linear.Normal")
       (LibraryName
          "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (L
-      (FullPartName "L.Normal")
-      (LibraryName
-         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (VSTIM
-      (FullPartName "VSTIM.Normal")
-      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "C:\Users\dylan\nixie-clock\Simulation\flyback")
@@ -244,14 +245,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 428 0 749"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 772"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 759 24 790")
-        (Scroll "41 777")
-        (Zoom "292")
+        (Placement "44 0 1 -1 -1 0 0 5 1268 24 790")
+        (Scroll "-111 0")
+        (Zoom "104")
         (Occurrence "/"))
       (Path "C:\USERS\DYLAN\NIXIE-CLOCK\SIMULATION\FLYBACK\FLYBACK.DSN")
       (Schematic "LM5155")
