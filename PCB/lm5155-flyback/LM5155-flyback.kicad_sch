@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "75d4b288-a1f8-4f29-bb2f-aeffb4f40ccc")
 	(paper "A4")
+	(title_block
+		(title "LM5155 Nixie Flyback")
+		(date "2026-02-03")
+		(rev "2")
+		(company "bartlettD")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -2259,16 +2265,16 @@
 		(uuid "bca246ff-4d3e-4e2f-84c4-d8107ad64a94")
 	)
 	(junction
-		(at 210.82 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2067f0c-1b3c-45de-a43c-64b236ebcff4")
-	)
-	(junction
 		(at 210.82 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcc192d5-8f1f-4467-accd-9e04305984e4")
+	)
+	(junction
+		(at 210.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa347f28-2f0c-41d6-a30a-2b2b8e7d1036")
 	)
 	(wire
 		(pts
@@ -2309,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "09b2de71-b59f-4c4e-a440-f992a2d0adc1")
+	)
+	(wire
+		(pts
+			(xy 210.82 93.98) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6284dd-01cf-4a74-a846-276425cd00a7")
 	)
 	(wire
 		(pts
@@ -2542,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 210.82 97.79)
+			(xy 210.82 69.85) (xy 210.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2599,6 +2615,16 @@
 			(type default)
 		)
 		(uuid "5927bdcb-fe41-4a51-bb53-c9d4af8dad5e")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 210.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab32c7f-8dce-460e-94d9-519b7028a860")
 	)
 	(wire
 		(pts
@@ -3122,16 +3148,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 105.41) (xy 210.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c88805-115d-41f1-ab8a-e070933ae6b4")
-	)
-	(wire
-		(pts
 			(xy 148.59 120.65) (xy 161.29 120.65)
 		)
 		(stroke
@@ -3209,6 +3225,16 @@
 			(justify left bottom)
 		)
 		(uuid "156c03d9-7019-4641-b2bd-4ab22d6ce7d8")
+	)
+	(label "HV"
+		(at 187.96 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1998b0e0-39d0-416f-a77b-6b6c08e01862")
 	)
 	(label "CS"
 		(at 158.75 99.06 0)
@@ -3510,7 +3536,7 @@
 				)
 			)
 		)
-		(property "Value" "87.5k"
+		(property "Value" "88.7k"
 			(at 72.898 116.84 90)
 			(effects
 				(font
@@ -4344,7 +4370,7 @@
 				)
 			)
 		)
-		(property "Value" "30n"
+		(property "Value" "33n"
 			(at 68.072 124.206 90)
 			(effects
 				(font
@@ -4389,6 +4415,76 @@
 			(project "LM5155-flyback"
 				(path "/75d4b288-a1f8-4f29-bb2f-aeffb4f40ccc"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44ac61c0-e909-4ef6-a4fd-082da7f8471f")
+		(property "Reference" "R12"
+			(at 213.36 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "499k"
+			(at 213.36 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 209.042 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77e3aa03-abc0-4bef-8c0d-81cb2baeeffa")
+		)
+		(pin "1"
+			(uuid "4077630b-4605-4b61-bc95-b55ad5394e4b")
+		)
+		(instances
+			(project "LM5155-flyback"
+				(path "/75d4b288-a1f8-4f29-bb2f-aeffb4f40ccc"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 101.6 0)
+		(at 210.82 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4881,7 +4977,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dccb533-b947-4463-82e1-898e2eb63c59")
 		(property "Reference" "R3"
-			(at 213.36 100.3299 0)
+			(at 213.36 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,8 +4985,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1Meg"
-			(at 213.36 102.8699 0)
+		(property "Value" "499k"
+			(at 213.36 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4995,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 209.042 101.6 90)
+			(at 209.042 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +5004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 101.6 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5013,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 101.6 0)
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.8k"
+		(property "Value" "3.79k"
 			(at 144.78 58.4199 0)
 			(effects
 				(font
