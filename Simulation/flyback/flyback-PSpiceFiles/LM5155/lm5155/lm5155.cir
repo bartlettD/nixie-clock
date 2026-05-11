@@ -1,4 +1,4 @@
-** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 ** Creating circuit file "lm5155.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,11 +6,13 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../PSMN014-80YL.LIB" 
 .LIB "../../../WE-FLYLT.lib" 
 .LIB "../../../SBR1U400P1.spice.lib" 
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "C:\Users\dylan\Downloads\NRVHP140SFT3G_REV0.LIB" 
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 

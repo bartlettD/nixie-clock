@@ -1,7 +1,7 @@
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,11 +18,13 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../PSMN014-80YL.LIB" 
 .LIB "../../../WE-FLYLT.lib" 
 .LIB "../../../SBR1U400P1.spice.lib" 
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "C:\Users\dylan\Downloads\NRVHP140SFT3G_REV0.LIB" 
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
@@ -43,7 +45,6 @@ R_R15         N29813 N27600  100k TC=0,0
 D_D1         N27750 N27760 SBR1U400P1 
 R_R2         N27898 N27746  0.013 TC=0,0 
 C_C1         0 N27884  1u  TC=0,0 
-X_U2         N28164 N28286 N28334 DMT6030LFCL
 X_U3         0 N27600 N30377 N28334 0 N28376 N28280 0 N29813 N29363 N30195
 +  N30014 N27600 LM5155-Q1_TRANS PARAMS: SS=0 FAST_HICCUP=1 LM51551=0
 R_R3         N27904 N27750  0.818 TC=0,0 
@@ -70,13 +71,14 @@ C_C12         N34782 N27600  5n  TC=0,0
 L_L3         N27600 N27746  47e-9  
 I_I2         N27760 0 DC 0Adc AC 0Aac
 +PULSE 0 20e-3 4m 1u 1u 1 1
+X_U4         N28164 N28286 N28334 PSMN014-80YL
 
 **** RESUMING lm5155.cir ****
 .END
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -87,28 +89,27 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
 
 
 
-               SBR1U400P1      X_U2.DCGD       X_U2.DSUB       X_U2.DLIM       
-          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
-           N    1.25                            1.33                         
-         ISR   20.000000E-09                                                 
-         IKF  510.000000E-06                                                 
-          BV  401                              64.03                         
-         IBV   50.000000E-06                                                 
-          RS     .05                            7.661000E-03                 
-          TT   85.000000E-09                                                 
-         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
-          VJ     .41             .8              .9                          
-           M     .41             .7595           .3                          
-          EG     .75                                                         
-         XTI                                    0                            
-        TIKF     .1                                                          
+               SBR1U400P1      X_U4.DBD        D_D1            
+          IS   70.000000E-09    1.091956E-12    1.000000E-15 
+           N    1.25                             .1          
+         ISR   20.000000E-09                                 
+         IKF  510.000000E-06                                 
+          BV  401              88                            
+         IBV   50.000000E-06  250.000000E-06                 
+          RS     .05            1.000000E-06     .05         
+          TT   85.000000E-09   25.829240E-09   10.000000E-12 
+         CJO   65.000000E-12    1.236359E-09                 
+          VJ     .41             .69                         
+           M     .41             .66                         
+          EG     .75                                         
+        TIKF     .1                                          
 
 
-               D_D1            X_U3.X_U7_U11.D_D1 
-          IS    1.000000E-15    1.000000E-15 
-           N     .1              .01         
-          RS     .05             .05         
-          TT   10.000000E-12   10.000000E-12 
+               X_U3.X_U7_U11.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
 
 
                X_U3.X_U4_U2.D_Dosc 
@@ -139,9 +140,9 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
           TT   10.000000E-12 
 
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -152,44 +153,44 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
 
 
 
-               X_U2.NMOS       
+               X_U4.MINT       
                NMOS            
        LEVEL    3            
            L  100.000000E-06 
            W  100.000000E-06 
-         VTO    1.812        
-          KP   29            
-       GAMMA     .527625     
-         PHI     .576325     
+         VTO    2.07452      
+          KP  239.61         
+       GAMMA    0            
+         PHI     .6          
       LAMBDA    0            
-          IS    0            
+          IS    1.000000E-24 
           JS    0            
           PB     .8          
         PBSW     .8          
-          CJ  101.851000E-06 
+          CJ    0            
         CJSW    0            
         CGSO    0            
         CGDO    0            
         CGBO    0            
-        NSUB    1.000000E+15 
+         NFS  370.000000E+09 
          TOX  100.000000E-09 
           XJ    0            
        UCRIT   10.000000E+03 
-        VMAX  100.000000E+03 
+        VMAX    1.000000E+03 
          ETA    0            
       DIOMOD    1            
          VFB    0            
         LETA    0            
         WETA    0            
-          U0  400            
+          U0  600            
         TEMP    0            
          VDD    5            
        XPART    0            
 
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -260,9 +261,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for I_I2.
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -277,19 +278,21 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (N27600)    0.0000 (N27746)    0.0000 (N27750) 130.9E-15 (N27760) 62.69E-09     
 
-(N27884) 62.69E-09 (N27898)-222.2E-27 (N27904)    0.0000 (N28164)-222.2E-27     
+(N27884) 62.69E-09 (N27898) 3.747E-24 (N27904)    0.0000 (N28164) 3.747E-24     
 
-(N28280)-2.044E-15 (N28286)-2.056E-15 (N28334) 26.93E-30 (N28376) 222.7E-09     
+(N28280) 402.1E-12 (N28286) 402.1E-12 (N28334) 8.042E-21 (N28376) 222.7E-09     
 
 (N29363)    0.0000 (N29813)    0.0000 (N30014) 250.0E-09 (N30195)     .0040     
 
-(N30373)     .0386 (N30377)     .0386 (N34782) 64.70E-21 (X_U2.1)-222.9E-27     
+(N30373)     .0386 (N30377)     .0386 (N34782) 432.9E-21 (X_U4.1) 402.1E-12     
 
-(X_U2.2)-2.056E-15 (X_U2.3) 28.28E-30 (X_U2.12)-2.056E-15                       
+(X_U4.2) 402.1E-12 (X_U4.3) 7.926E-24 (X_U4.4) 3.747E-24 (X_U4.5) 3.747E-24     
 
-(X_U2.13)-7.918E-18                   (X_U2.14)    0.0000                       
+(X_U4.6) 9.168E-21 (X_U4.7) 8.766E-21 (X_U4.8) 8.042E-21 (X_U4.9) 3.747E-24     
 
-(X_U2.15)-2.048E-15                   (X_U3.CL) 26.92E-30                       
+(X_U3.CL) 8.041E-21                   (X_U4.11)    0.0000                       
+
+(X_U4.12)-402.1E-12                   (X_U4.13)  472.4700                       
 
 (X_U3.CLK)    0.0000                  (X_U3.IRT)    0.0000                      
 
@@ -331,9 +334,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (X_U3.N16802185)    1.0000            (X_U3.U11_UVP_N)    0.0000                
 
-(X_U3.U3_CS_BUF) 26.92E-30            (X_U3.U4_TONMAX)     .0100                
+(X_U3.U3_CS_BUF) 8.041E-21            (X_U3.U4_TONMAX)     .0100                
 
-(X_U3.U5_N00138)     .0386            (X_U3.U6_N00439)-73.73E-18                
+(X_U3.U5_N00138)     .0386            (X_U3.U6_N00439)-10.41E-18                
 
 (X_U3.U6_N12016)    0.0000            (X_U3.U6_N12050)     .5000                
 
@@ -403,7 +406,7 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (X_U3.U2_N16760639)    1.0000         (X_U3.U2_N16761124)    0.0000             
 
-(X_U3.U3_N16753444) 26.93E-30         (X_U3.U3_N16754008) 26.92E-30             
+(X_U3.U3_N16753444) 8.042E-21         (X_U3.U3_N16754008) 8.039E-21             
 
 (X_U3.U3_N16756766)    0.0000         (X_U3.U3_N16762943)    1.0000             
 
@@ -640,7 +643,6 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
     NAME         CURRENT
 
     V_V2         2.500E-12
-    X_U2.VFB    -4.922E-26
     X_U3.V_U1_V1  -1.929E+01
     X_U3.V_U1_V2  -2.462E-12
     X_U3.V_U2_V_mask_steady   0.000E+00
@@ -667,6 +669,7 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
     X_U3.V_U6_V4   0.000E+00
     X_U3.V_V1   -1.750E-02
     X_U3.V_U9_V1   0.000E+00
+    X_U4.V11     0.000E+00
     X_U3.X_U7_F1.VF_U7_F1   1.750E-02
     X_U3.X_U7_U11.V1  -1.011E-12
     X_U3.X_U7_U11.V2  -3.692E-02
@@ -680,9 +683,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
           JOB CONCLUDED
 
-**** 02/01/26 16:37:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -692,5 +695,5 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 
 
-  Total job time (using Solver 1)   =      357.53
+  Total job time (using Solver 1)   =      637.77
 

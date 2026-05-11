@@ -1,7 +1,7 @@
-
-**** 02/01/26 16:37:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,11 +18,13 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../PSMN014-80YL.LIB" 
 .LIB "../../../WE-FLYLT.lib" 
 .LIB "../../../SBR1U400P1.spice.lib" 
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "C:\Users\dylan\Downloads\NRVHP140SFT3G_REV0.LIB" 
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
@@ -41,7 +43,6 @@ R_R15         N29813 N27600  100k TC=0,0
 D_D1         N27750 N27760 SBR1U400P1 
 R_R2         N27898 N27746  0.013 TC=0,0 
 C_C1         0 N27884  1u  TC=0,0 
-X_U2         N28164 N28286 N28334 DMT6030LFCL
 X_U3         0 N27600 N30377 N28334 0 N28376 N28280 0 N29813 N29363 N30195
 +  N30014 N27600 LM5155-Q1_TRANS PARAMS: SS=0 FAST_HICCUP=1 LM51551=0
 R_R3         N27904 N27750  0.818 TC=0,0 
@@ -68,13 +69,54 @@ C_C12         N34782 N27600  5n  TC=0,0
 L_L3         N27600 N27746  47e-9  
 I_I2         N27760 0 DC 0Adc AC 0Aac
 +PULSE 0 20e-3 4m 1u 1u 1 1
+X_U4         N28164 N28286 N28334 PSMN014-80YL
 
 **** RESUMING lm5155.cir ****
 .END
-
-**** 02/01/26 16:37:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+INFO(ORPSIM-15423): Unable to find index file PSMN014-80YL.ind for library file PSMN014-80YL.LIB.
+
+INFO(ORPSIM-15422): Making new index file PSMN014-80YL.ind for library file PSMN014-80YL.LIB.
+
+Index has 1 entries from 1 file(s).
+
+
+WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\WE-FLYLT.lib has changed since index file WE-FLYLT.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Wed Jan 28 21:36:00 2026 to Mon Feb  2 14:32:39 2026.
+
+INFO(ORPSIM-15422): Making new index file WE-FLYLT.ind for library file WE-FLYLT.lib.
+
+Index has 42 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\SBR1U400P1.spice.lib has changed since index file SBR1U400P1.spice.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Sat Jan 17 16:10:56 2026 to Mon Feb  2 14:32:39 2026.
+
+INFO(ORPSIM-15422): Making new index file SBR1U400P1.spice.ind for library file SBR1U400P1.spice.lib.
+
+Index has 1 entries from 1 file(s).
+
+
+WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\p_se50paj.lib has changed since index file p_se50paj.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Sat Jan 17 15:44:18 2026 to Mon Feb  2 14:32:39 2026.
+
+INFO(ORPSIM-15422): Making new index file p_se50paj.ind for library file p_se50paj.lib.
+
+Index has 1 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.lib has changed since index file dmt6030lfcl.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Thu Jan 15 22:38:30 2026 to Fri Jan 16 11:31:35 2026.
+
+INFO(ORPSIM-15422): Making new index file dmt6030lfcl.ind for library file dmt6030lfcl.lib.
+
+Index has 1 entries from 1 file(s).
+
+**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -85,28 +127,27 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
 
 
 
-               SBR1U400P1      X_U2.DCGD       X_U2.DSUB       X_U2.DLIM       
-          IS   70.000000E-09   10.000000E-15    1.650000E-09  100.000000E-06 
-           N    1.25                            1.33                         
-         ISR   20.000000E-09                                                 
-         IKF  510.000000E-06                                                 
-          BV  401                              64.03                         
-         IBV   50.000000E-06                                                 
-          RS     .05                            7.661000E-03                 
-          TT   85.000000E-09                                                 
-         CJO   65.000000E-12  150.200000E-12  300.000000E-12                 
-          VJ     .41             .8              .9                          
-           M     .41             .7595           .3                          
-          EG     .75                                                         
-         XTI                                    0                            
-        TIKF     .1                                                          
+               SBR1U400P1      X_U4.DBD        D_D1            
+          IS   70.000000E-09    1.091956E-12    1.000000E-15 
+           N    1.25                             .1          
+         ISR   20.000000E-09                                 
+         IKF  510.000000E-06                                 
+          BV  401              88                            
+         IBV   50.000000E-06  250.000000E-06                 
+          RS     .05            1.000000E-06     .05         
+          TT   85.000000E-09   25.829240E-09   10.000000E-12 
+         CJO   65.000000E-12    1.236359E-09                 
+          VJ     .41             .69                         
+           M     .41             .66                         
+          EG     .75                                         
+        TIKF     .1                                          
 
 
-               D_D1            X_U3.X_U7_U11.D_D1 
-          IS    1.000000E-15    1.000000E-15 
-           N     .1              .01         
-          RS     .05             .05         
-          TT   10.000000E-12   10.000000E-12 
+               X_U3.X_U7_U11.D_D1 
+          IS    1.000000E-15 
+           N     .01         
+          RS     .05         
+          TT   10.000000E-12 
 
 
                X_U3.X_U4_U2.D_Dosc 
@@ -137,9 +178,9 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
           TT   10.000000E-12 
 
 
-**** 02/01/26 16:37:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -150,44 +191,44 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
 
 
 
-               X_U2.NMOS       
+               X_U4.MINT       
                NMOS            
        LEVEL    3            
            L  100.000000E-06 
            W  100.000000E-06 
-         VTO    1.812        
-          KP   29            
-       GAMMA     .527625     
-         PHI     .576325     
+         VTO    2.07452      
+          KP  239.61         
+       GAMMA    0            
+         PHI     .6          
       LAMBDA    0            
-          IS    0            
+          IS    1.000000E-24 
           JS    0            
           PB     .8          
         PBSW     .8          
-          CJ  101.851000E-06 
+          CJ    0            
         CJSW    0            
         CGSO    0            
         CGDO    0            
         CGBO    0            
-        NSUB    1.000000E+15 
+         NFS  370.000000E+09 
          TOX  100.000000E-09 
           XJ    0            
        UCRIT   10.000000E+03 
-        VMAX  100.000000E+03 
+        VMAX    1.000000E+03 
          ETA    0            
       DIOMOD    1            
          VFB    0            
         LETA    0            
         WETA    0            
-          U0  400            
+          U0  600            
         TEMP    0            
          VDD    5            
        XPART    0            
 
 
-**** 02/01/26 16:37:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -256,15 +297,15 @@ I_I2         N27760 0 DC 0Adc AC 0Aac
 
 WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for I_I2.
 
-INFO(ORPSIM-16627): The following imported models were detected in the design: SBR1U400P1(SBR1U400P1.spice.lib), X_U2.DCGD(dmt6030lfcl.lib), X_U2.DLIM(dmt6030lfcl.lib), X_U2.DSUB(dmt6030lfcl.lib), X_U2.NMOS(dmt6030lfcl.lib)
+INFO(ORPSIM-16627): The following imported models were detected in the design: SBR1U400P1(SBR1U400P1.spice.lib), X_U4.DBD(PSMN014-80YL.LIB), X_U4.MINT(PSMN014-80YL.LIB)
 
 ERROR(ORPSIM-16583): More than one imported model containing transistors or diodes is detected. To simulate this circuit, a minimum of 1 and a maximum of 4 traces are required. Reduce the number of traces and simulate again.
 
 
 ABORTING SIMULATION
-**** 02/01/26 16:37:16 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ c:\users\dylan\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -276,34 +317,34 @@ ABORTING SIMULATION
 
 Node counts:
   Top level (NUNODS)                =          20
-  External (NCNODS)                 =         369
-  Total (NUMNOD)                    =         389
+  External (NCNODS)                 =         374
+  Total (NUMNOD)                    =         394
 
-Total device count (NUMEL)          =         571
+Total device count (NUMEL)          =         581
   Capacitors (C)                    =         143
-  Diodes (D)                        =          23
-  VCVS (E)                          =         167
-  CCCS (F)                          =           2
-  VCCS (G)                          =          10
+  Diodes (D)                        =          20
+  VCVS (E)                          =         168
+  CCCS (F)                          =           1
+  VCCS (G)                          =          11
   CCVS (H)                          =           1
   Current Sources (I)               =           5
   Couplings (K)                     =           2
-  Inductors (L)                     =           3
+  Inductors (L)                     =           6
   MosFETs (M)                       =           1
-  Resistors (R)                     =         167
+  Resistors (R)                     =         173
   VSwitches (S)                     =          10
   Voltage Sources (V)               =          34
 
 Number of subcircuits (X)           =         104
 
 Matrix statistics:
-  Matrix size (NSTOP)               =         594
-  Initial no. elements (NTTAR)      =        1496
-  No. elements w/ fillin (NTTBR)    =        1496
+  Matrix size (NSTOP)               =         603
+  Initial no. elements (NTTAR)      =        1528
+  No. elements w/ fillin (NTTBR)    =        1528
   No. fillins (IFILL)               =           0
   No. overflows (NTTOV)             =           0
   No. LU operations (IOPS)          =           0
-  Percent sparsity (PERSPA)         =      99.576
+  Percent sparsity (PERSPA)         =      99.580
 
 Analysis statistics:
   No. total time points (NUMTTP)    =           0
@@ -315,15 +356,15 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =         .78
-  General setup                     =         .03
+  Readin                            =        2.28
+  General setup                     =         .80
   CMI setup                     =        0.00
-  Setup                             =        0.00
+  Setup                             =         .02
   DC sweep                          =        0.00               0
   Bias point                        =        0.00               0
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
   Overhead                          =         .06
-  Total job time (using Solver 1)   =         .81
+  Total job time (using Solver 1)   =        3.08
 
