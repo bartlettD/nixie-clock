@@ -10,6 +10,9 @@
 *-backups/
 *.history/
 
+#Gerber Outputs
+*/Outputs/
+
 _autosave-*
 *.tmp
 *-cache.lib

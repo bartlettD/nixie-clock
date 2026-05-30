@@ -1,7 +1,7 @@
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -24,7 +24,6 @@
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
-.lib "C:\Users\dylan\Downloads\NRVHP140SFT3G_REV0.LIB" 
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
@@ -32,6 +31,7 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
+.OPTIONS THREADS= 1
 .PROBE64 N([N27760])
 .PROBE64 N([N28164])
 .PROBE64 I(L_L1)
@@ -64,7 +64,7 @@ L_L2         0 N27904  150u
 C_C10         N30195 0  30n  TC=0,0 
 R_R17         N30014 0  100k TC=0,0 
 R_R10         0 N28376  5.6k TC=0,0 
-R_R9         N28376 N27760  1Meg TC=0,0 
+R_R9         N28376 N27760  998k TC=0,0 
 D_D2         N28164 N34782 BAS70 
 R_R19         N34782 N27600  3.8k TC=0,0 
 C_C12         N34782 N27600  5n  TC=0,0 
@@ -76,9 +76,9 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
 **** RESUMING lm5155.cir ****
 .END
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -140,9 +140,9 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
           TT   10.000000E-12 
 
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -188,9 +188,9 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
        XPART    0            
 
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -261,9 +261,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for I_I2.
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -276,9 +276,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N27600)    0.0000 (N27746)    0.0000 (N27750) 130.9E-15 (N27760) 62.69E-09     
+(N27600)    0.0000 (N27746)    0.0000 (N27750) 131.1E-15 (N27760) 62.78E-09     
 
-(N27884) 62.69E-09 (N27898) 3.747E-24 (N27904)    0.0000 (N28164) 3.747E-24     
+(N27884) 62.78E-09 (N27898) 3.747E-24 (N27904)    0.0000 (N28164) 3.747E-24     
 
 (N28280) 402.1E-12 (N28286) 402.1E-12 (N28334) 8.042E-21 (N28376) 222.7E-09     
 
@@ -680,12 +680,11 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
     TOTAL POWER DISSIPATION   2.12E+01  WATTS
 
 
-
-          JOB CONCLUDED
+          JOB ABORTED
 
-**** 05/11/26 18:52:22 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -695,5 +694,5 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 
 
-  Total job time (using Solver 1)   =      637.77
+  Total job time (using Solver 1)   =      285.74
 

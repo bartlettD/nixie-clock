@@ -1,7 +1,7 @@
 
-**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -24,7 +24,6 @@
 .LIB "../../../p_se50paj.lib" 
 .LIB "../../../dmt6030lfcl.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
-.lib "C:\Users\dylan\Downloads\NRVHP140SFT3G_REV0.LIB" 
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
@@ -32,6 +31,7 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
+.OPTIONS THREADS= 1
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\LM5155.net" 
 
@@ -62,7 +62,7 @@ L_L2         0 N27904  150u
 C_C10         N30195 0  30n  TC=0,0 
 R_R17         N30014 0  100k TC=0,0 
 R_R10         0 N28376  5.6k TC=0,0 
-R_R9         N28376 N27760  1Meg TC=0,0 
+R_R9         N28376 N27760  998k TC=0,0 
 D_D2         N28164 N34782 BAS70 
 R_R19         N34782 N27600  3.8k TC=0,0 
 C_C12         N34782 N27600  5n  TC=0,0 
@@ -74,49 +74,38 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
 **** RESUMING lm5155.cir ****
 .END
 
-INFO(ORPSIM-15423): Unable to find index file PSMN014-80YL.ind for library file PSMN014-80YL.LIB.
 
-INFO(ORPSIM-15422): Making new index file PSMN014-80YL.ind for library file PSMN014-80YL.LIB.
+WARNING(ORPSIM-15223): Library file C:\cds_spb_home\cdssetup\pspTILibDir\nom_pspti.lib has changed since index file nom_pspti.ind was created.
 
-Index has 1 entries from 1 file(s).
+WARNING(ORPSIM-15227): The timestamp changed from Fri Dec  1 19:17:32 2023 to Sat May 30 12:27:03 2026.
 
+INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
+b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
+$CDNENCFINISH_ADV2
+.ENDS
+*$
+.SUBCKT VC_RES1_68k     1 2     4 5
+$CDNENCSTART_ADV2
+17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
+4338d7c6b789b936510049641c41694601a828b94bca95e37d9595892e84fe4adde61b3186a8a4ced614ffd7534112da752ebe196261f5fadbdc1df943f8b053
+b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
+$CDNENCFINISH_ADV2
+.ENDS
+*$
+.model Mbreakp PMOS_SIMPLE 
+$CDNENCSTART_ADV2
+17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
+d0a62a7eecff332c2c1a7f28e691e8355b0d507d4d4167bdded4599b6b3f07ed49ca0bf013e9ee48384f4a7c200902eb9bd5e11d04cca5bd57a5eb5ba1dfe8a6
+$CDNENCFINISH_ADV2
+*$
 
-WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\WE-FLYLT.lib has changed since index file WE-FLYLT.ind was created.
+WARNING(ORPSIM-15195): Model type unknown
 
-WARNING(ORPSIM-15227): The timestamp changed from Wed Jan 28 21:36:00 2026 to Mon Feb  2 14:32:39 2026.
-
-INFO(ORPSIM-15422): Making new index file WE-FLYLT.ind for library file WE-FLYLT.lib.
-
-Index has 42 entries from 1 file(s).
-
-WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\SBR1U400P1.spice.lib has changed since index file SBR1U400P1.spice.ind was created.
-
-WARNING(ORPSIM-15227): The timestamp changed from Sat Jan 17 16:10:56 2026 to Mon Feb  2 14:32:39 2026.
-
-INFO(ORPSIM-15422): Making new index file SBR1U400P1.spice.ind for library file SBR1U400P1.spice.lib.
-
-Index has 1 entries from 1 file(s).
-
-
-WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\p_se50paj.lib has changed since index file p_se50paj.ind was created.
-
-WARNING(ORPSIM-15227): The timestamp changed from Sat Jan 17 15:44:18 2026 to Mon Feb  2 14:32:39 2026.
-
-INFO(ORPSIM-15422): Making new index file p_se50paj.ind for library file p_se50paj.lib.
-
-Index has 1 entries from 1 file(s).
-
-WARNING(ORPSIM-15223): Library file C:\Users\dylan\nixie-clock\Simulation\flyback\dmt6030lfcl.lib has changed since index file dmt6030lfcl.ind was created.
-
-WARNING(ORPSIM-15227): The timestamp changed from Thu Jan 15 22:38:30 2026 to Fri Jan 16 11:31:35 2026.
-
-INFO(ORPSIM-15422): Making new index file dmt6030lfcl.ind for library file dmt6030lfcl.lib.
-
-Index has 1 entries from 1 file(s).
+Index has 126146 entries from 5558 file(s).
 
-**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -178,9 +167,9 @@ Index has 1 entries from 1 file(s).
           TT   10.000000E-12 
 
 
-**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -226,9 +215,9 @@ Index has 1 entries from 1 file(s).
        XPART    0            
 
 
-**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -303,9 +292,9 @@ ERROR(ORPSIM-16583): More than one imported model containing transistors or diod
 
 
 ABORTING SIMULATION
-**** 05/11/26 18:52:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "LM5155-lm5155"  [ C:\Users\dylan\nixie-clock\Simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
+ ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
 
  ****     JOB STATISTICS SUMMARY
@@ -356,8 +345,8 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =        2.28
-  General setup                     =         .80
+  Readin                            =       19.44
+  General setup                     =         .05
   CMI setup                     =        0.00
   Setup                             =         .02
   DC sweep                          =        0.00               0
@@ -365,6 +354,6 @@ Runtime statistics:                       Seconds      Iterations
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .06
-  Total job time (using Solver 1)   =        3.08
+  Overhead                          =         .05
+  Total job time (using Solver 1)   =       19.50
 
