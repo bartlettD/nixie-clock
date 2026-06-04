@@ -1,6 +1,6 @@
 (ExpressProject "flyback"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[05/30/26]")
+  (SoftwareVersion "23.1-2024 S001-[06/04/26]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -237,14 +237,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 292 0 747"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 386 0 747"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 765")
-        (Scroll "-84 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1082 24 765")
+        (Scroll "-32 0")
+        (Zoom "101")
         (Occurrence "/"))
       (Path
          "C:\USERS\DYLAN\GIT-REPOS\NIXIE-CLOCK\SIMULATION\FLYBACK\FLYBACK.DSN")

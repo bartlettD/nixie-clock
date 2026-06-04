@@ -1,5 +1,5 @@
-
-**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+**** 06/04/26 15:27:15 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -31,7 +31,6 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.OPTIONS THREADS= 1
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\LM5155.net" 
 
@@ -54,7 +53,7 @@ C_C9         0 N27600  1u  TC=0,0
 R_R13         N27884 N27760  10m TC=0,0 
 L_L1         N27898 N28164  2.34u  
 C_C11         N30373 0  1.6n  TC=0,0 
-R_R7         N28334 0  2m TC=0,0 
+R_R7         N28334 0  20m TC=0,0 
 R_R16         N27600 N30014  100k TC=0,0 
 R_R18         N30377 N30373  10k TC=0,0 
 R_R5         N28286 N28280  1 TC=0,0 
@@ -73,37 +72,8 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
 
 **** RESUMING lm5155.cir ****
 .END
-
-
-WARNING(ORPSIM-15223): Library file C:\cds_spb_home\cdssetup\pspTILibDir\nom_pspti.lib has changed since index file nom_pspti.ind was created.
-
-WARNING(ORPSIM-15227): The timestamp changed from Fri Dec  1 19:17:32 2023 to Sat May 30 12:27:03 2026.
-
-INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
-b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
-$CDNENCFINISH_ADV2
-.ENDS
-*$
-.SUBCKT VC_RES1_68k     1 2     4 5
-$CDNENCSTART_ADV2
-17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
-4338d7c6b789b936510049641c41694601a828b94bca95e37d9595892e84fe4adde61b3186a8a4ced614ffd7534112da752ebe196261f5fadbdc1df943f8b053
-b2e4e117ac3ae9d81b0a9590344b9f0be3a13d734fc0d5d3bc0ae1622ce0f1f9be7002c9257815a723e6968b7ce9d1912158f221a9c6c7f774db6896643a33b0
-$CDNENCFINISH_ADV2
-.ENDS
-*$
-.model Mbreakp PMOS_SIMPLE 
-$CDNENCSTART_ADV2
-17f62b1fb318c25603aeb85644ae98a5d179ef807807791f6459efacb9d7ffc37a831b146dc0f06bb1ef275619162e6d8f7ad0dc708bf15ae1a1d5bd0ae623b2
-d0a62a7eecff332c2c1a7f28e691e8355b0d507d4d4167bdded4599b6b3f07ed49ca0bf013e9ee48384f4a7c200902eb9bd5e11d04cca5bd57a5eb5ba1dfe8a6
-$CDNENCFINISH_ADV2
-*$
-
-WARNING(ORPSIM-15195): Model type unknown
-
-Index has 126146 entries from 5558 file(s).
 
-**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:15 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -167,7 +137,7 @@ Index has 126146 entries from 5558 file(s).
           TT   10.000000E-12 
 
 
-**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:15 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -215,7 +185,7 @@ Index has 126146 entries from 5558 file(s).
        XPART    0            
 
 
-**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:15 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -292,7 +262,7 @@ ERROR(ORPSIM-16583): More than one imported model containing transistors or diod
 
 
 ABORTING SIMULATION
-**** 05/30/26 12:28:06 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:15 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -345,7 +315,7 @@ Load Threads                        =           1
 Runtime statistics:                       Seconds      Iterations
   Matrix load                       =        0.00
   Matrix solution                   =        0.00               1
-  Readin                            =       19.44
+  Readin                            =         .77
   General setup                     =         .05
   CMI setup                     =        0.00
   Setup                             =         .02
@@ -354,6 +324,6 @@ Runtime statistics:                       Seconds      Iterations
   AC and noise                      =        0.00               0
   Total transient analysis          =        0.00
   Output                            =        0.00
-  Overhead                          =         .05
-  Total job time (using Solver 1)   =       19.50
+  Overhead                          =         .08
+  Total job time (using Solver 1)   =         .81
 

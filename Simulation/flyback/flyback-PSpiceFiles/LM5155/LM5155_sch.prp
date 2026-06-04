@@ -729,7 +729,7 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"2m")
+                    ("value"	"20m")
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"

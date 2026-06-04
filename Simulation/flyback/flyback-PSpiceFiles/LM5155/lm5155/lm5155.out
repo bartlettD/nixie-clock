@@ -1,5 +1,5 @@
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -31,10 +31,9 @@
 .TRAN  0 5m 0 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.OPTIONS THREADS= 1
 .PROBE64 N([N27760])
-.PROBE64 N([N28164])
-.PROBE64 I(L_L1)
+.PROBE64 N([N28334])
+.PROBE64 I(R_R7)
 .INC "..\LM5155.net" 
 
 
@@ -56,7 +55,7 @@ C_C9         0 N27600  1u  TC=0,0
 R_R13         N27884 N27760  10m TC=0,0 
 L_L1         N27898 N28164  2.34u  
 C_C11         N30373 0  1.6n  TC=0,0 
-R_R7         N28334 0  2m TC=0,0 
+R_R7         N28334 0  20m TC=0,0 
 R_R16         N27600 N30014  100k TC=0,0 
 R_R18         N30377 N30373  10k TC=0,0 
 R_R5         N28286 N28280  1 TC=0,0 
@@ -76,7 +75,7 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
 **** RESUMING lm5155.cir ****
 .END
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -140,7 +139,7 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
           TT   10.000000E-12 
 
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -188,7 +187,7 @@ X_U4         N28164 N28286 N28334 PSMN014-80YL
        XPART    0            
 
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -261,7 +260,7 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for I_I2.
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -278,19 +277,19 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (N27600)    0.0000 (N27746)    0.0000 (N27750) 131.1E-15 (N27760) 62.78E-09     
 
-(N27884) 62.78E-09 (N27898) 3.747E-24 (N27904)    0.0000 (N28164) 3.747E-24     
+(N27884) 62.78E-09 (N27898) 7.822E-24 (N27904)    0.0000 (N28164) 7.822E-24     
 
-(N28280) 402.1E-12 (N28286) 402.1E-12 (N28334) 8.042E-21 (N28376) 222.7E-09     
+(N28280) 402.1E-12 (N28286) 402.1E-12 (N28334) 80.42E-21 (N28376) 222.7E-09     
 
 (N29363)    0.0000 (N29813)    0.0000 (N30014) 250.0E-09 (N30195)     .0040     
 
-(N30373)     .0386 (N30377)     .0386 (N34782) 432.9E-21 (X_U4.1) 402.1E-12     
+(N30373)     .0386 (N30377)     .0386 (N34782)-758.9E-21 (X_U4.1) 402.1E-12     
 
-(X_U4.2) 402.1E-12 (X_U4.3) 7.926E-24 (X_U4.4) 3.747E-24 (X_U4.5) 3.747E-24     
+(X_U4.2) 402.1E-12 (X_U4.3) 12.00E-24 (X_U4.4) 7.823E-24 (X_U4.5) 7.822E-24     
 
-(X_U4.6) 9.168E-21 (X_U4.7) 8.766E-21 (X_U4.8) 8.042E-21 (X_U4.9) 3.747E-24     
+(X_U4.6) 81.55E-21 (X_U4.7) 81.15E-21 (X_U4.8) 80.42E-21 (X_U4.9) 7.823E-24     
 
-(X_U3.CL) 8.041E-21                   (X_U4.11)    0.0000                       
+(X_U3.CL) 80.41E-21                   (X_U4.11)    0.0000                       
 
 (X_U4.12)-402.1E-12                   (X_U4.13)  472.4700                       
 
@@ -334,9 +333,9 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (X_U3.N16802185)    1.0000            (X_U3.U11_UVP_N)    0.0000                
 
-(X_U3.U3_CS_BUF) 8.041E-21            (X_U3.U4_TONMAX)     .0100                
+(X_U3.U3_CS_BUF) 80.41E-21            (X_U3.U4_TONMAX)     .0100                
 
-(X_U3.U5_N00138)     .0386            (X_U3.U6_N00439)-10.41E-18                
+(X_U3.U5_N00138)     .0386            (X_U3.U6_N00439)-65.92E-18                
 
 (X_U3.U6_N12016)    0.0000            (X_U3.U6_N12050)     .5000                
 
@@ -406,7 +405,7 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 (X_U3.U2_N16760639)    1.0000         (X_U3.U2_N16761124)    0.0000             
 
-(X_U3.U3_N16753444) 8.042E-21         (X_U3.U3_N16754008) 8.039E-21             
+(X_U3.U3_N16753444) 80.42E-21         (X_U3.U3_N16754008) 80.39E-21             
 
 (X_U3.U3_N16756766)    0.0000         (X_U3.U3_N16762943)    1.0000             
 
@@ -680,9 +679,10 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
     TOTAL POWER DISSIPATION   2.12E+01  WATTS
 
 
-          JOB ABORTED
+
+          JOB CONCLUDED
 
-**** 05/30/26 12:29:52 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 06/04/26 15:27:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "LM5155-lm5155"  [ c:\users\dylan\git-repos\nixie-clock\simulation\flyback\flyback-pspicefiles\lm5155\lm5155.sim ] 
 
@@ -694,5 +694,5 @@ WARNING(ORPSIM-15452): Pulse Period < (Rise Time + Fall Time + Pulse Width) for 
 
 
 
-  Total job time (using Solver 1)   =      285.74
+  Total job time (using Solver 1)   =      422.92
 
